@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ralph R. Martin | Jiahui Huang</title>
+    <link>https://cg.cs.tsinghua.edu.cn/people/~huangjh/author/ralph-r.-martin/</link>
+      <atom:link href="https://cg.cs.tsinghua.edu.cn/people/~huangjh/author/ralph-r.-martin/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ralph R. Martin</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020-2022 Jiahui Huang All Rights Reserved</copyright><lastBuildDate>Tue, 01 Jun 2021 21:59:40 +0800</lastBuildDate>
+    <image>
+      <url>https://cg.cs.tsinghua.edu.cn/people/~huangjh/images/icon_hu203b42f3cc3d45b329fe7ad5d52ac786_38688_512x512_fill_lanczos_center_3.png</url>
+      <title>Ralph R. Martin</title>
+      <link>https://cg.cs.tsinghua.edu.cn/people/~huangjh/author/ralph-r.-martin/</link>
+    </image>
+    
+    <item>
+      <title>Subdivision-Based Mesh Convolution Networks</title>
+      <link>https://cg.cs.tsinghua.edu.cn/people/~huangjh/publication/subdivnet/</link>
+      <pubDate>Tue, 01 Jun 2021 21:59:40 +0800</pubDate>
+      <guid>https://cg.cs.tsinghua.edu.cn/people/~huangjh/publication/subdivnet/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

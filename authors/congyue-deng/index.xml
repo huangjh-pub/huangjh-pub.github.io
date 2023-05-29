@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Congyue Deng | Jiahui Huang</title>
+    <link>https://huangjh-pub.github.io/authors/congyue-deng/</link>
+      <atom:link href="https://huangjh-pub.github.io/authors/congyue-deng/index.xml" rel="self" type="application/rss+xml" />
+    <description>Congyue Deng</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2019 23:15:32 -0700</lastBuildDate>
+    <image>
+      <url>https://huangjh-pub.github.io/media/icon_hu203b42f3cc3d45b329fe7ad5d52ac786_38688_512x512_fill_lanczos_center_3.png</url>
+      <title>Congyue Deng</title>
+      <link>https://huangjh-pub.github.io/authors/congyue-deng/</link>
+    </image>
+    
+    <item>
+      <title>Interactive Modeling of Lofted Shapes from a Single Image</title>
+      <link>https://huangjh-pub.github.io/publication/lofted/</link>
+      <pubDate>Sat, 01 Jun 2019 23:15:32 -0700</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/lofted/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

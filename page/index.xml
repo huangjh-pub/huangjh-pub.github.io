@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages | Jiahui Huang</title>
+    <link>https://huangjh-pub.github.io/page/</link>
+      <atom:link href="https://huangjh-pub.github.io/page/index.xml" rel="self" type="application/rss+xml" />
+    <description>Pages</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://huangjh-pub.github.io/media/icon_hu203b42f3cc3d45b329fe7ad5d52ac786_38688_512x512_fill_lanczos_center_3.png</url>
+      <title>Pages</title>
+      <link>https://huangjh-pub.github.io/page/</link>
+    </image>
+    
+    <item>
+      <title>ClusterSLAM Dataset</title>
+      <link>https://huangjh-pub.github.io/page/clusterslam-dataset/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://huangjh-pub.github.io/page/clusterslam-dataset/</guid>
+      <description>
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-overview-of-the-synthetic-dataset&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Overview of the synthetic dataset&#34; srcset=&#34;
+               /media/clusterslam-dataset/overview_hu520ff1f75c0e58b40d8925dd9352fb46_251140_a885ea7498d700333f1e479b425b4d1e.webp 400w,
+               /media/clusterslam-dataset/overview_hu520ff1f75c0e58b40d8925dd9352fb46_251140_85a4d50d513429f45eff31fd336191fe.webp 760w,
+               /media/clusterslam-dataset/overview_hu520ff1f75c0e58b40d8925dd9352fb46_251140_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/media/clusterslam-dataset/overview_hu520ff1f75c0e58b40d8925dd9352fb46_251140_a885ea7498d700333f1e479b425b4d1e.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;327&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Overview of the synthetic dataset
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;http://openaccess.thecvf.com/content_ICCV_2019/papers/Huang_ClusterSLAM_A_SLAM_Backend_for_Simultaneous_Rigid_Body_Clustering_and_ICCV_2019_paper.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ClusterSLAM&lt;/a&gt; is a practical backend for stereo visual SLAM which can simultaneously discover individual rigid bodies and compute their motions in dynamic environments.
+It has been demonstrated to show its effectiveness for simultaneous tracking of ego-motion and multiple objects.
+We release the 10 dynamic sequences rendered and simulated using SUNCG and &lt;a href=&#34;http://carla.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CARLA&lt;/a&gt; dataset to facilitate research in our community.&lt;/p&gt;
+&lt;h2 id=&#34;dataset-statistics&#34;&gt;Dataset Statistics&lt;/h2&gt;
+&lt;p&gt;The statistics are listed as follows. In total we have over 3000 frames with 60+ different dynamic instances.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Sequence Name&lt;/th&gt;
+&lt;th&gt;# Frames&lt;/th&gt;
+&lt;th&gt;# Dyn. Obj.&lt;/th&gt;
+&lt;th&gt;# Landmarks&lt;/th&gt;
+&lt;th&gt;Total Dist. (m)&lt;/th&gt;
+&lt;th&gt;Download Link&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;SUNCG-1-1&lt;/td&gt;
+&lt;td&gt;190&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;748&lt;/td&gt;
+&lt;td&gt;1.94&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://drive.google.com/file/d/1HRrujf-TFLJzX3PmOWIwZD5ysA_mgYHC/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Drive&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;SUNCG-1-2&lt;/td&gt;
+&lt;td&gt;250&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;2595&lt;/td&gt;
+&lt;td&gt;21.10&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://drive.google.com/file/d/1kFiLRfzkQ-GSc2Bv1_wyzEd-MXgAr_ZS/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Drive&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;SUNCG-2-1&lt;/td&gt;
+&lt;td&gt;300&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;381&lt;/td&gt;
+&lt;td&gt;6.03&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://drive.google.com/file/d/1-qfkPf3wX1RtDIKOpmNSrQBFKt4SkDyz/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Drive&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;SUNCG-2-2&lt;/td&gt;
+&lt;td&gt;200&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;370&lt;/td&gt;
+&lt;td&gt;6.01&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://drive.google.com/file/d/1D8MedfSAElkiwU3Z6VBmkGUqWZ6tNu1V/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Drive&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;SUNCG-3-1&lt;/td&gt;
+&lt;td&gt;200&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;554&lt;/td&gt;
+&lt;td&gt;3.61&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://drive.google.com/file/d/1P41dIAV4zRa6iwFd_nFtg9lxJnELeFUL/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Drive&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;SUNCG-3-2&lt;/td&gt;
+&lt;td&gt;200&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;620&lt;/td&gt;
+&lt;td&gt;11.37&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://drive.google.com/file/d/1y1Kr_Q9Wx5Ayx8R4vF5qoGvEXJNG3rmt/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Drive&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;CARLA-S1&lt;/td&gt;
+&lt;td&gt;200&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;2402&lt;/td&gt;
+&lt;td&gt;120.92&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://drive.google.com/file/d/1-GVd9aYtZa3Nv2OooM5jNdvXOBMMn-0T/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Drive&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;CARLA-S2&lt;/td&gt;
+&lt;td&gt;200&lt;/td&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;4179&lt;/td&gt;
+&lt;td&gt;164.70&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://drive.google.com/file/d/10upYtqp1SEBgc1UoPYTcY9f7zUmr_Yaz/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Drive&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;CARLA-L1&lt;/td&gt;
+&lt;td&gt;750&lt;/td&gt;
+&lt;td&gt;14&lt;/td&gt;
+&lt;td&gt;13600&lt;/td&gt;
+&lt;td&gt;480.87&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://drive.google.com/file/d/1Z9cdkN6YFs3nnNN_jCI0V6K7Ac6DSLqt/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Drive&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;CARLA-L2&lt;/td&gt;
+&lt;td&gt;600&lt;/td&gt;
+&lt;td&gt;17&lt;/td&gt;
+&lt;td&gt;10486&lt;/td&gt;
+&lt;td&gt;367.62&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://drive.google.com/file/d/1LWMPXL9u_X98TofmLdQhNeft9UlQTIsP/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Drive&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;!-- This will fix the table. --&gt;
+&lt;script&gt;
+document.addEventListener(&#34;DOMContentLoaded&#34;, (function() {
+    $(&#39;table&#39;).addClass(&#39;table table-hover&#39;);
+}));
+&lt;/script&gt;
+&lt;h2 id=&#34;data-format&#34;&gt;Data Format&lt;/h2&gt;
+&lt;p&gt;We have zipped each sequence into individual packs with the name &lt;code&gt;&amp;lt;Sequence Name&amp;gt;.tar.gz&lt;/code&gt;. The unzipped folder structure is as following:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;.                       // unzipped base folder
+├── images
+│   ├── left
+│   │   └── %04d.png    // {# Frames} images captured from left camera.
+│   └── right
+│       └── %04d.png    // {# Frames} images captured from right camera.
+├── landmarks
+│   ├── left
+│   │   └── %04d.txt    // Detected features from left camera.
+│   └── right
+│       └── %04d.txt    // Detected features from right camera.
+├── pose
+│   └── %04d.txt        // Trajectory of camera and moving instances.
+├── shapes
+│   └── %d.pcd          // Point cloud of the static scene and dynamic shapes.
+├── instrinsic.txt      // Stereo camera intrinsic.
+└── landmark_mapping.txt	// Landmark to cluster id mapping.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The format of each line of the feature text file is:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;landmark id&amp;gt; &amp;lt;u&amp;gt; &amp;lt;v&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;For each trajectory file under &lt;code&gt;pose/&lt;/code&gt; directory, each line in each file represents the pose of each cluster except for the first line - that line represents the camera pose. You may notice that for some frames pose is still valid for invisible cluster - during our evaluation we eliminate these pose. The format for the pose is:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;x&amp;gt; &amp;lt;y&amp;gt; &amp;lt;z&amp;gt;  &amp;lt;qx&amp;gt; &amp;lt;qy&amp;gt; &amp;lt;qz&amp;gt; &amp;lt;qw&amp;gt;
+Translation       Rotation
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;which can be read simply using &lt;code&gt;pyquaternion&lt;/code&gt; or &lt;code&gt;Eigen&lt;/code&gt; library.&lt;/p&gt;
+&lt;p&gt;The point cloud file in the &lt;code&gt;shapes/&lt;/code&gt; folder is the ground-truth point cloud for both static scene and dynamic clusters. For the moving instances, by applying the point cloud with the transforms in &lt;code&gt;pose/&lt;/code&gt;, you can get their absolute world coordinates in each frame.&lt;/p&gt;
+&lt;p&gt;The file &lt;code&gt;intrinsic.txt&lt;/code&gt; has two $3 \times 4$ projection matrices for the left and right camera, respectively. There is no rotation between cameras so stereo rectifying is not necessary.&lt;/p&gt;
+&lt;p&gt;Lastly, Each line in &lt;code&gt;landmark_mapping.txt&lt;/code&gt; maps from landmark id to cluster id, this cluster id shares the same indices as the ground-truth point cloud and the line ordering of the trajectories files. Each line has the following format:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;landmark id&amp;gt; &amp;lt;cluster id&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;contact&#34;&gt;Contact&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-envelope  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Email: &lt;code&gt;huangjh.connect@outlook.com&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-edit  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Citation:&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;@inproceedings{huang2019clusterslam,
+  title={ClusterSLAM: A SLAM Backend for Simultaneous Rigid Body Clustering and Motion Estimation},
+  author={Huang, Jiahui and Yang, Sheng and Zhao, Zishuo and Lai, Yu-Kun and Hu, Shi-Min},
+  booktitle={Proceedings of the IEEE International Conference on Computer Vision},
+  pages={5875--5884},
+  year={2019}
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;change-log&#34;&gt;Change Log&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;March, 2020: The 10 dynamic sequences used in our ICCV 2019 paper are released.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;terms-of-use&#34;&gt;Terms of Use&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The generated dataset as well as the annotations belong to the CSCG Group and are licensed under the &lt;a href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ClusterVO</title>
+      <link>https://huangjh-pub.github.io/page/clustervo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://huangjh-pub.github.io/page/clustervo/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

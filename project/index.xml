@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Jiahui Huang</title>
+    <link>https://huangjh-pub.github.io/project/</link>
+      <atom:link href="https://huangjh-pub.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 02 Apr 2020 22:15:19 -0700</lastBuildDate>
+    <image>
+      <url>https://huangjh-pub.github.io/media/icon_hu203b42f3cc3d45b329fe7ad5d52ac786_38688_512x512_fill_lanczos_center_3.png</url>
+      <title>Projects</title>
+      <link>https://huangjh-pub.github.io/project/</link>
+    </image>
+    
+    <item>
+      <title>3-Sweep: Extracting Editable Objects from a Single Photo</title>
+      <link>https://huangjh-pub.github.io/project/3sweep-dummy/</link>
+      <pubDate>Thu, 02 Apr 2020 22:15:19 -0700</pubDate>
+      <guid>https://huangjh-pub.github.io/project/3sweep-dummy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>3-Sweep</title>
+      <link>https://huangjh-pub.github.io/project/3sweep/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://huangjh-pub.github.io/project/3sweep/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

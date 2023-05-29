@@ -1,0 +1,1456 @@
+<!DOCTYPE html><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.4.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Jiahui Huang" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="T-PAMI 2022" />
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://huangjh-pub.github.io/publication/synorim/" />
+
+  
+  
+  
+    <meta name="theme-color" content="#1565c0" />
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha512-W0xM4mr6dEP9nREo7Z9z+9X70wytKvMGeDsj7ps2+xg5QPrEBXC8tAW1IFnzjR6eoJ90JmCnFzerQJTLzIEHjA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.4bcbc2330700a53eb7f390a1b72b8333.css" />
+
+  
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-162631457-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-162631457-1', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/manifest.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hu203b42f3cc3d45b329fe7ad5d52ac786_38688_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu203b42f3cc3d45b329fe7ad5d52ac786_38688_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="https://huangjh-pub.github.io/publication/synorim/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary_large_image" />
+  
+    <meta property="twitter:site" content="@huangjh_hjh" />
+    <meta property="twitter:creator" content="@huangjh_hjh" />
+  
+  <meta property="og:site_name" content="Jiahui Huang" />
+  <meta property="og:url" content="https://huangjh-pub.github.io/publication/synorim/" />
+  <meta property="og:title" content="Multiway Non-rigid Point Cloud Registration via Learned Functional Map Synchronization | Jiahui Huang" />
+  <meta property="og:description" content="T-PAMI 2022" /><meta property="og:image" content="https://huangjh-pub.github.io/publication/synorim/featured.png" />
+    <meta property="twitter:image" content="https://huangjh-pub.github.io/publication/synorim/featured.png" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2021-12-01T21:59:40&#43;08:00"
+      />
+    
+    <meta property="article:modified_time" content="2021-12-01T21:59:40&#43;08:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://huangjh-pub.github.io/publication/synorim/"
+  },
+  "headline": "Multiway Non-rigid Point Cloud Registration via Learned Functional Map Synchronization",
+  
+  "image": [
+    "https://huangjh-pub.github.io/publication/synorim/featured.png"
+  ],
+  
+  "datePublished": "2021-12-01T21:59:40+08:00",
+  "dateModified": "2021-12-01T21:59:40+08:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Jiahui Huang"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Jiahui Huang",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://huangjh-pub.github.io/media/icon_hu203b42f3cc3d45b329fe7ad5d52ac786_38688_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "T-PAMI 2022"
+}
+</script>
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>Multiway Non-rigid Point Cloud Registration via Learned Functional Map Synchronization | Jiahui Huang</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="494bdeb85243032241ff3022f4118d3d" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.7e5427316d1b14a30f257ae3467b3e21.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="header--fixed">
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">Jiahui Huang</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">Jiahui Huang</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#about"><span>Home</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#publications"><span>Publications</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#projects"><span>Projects</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#contact"><span>Contact</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+        
+
+        
+        
+
+        
+        
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    
+
+
+
+
+
+
+
+
+<div class="pub">
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="article-container pt-3">
+  <h1>Multiway Non-rigid Point Cloud Registration via Learned Functional Map Synchronization</h1>
+
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span class="author-highlighted">
+      Jiahui Huang</span>, <span >
+      <a href="https://scholar.google.com/citations?user=_Bxd5ggAAAAJ&amp;hl=en" target="_blank" rel="noopener">Tolga Birdal</a></span>, <span >
+      <a href="https://zgojcic.github.io/" target="_blank" rel="noopener">Zan Gojcic</a></span>, <span >
+      <a href="https://geometry.stanford.edu/member/guibas/" target="_blank" rel="noopener">Leonidas J. Guibas</a></span>, <span >
+      <a href="https://cg.cs.tsinghua.edu.cn/shimin.htm" target="_blank" rel="noopener">Shi-Min Hu</a></span>
+  </div>
+  
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      T-PAMI 2022
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+  
+  
+  <div class="btn-links mb-3">
+    
+    
+
+
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+<a class="btn btn-outline-primary btn-page-header" href="/synorim-arxiv.pdf" target="_blank" rel="noopener">
+
+  Paper
+
+</a>
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header" href="https://github.com/huangjh-pub/synorim" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header" href="https://github.com/heiwang1997/synorim-jittor" target="_blank" rel="noopener">
+    <i class="fa fa-bolt mr-1"></i>Jittor</a>
+
+
+  </div>
+  
+</div>
+
+  <div class="article-container">
+
+    
+
+    <div class="article-style">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /publication/synorim/teaser_hu97ab1e9bfbc9249a4743932c9b5a449a_756993_283c15f8a485ca3ae3e2ff3fe88da74d.webp 400w,
+               /publication/synorim/teaser_hu97ab1e9bfbc9249a4743932c9b5a449a_756993_e7e12660f94ad7116bd3cae6dc861873.webp 760w,
+               /publication/synorim/teaser_hu97ab1e9bfbc9249a4743932c9b5a449a_756993_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/publication/synorim/teaser_hu97ab1e9bfbc9249a4743932c9b5a449a_756993_283c15f8a485ca3ae3e2ff3fe88da74d.webp"
+               width="1024"
+               height="152"
+               loading="lazy" /></div>
+  </div></figure>
+<p>We present <span style="color:Tomato"><strong>Sy</strong></span><span style="color:RoyalBlue"><strong>NoRi</strong></span><span style="color:MediumOrchid"><strong>M</strong></span>, a novel way to jointly register <span style="color:MediumOrchid"><strong>M</strong></span>ultiple <span style="color:RoyalBlue"><strong>No</strong></span>n-<span style="color:RoyalBlue"><strong>Ri</strong></span>gid shapes by <span style="color:Tomato"><strong>Sy</strong></span>nchronizing the maps that relate learned functions defined on the <em>point clouds</em>.
+Even though the ability to process non-rigid shapes is critical in various applications ranging from computer animation to 3D digitization, the literature still lacks a robust and flexible framework to match and align a collection of real, noisy scans observed under occlusions. Given a set of such point clouds, our method first computes the pairwise correspondences parameterized via functional maps.
+We simultaneously learn potentially non-orthogonal basis functions to effectively regularize the deformations, while handling the occlusions in an elegant way. To maximally benefit from the multi-way information provided by the inferred pairwise deformation fields, we synchronize the pairwise functional maps into a cycle-consistent whole thanks to our novel and principled optimization formulation. We demonstrate via extensive experiments that our method achieves a state-of-the-art performance in registration accuracy, while being flexible and efficient as we handle both non-rigid and multi-body cases in a unified framework and avoid the costly optimization over point-wise permutations by the use of basis function maps.</p>
+<h3 id="method">Method</h3>
+<p>The <strong>input</strong> to our method is a set of point clouds $\{ \mathbf{X}_k \in \mathbb{R}^{N_k \times 3} \}$ and the <strong>output</strong> of our method contains all the pairwise per-point 3D flow vectors $\{ \mathbf{F}_{kl} \in \mathbb{R}^{N_k \times 3} \}$.
+The flow vectors naturally induce the non-rigid warp field from $\mathbf{X}_k$ to $\mathbf{X}_l$ as $ \mathcal{W}_k (\mathbf{X}_k) =  \mathbf{X}_k + \mathbf{F}_{kl} $, optimally aligning the given point cloud pairs by deforming the source $\mathbf{X}_k$ onto the target $\mathbf{X}_l$.
+For multiple input clouds we additionally encourage the cyclic consistency of the flow estimates, i.e.: $ \mathcal{W}_{k_1} \circ \mathcal{W}_{k_2} \circ ... \circ \mathcal{W}_{k_p} \approx \mathcal{I} $ for all cycles in the densely-connected graph formed by the input set.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt=""
+           src="/publication/synorim/pipeline.svg"
+           loading="lazy" data-zoomable /></div>
+  </div></figure>
+<p>During training, our method is supervised in a pairwise fashion.
+We first <span class="hover"><span style="color:red">①</span> use a sparse-convolution-based neural network $\varphi_{\mathrm{desc}}$ (i.e., <span style="background-color:#FFE4E8; border:dashed 1px; padding-bottom:0.2em">$\mathfrak{g}_\mathrm{pd}$</span>) to establish putative correspondences between each point cloud pair.</span>
+We then <span class="hover"><span style="color:red">②</span> estimate a set of basis functions $\{ \mathbf{\Phi}_k \in \mathbb{R}^{N_k \times M} \}$ for each point cloud using another network $\varphi_{\mathrm{basis}}$.
+By jointly modeling the correspondences and the bases in a robust way, the initial functional map $\mathbf{C}_{kl}^0$ is obtained before being refined with $\varphi_{\mathrm{refine}}$ that yields pairwise flow estimates. </span></p>
+<p>During test time with multiple inputs, we estimate the map set $\{\mathbf{C}_{kl}^0\}$ for all pairs.
+<span class="hover"><span style="color:red">③</span> The maps are subsequently synchronized to optimize for cycle consistency among the inputs. </span>
+Finally, <span class="hover"><span style="color:red">④</span> 3D flows are estimated from the optimized functional maps $\{\mathbf{C}_{kl}^\star\}$ as our final output, using the same procedure as done in the pairwise setting.</span>
+The registered point cloud is a fusion of all initial point clouds warped by the estimated flows.
+For more details, please read our technical report.</p>
+<h3 id="results">Results</h3>
+<p>Some demonstrative registration results are shown below, all rendered as raw point clouds.
+For each animation the points from all other sources are warped to the current view as target.
+We use datasets from <a href="https://cape.is.tue.mpg.de/" target="_blank" rel="noopener">CAPE</a>, <a href="https://github.com/rabbityl/DeformingThings4D" target="_blank" rel="noopener">DeformingThings4D</a>, <a href="https://github.com/AljazBozic/DeepDeform" target="_blank" rel="noopener">DeepDeform</a>, and <a href="https://sapien.ucsd.edu/" target="_blank" rel="noopener">SAPIEN</a>.</p>
+<!-- Originally I use h5 to wrap it, but it turns out to be unnecessary -->
+<div class='three-cols-video'>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<video autoplay loop  >
+  <source src="/publication/synorim/videos/a1.mp4" type="video/mp4">
+</video> 
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<video autoplay loop  >
+  <source src="/publication/synorim/videos/h1.mp4" type="video/mp4">
+</video> 
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<video autoplay loop  >
+  <source src="/publication/synorim/videos/a2.mp4" type="video/mp4">
+</video> 
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<video autoplay loop  >
+  <source src="/publication/synorim/videos/h2.mp4" type="video/mp4">
+</video> 
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<video autoplay loop  >
+  <source src="/publication/synorim/videos/a3.mp4" type="video/mp4">
+</video> 
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<video autoplay loop  >
+  <source src="/publication/synorim/videos/h3.mp4" type="video/mp4">
+</video>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<video autoplay loop  >
+  <source src="/publication/synorim/videos/s1.mp4" type="video/mp4">
+</video> 
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<video autoplay loop  >
+  <source src="/publication/synorim/videos/s2.mp4" type="video/mp4">
+</video> 
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<video autoplay loop  >
+  <source src="/publication/synorim/videos/s3.mp4" type="video/mp4">
+</video>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<video autoplay loop  >
+  <source src="/publication/synorim/videos/hp1.mp4" type="video/mp4">
+</video> 
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<video autoplay loop  >
+  <source src="/publication/synorim/videos/hp2.mp4" type="video/mp4">
+</video> 
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<video autoplay loop  >
+  <source src="/publication/synorim/videos/hp3.mp4" type="video/mp4">
+</video>
+</div>
+<!-- Make video autoplay. -->
+<script>
+document.addEventListener("DOMContentLoaded", (function() {
+  $('video').each(function(i, obj) {
+    obj.muted = true;
+    obj.play();
+  });
+}));
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-dynamic-reconstruction-result-the-rgb-images-are-just-for-references">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="Dynamic reconstruction result. The RGB images are just for references." srcset="
+               /publication/synorim/recon_hufeeb494ba84d23a9b556cd9832978cce_634417_b0de8fd5e50e01f1ace7f403f2da0168.webp 400w,
+               /publication/synorim/recon_hufeeb494ba84d23a9b556cd9832978cce_634417_d8782b989bda651362271c6b37912dd7.webp 760w,
+               /publication/synorim/recon_hufeeb494ba84d23a9b556cd9832978cce_634417_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/publication/synorim/recon_hufeeb494ba84d23a9b556cd9832978cce_634417_b0de8fd5e50e01f1ace7f403f2da0168.webp"
+               width="760"
+               height="235"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Dynamic reconstruction result. The RGB images are just for references.
+    </figcaption></figure>
+<p>We also provide extensive quantitative experiments and ablations in our main paper.
+Our results on FAUST online challenge can also be viewed <a href="http://faust.is.tue.mpg.de/challenge/Intra-subject_challenge?challenge_id=2&amp;sort=3&amp;subchallenge_id=2" target="_blank" rel="noopener">here</a>.</p>
+<h3 id="dataset">Dataset</h3>
+<p>Our dataset is heavily based on published datasets. Although our modification is license-free, the original data providers may require you to accept different terms &amp; conditions before being allowed to use them.
+Be sure to double-check that before downloading.
+If you find any legal issues, please let us know immediately.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"></th>
+<th style="text-align:center"># Train</th>
+<th style="text-align:center"># Validation</th>
+<th style="text-align:center"># Test</th>
+<th style="text-align:center">Origin</th>
+<th style="text-align:center">Terms of Use</th>
+<th style="text-align:center">Download Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">MPC-CAPE</td>
+<td style="text-align:center">3015</td>
+<td style="text-align:center">798</td>
+<td style="text-align:center">209</td>
+<td style="text-align:center"><a href="https://cape.is.tue.mpg.de/" target="_blank" rel="noopener">CAPE</a></td>
+<td style="text-align:center"><a href="https://cape.is.tue.mpg.de/license.html" target="_blank" rel="noopener">Link</a></td>
+<td style="text-align:center"><a href="https://drive.google.com/file/d/1der12IAm_1o_M92nj71r0HpfxmBCaQmc/view?usp=sharing" target="_blank" rel="noopener">Data (11.2G)</a></td>
+</tr>
+<tr>
+<td style="text-align:center">MPC-DT4D</td>
+<td style="text-align:center">3907</td>
+<td style="text-align:center">1701</td>
+<td style="text-align:center">1299</td>
+<td style="text-align:center"><a href="https://github.com/rabbityl/DeformingThings4D" target="_blank" rel="noopener">DeformingThings4D</a></td>
+<td style="text-align:center"><a href="https://docs.google.com/forms/d/e/1FAIpQLSckMLPBO8HB8gJsIXFQHtYVQaTPTdd-rZQzyr9LIIkHA515Sg/viewform" target="_blank" rel="noopener">Link</a></td>
+<td style="text-align:center"><a href="https://drive.google.com/file/d/1r9VFHIZcatSej6guY_hGoGjrNqbgazAz/view?usp=sharing" target="_blank" rel="noopener">Data (20.6G)</a></td>
+</tr>
+<tr>
+<td style="text-align:center">MPC-DD</td>
+<td style="text-align:center">1754</td>
+<td style="text-align:center">200</td>
+<td style="text-align:center">267</td>
+<td style="text-align:center"><a href="https://github.com/AljazBozic/DeepDeform" target="_blank" rel="noopener">DeepDeform</a></td>
+<td style="text-align:center"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeQ1hkCmmTiib-oQM9s21y3Tz9ojiI2zB8vZSqTZjT2DiRZ0g/viewform" target="_blank" rel="noopener">Link</a></td>
+<td style="text-align:center"><a href="https://drive.google.com/file/d/1ykFSe9TI9kZ-RozZw874YHDiO1cLRCgc/view?usp=sharing" target="_blank" rel="noopener">Data (2.4G)</a></td>
+</tr>
+<tr>
+<td style="text-align:center">MPC-SAPIEN</td>
+<td style="text-align:center">530</td>
+<td style="text-align:center">88</td>
+<td style="text-align:center">266</td>
+<td style="text-align:center"><a href="https://sapien.ucsd.edu/" target="_blank" rel="noopener">SAPIEN</a></td>
+<td style="text-align:center"><a href="https://sapien.ucsd.edu/about#term" target="_blank" rel="noopener">Link</a></td>
+<td style="text-align:center"><a href="https://drive.google.com/file/d/13yMOoFmUV2Ca9j0tm_CD0nd1BGx1T8Jx/view?usp=sharing" target="_blank" rel="noopener">Data (1.3G)</a></td>
+</tr>
+</tbody>
+</table>
+<!-- This will fix the table. -->
+<script>
+document.addEventListener("DOMContentLoaded", (function() {
+    $('table').addClass('table table-hover');
+}));
+</script>
+<h3 id="citation">Citation</h3>
+<p>If you find our work interesting, please consider citing us:</p>
+<pre><code class="language-java">@article{huang2021multiway,
+  title={Multiway Non-rigid Point Cloud Registration via Learned Functional Map Synchronization},
+  author={Huang, Jiahui and Birdal, Tolga and Gojcic, Zan and Guibas, Leonidas J and Hu, Shi-Min},
+  journal={arXiv preprint arXiv:2111.12878},
+  year={2021}
+}
+</code></pre>
+<h3 id="acknowledgements">Acknowledgements</h3>
+<p>We thank all the reviewers for their thoughtful comments and constructive suggestions.
+This paper was supported by National Key R&amp;D Program of China (project No. 2021ZD0112902), a Vannevar Bush faculty fellowship, ARL grant W911NF2120104, NSF grant IIS-1763268, and a gift from the Autodesk Corporation.</p>
+</div>
+
+  </div>
+</div>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+
+
+
+
+
+  
+  <p class="powered-by copyright-license-text">
+    © 2020-2023 Jiahui Huang All Rights Reserved.
+  </p>
+  
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+      
+
+    
+    <script src="/js/vendor-bundle.min.3d946de2e8784a477845261d87025092.js"></script>
+
+    
+    
+    
+      
+      
+        <script src="https://cdn.jsdelivr.net/gh/desandro/imagesloaded@v4.1.4/imagesloaded.pkgd.min.js" integrity="sha512-S5PZ9GxJZO16tT9r3WJp/Safn31eu8uWrzglMahDT4dsmgqWonRY9grk3j+3tfuPr9WJNsfooOR7Gi7HL5W2jw==" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/metafizzy/isotope@v3.0.6/dist/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous"></script>
+      
+
+      
+      
+
+      
+
+      
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/highlight.min.js" integrity="sha512-Ypjm0o7jOxAd4hpdoppSEN0TQOC19UtPAqD+4s5AlXmUvbmmS/YMxYqAqarQYyxTnB6/rqip9qcxlNB/3U9Wdg==" crossorigin="anonymous"></script>
+        
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/r.min.js" crossorigin="anonymous"></script>
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/latex.min.js" crossorigin="anonymous"></script>
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/bibtex.min.js" crossorigin="anonymous"></script>
+        
+      
+
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+
+    
+    
+    
+    <script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+    
+    
+      <script src="/js/wowchemy-headroom.e8fd2d733eef6a8bbbe0539398fc0547.js" type="module"></script>
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/en/js/wowchemy.min.a2ed145159dd33ad55ff402163350b5d.js"></script>
+
+    
+    
+    
+    
+    
+    
+      
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <script src="/js/wowchemy-publication.b0d291ed6d27eacec233e6cf5204f99a.js" type="module"></script>
+
+
+
+
+
+
+</body>
+</html>

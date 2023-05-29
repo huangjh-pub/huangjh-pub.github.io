@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Haoxiang Chen | Jiahui Huang</title>
+    <link>https://huangjh-pub.github.io/authors/haoxiang-chen/</link>
+      <atom:link href="https://huangjh-pub.github.io/authors/haoxiang-chen/index.xml" rel="self" type="application/rss+xml" />
+    <description>Haoxiang Chen</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Nov 2021 21:59:40 +0800</lastBuildDate>
+    <image>
+      <url>https://huangjh-pub.github.io/media/icon_hu203b42f3cc3d45b329fe7ad5d52ac786_38688_512x512_fill_lanczos_center_3.png</url>
+      <title>Haoxiang Chen</title>
+      <link>https://huangjh-pub.github.io/authors/haoxiang-chen/</link>
+    </image>
+    
+    <item>
+      <title>CIRCLE: Convolutional Implicit Reconstruction and Completion for Large-scale Indoor Scene</title>
+      <link>https://huangjh-pub.github.io/publication/circle/</link>
+      <pubDate>Mon, 01 Nov 2021 21:59:40 +0800</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/circle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Real-Time Globally Consistent 3D Reconstruction with Semantic Priors</title>
+      <link>https://huangjh-pub.github.io/publication/semanticfusion/</link>
+      <pubDate>Mon, 01 Nov 2021 21:59:40 +0800</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/semanticfusion/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

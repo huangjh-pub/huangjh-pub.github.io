@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xiaoguang Han | Jiahui Huang</title>
+    <link>https://huangjh-pub.github.io/authors/xiaoguang-han/</link>
+      <atom:link href="https://huangjh-pub.github.io/authors/xiaoguang-han/index.xml" rel="self" type="application/rss+xml" />
+    <description>Xiaoguang Han</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 23:15:32 -0700</lastBuildDate>
+    <image>
+      <url>https://huangjh-pub.github.io/media/icon_hu203b42f3cc3d45b329fe7ad5d52ac786_38688_512x512_fill_lanczos_center_3.png</url>
+      <title>Xiaoguang Han</title>
+      <link>https://huangjh-pub.github.io/authors/xiaoguang-han/</link>
+    </image>
+    
+    <item>
+      <title>Shallow2Deep: Indoor Scene Modeling by Single Image Understanding</title>
+      <link>https://huangjh-pub.github.io/publication/shallow2deep/</link>
+      <pubDate>Wed, 01 Jan 2020 23:15:32 -0700</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/shallow2deep/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

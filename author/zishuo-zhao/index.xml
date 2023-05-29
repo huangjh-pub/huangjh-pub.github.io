@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zishuo Zhao | Jiahui Huang</title>
+    <link>https://cg.cs.tsinghua.edu.cn/people/~huangjh/author/zishuo-zhao/</link>
+      <atom:link href="https://cg.cs.tsinghua.edu.cn/people/~huangjh/author/zishuo-zhao/index.xml" rel="self" type="application/rss+xml" />
+    <description>Zishuo Zhao</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020-2022 Jiahui Huang All Rights Reserved</copyright><lastBuildDate>Tue, 01 Oct 2019 23:15:32 -0700</lastBuildDate>
+    <image>
+      <url>https://cg.cs.tsinghua.edu.cn/people/~huangjh/images/icon_hu203b42f3cc3d45b329fe7ad5d52ac786_38688_512x512_fill_lanczos_center_3.png</url>
+      <title>Zishuo Zhao</title>
+      <link>https://cg.cs.tsinghua.edu.cn/people/~huangjh/author/zishuo-zhao/</link>
+    </image>
+    
+    <item>
+      <title>ClusterSLAM: A SLAM Backend for Simultaneous Rigid Body Clustering and Motion Estimation</title>
+      <link>https://cg.cs.tsinghua.edu.cn/people/~huangjh/publication/clusterslam/</link>
+      <pubDate>Tue, 01 Oct 2019 23:15:32 -0700</pubDate>
+      <guid>https://cg.cs.tsinghua.edu.cn/people/~huangjh/publication/clusterslam/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

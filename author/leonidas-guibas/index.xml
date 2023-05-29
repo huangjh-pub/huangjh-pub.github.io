@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Leonidas Guibas | Jiahui Huang</title>
+    <link>https://cg.cs.tsinghua.edu.cn/people/~huangjh/author/leonidas-guibas/</link>
+      <atom:link href="https://cg.cs.tsinghua.edu.cn/people/~huangjh/author/leonidas-guibas/index.xml" rel="self" type="application/rss+xml" />
+    <description>Leonidas Guibas</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020-2022 Jiahui Huang All Rights Reserved</copyright>
+    <image>
+      <url>https://cg.cs.tsinghua.edu.cn/people/~huangjh/images/icon_hu203b42f3cc3d45b329fe7ad5d52ac786_38688_512x512_fill_lanczos_center_3.png</url>
+      <title>Leonidas Guibas</title>
+      <link>https://cg.cs.tsinghua.edu.cn/people/~huangjh/author/leonidas-guibas/</link>
+    </image>
+    
+    <item>
+      <title>Multiway Non-rigid Point Cloud Registration via Learned Functional Map Synchronization</title>
+      <link>https://cg.cs.tsinghua.edu.cn/people/~huangjh/page/synorim/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://cg.cs.tsinghua.edu.cn/people/~huangjh/page/synorim/</guid>
+      <description>
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-overview-of-the-synthetic-dataset&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://cg.cs.tsinghua.edu.cn/people/~huangjh/people/~huangjh/media/clusterslam-dataset/overview.jpg&#34; data-caption=&#34;Overview of the synthetic dataset&#34;&gt;
+
+
+  &lt;img src=&#34;https://cg.cs.tsinghua.edu.cn/people/~huangjh/people/~huangjh/media/clusterslam-dataset/overview.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Overview of the synthetic dataset
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;We present SyNoRiM, a novel way to jointly register multiple non-rigid shapes by synchronizing the maps that relate learned
+functions defined on the point clouds. Even though the ability to process non-rigid shapes is critical in various applications ranging from computer animation to 3D digitization, the literature still lacks a robust and flexible framework to match and align a collection of real, noisy scans observed under occlusions. Given a set of such point clouds, our method first computes the pairwise correspondences
+parameterized via functional maps. We simultaneously learn potentially non-orthogonal basis functions to effectively regularize the
+deformations, while handling the occlusions in an elegant way. To maximally benefit from the multi-way information provided by the
+inferred pairwise deformation fields, we synchronize the pairwise functional maps into a cycle-consistent whole thanks to our novel and
+principled optimization formulation. We demonstrate via extensive experiments that our method achieves a state-of-the-art performance
+in registration accuracy, while being flexible and efficient as we handle both non-rigid and multi-body cases in a unified framework and avoid the costly optimization over point-wise permutations by the use of basis function maps.&lt;/p&gt;
+&lt;h2 id=&#34;dataset-statistics&#34;&gt;Dataset Statistics&lt;/h2&gt;
+&lt;p&gt;The statistics are listed as follows. In total we have over 3000 frames with 60+ different dynamic instances.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Sequence Name&lt;/th&gt;
+&lt;th&gt;# Frames&lt;/th&gt;
+&lt;th&gt;# Dyn. Obj.&lt;/th&gt;
+&lt;th&gt;# Landmarks&lt;/th&gt;
+&lt;th&gt;Total Dist. (m)&lt;/th&gt;
+&lt;th&gt;Download Link&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;SUNCG-1-1&lt;/td&gt;
+&lt;td&gt;190&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;748&lt;/td&gt;
+&lt;td&gt;1.94&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://drive.google.com/file/d/1HRrujf-TFLJzX3PmOWIwZD5ysA_mgYHC/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Drive&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;SUNCG-1-2&lt;/td&gt;
+&lt;td&gt;250&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;2595&lt;/td&gt;
+&lt;td&gt;21.10&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://drive.google.com/file/d/1kFiLRfzkQ-GSc2Bv1_wyzEd-MXgAr_ZS/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Drive&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;SUNCG-2-1&lt;/td&gt;
+&lt;td&gt;300&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;381&lt;/td&gt;
+&lt;td&gt;6.03&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://drive.google.com/file/d/1-qfkPf3wX1RtDIKOpmNSrQBFKt4SkDyz/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Drive&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;SUNCG-2-2&lt;/td&gt;
+&lt;td&gt;200&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;370&lt;/td&gt;
+&lt;td&gt;6.01&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://drive.google.com/file/d/1D8MedfSAElkiwU3Z6VBmkGUqWZ6tNu1V/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Drive&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;SUNCG-3-1&lt;/td&gt;
+&lt;td&gt;200&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;554&lt;/td&gt;
+&lt;td&gt;3.61&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://drive.google.com/file/d/1P41dIAV4zRa6iwFd_nFtg9lxJnELeFUL/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Drive&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;SUNCG-3-2&lt;/td&gt;
+&lt;td&gt;200&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;620&lt;/td&gt;
+&lt;td&gt;11.37&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://drive.google.com/file/d/1y1Kr_Q9Wx5Ayx8R4vF5qoGvEXJNG3rmt/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Drive&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;CARLA-S1&lt;/td&gt;
+&lt;td&gt;200&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;2402&lt;/td&gt;
+&lt;td&gt;120.92&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://drive.google.com/file/d/1-GVd9aYtZa3Nv2OooM5jNdvXOBMMn-0T/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Drive&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;CARLA-S2&lt;/td&gt;
+&lt;td&gt;200&lt;/td&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;4179&lt;/td&gt;
+&lt;td&gt;164.70&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://drive.google.com/file/d/10upYtqp1SEBgc1UoPYTcY9f7zUmr_Yaz/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Drive&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;CARLA-L1&lt;/td&gt;
+&lt;td&gt;750&lt;/td&gt;
+&lt;td&gt;14&lt;/td&gt;
+&lt;td&gt;13600&lt;/td&gt;
+&lt;td&gt;480.87&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://drive.google.com/file/d/1Z9cdkN6YFs3nnNN_jCI0V6K7Ac6DSLqt/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Drive&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;CARLA-L2&lt;/td&gt;
+&lt;td&gt;600&lt;/td&gt;
+&lt;td&gt;17&lt;/td&gt;
+&lt;td&gt;10486&lt;/td&gt;
+&lt;td&gt;367.62&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://drive.google.com/file/d/1LWMPXL9u_X98TofmLdQhNeft9UlQTIsP/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Drive&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;data-format&#34;&gt;Data Format&lt;/h2&gt;
+&lt;p&gt;We have zipped each sequence into individual packs with the name &lt;code&gt;&amp;lt;Sequence Name&amp;gt;.tar.gz&lt;/code&gt;. The unzipped folder structure is as following:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;.                       // unzipped base folder
+├── images
+│   ├── left
+│   │   └── %04d.png    // {# Frames} images captured from left camera.
+│   └── right
+│       └── %04d.png    // {# Frames} images captured from right camera.
+├── landmarks
+│   ├── left
+│   │   └── %04d.txt    // Detected features from left camera.
+│   └── right
+│       └── %04d.txt    // Detected features from right camera.
+├── pose
+│   └── %04d.txt        // Trajectory of camera and moving instances.
+├── shapes
+│   └── %d.pcd          // Point cloud of the static scene and dynamic shapes.
+├── instrinsic.txt      // Stereo camera intrinsic.
+└── landmark_mapping.txt	// Landmark to cluster id mapping.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The format of each line of the feature text file is:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;landmark id&amp;gt; &amp;lt;u&amp;gt; &amp;lt;v&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;For each trajectory file under &lt;code&gt;pose/&lt;/code&gt; directory, each line in each file represents the pose of each cluster except for the first line - that line represents the camera pose. You may notice that for some frames pose is still valid for invisible cluster - during our evaluation we eliminate these pose. The format for the pose is:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;x&amp;gt; &amp;lt;y&amp;gt; &amp;lt;z&amp;gt;  &amp;lt;qx&amp;gt; &amp;lt;qy&amp;gt; &amp;lt;qz&amp;gt; &amp;lt;qw&amp;gt;
+Translation       Rotation
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;which can be read simply using &lt;code&gt;pyquaternion&lt;/code&gt; or &lt;code&gt;Eigen&lt;/code&gt; library.&lt;/p&gt;
+&lt;p&gt;The point cloud file in the &lt;code&gt;shapes/&lt;/code&gt; folder is the ground-truth point cloud for both static scene and dynamic clusters. For the moving instances, by applying the point cloud with the transforms in &lt;code&gt;pose/&lt;/code&gt;, you can get their absolute world coordinates in each frame.&lt;/p&gt;
+&lt;p&gt;The file &lt;code&gt;intrinsic.txt&lt;/code&gt; has two $3 \times 4$ projection matrices for the left and right camera, respectively. There is no rotation between cameras so stereo rectifying is not necessary.&lt;/p&gt;
+&lt;p&gt;Lastly, Each line in &lt;code&gt;landmark_mapping.txt&lt;/code&gt; maps from landmark id to cluster id, this cluster id shares the same indices as the ground-truth point cloud and the line ordering of the trajectories files. Each line has the following format:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;landmark id&amp;gt; &amp;lt;cluster id&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;contact&#34;&gt;Contact&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-envelope  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Email: &lt;code&gt;huang-jh18@mails.tsinghua.edu.cn&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-edit  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Citation:&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;@inproceedings{huang2019clusterslam,
+  title={ClusterSLAM: A SLAM Backend for Simultaneous Rigid Body Clustering and Motion Estimation},
+  author={Huang, Jiahui and Yang, Sheng and Zhao, Zishuo and Lai, Yu-Kun and Hu, Shi-Min},
+  booktitle={Proceedings of the IEEE International Conference on Computer Vision},
+  pages={5875--5884},
+  year={2019}
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;change-log&#34;&gt;Change Log&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;March, 2020: The 10 dynamic sequences used in our ICCV 2019 paper are released.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;terms-of-use&#34;&gt;Terms of Use&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The generated dataset as well as the annotations belong to the CSCG Group and are licensed under the &lt;a href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

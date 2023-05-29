@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hongbo Fu | Jiahui Huang</title>
+    <link>https://cg.cs.tsinghua.edu.cn/people/~huangjh/author/hongbo-fu/</link>
+      <atom:link href="https://cg.cs.tsinghua.edu.cn/people/~huangjh/author/hongbo-fu/index.xml" rel="self" type="application/rss+xml" />
+    <description>Hongbo Fu</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020-2022 Jiahui Huang All Rights Reserved</copyright><lastBuildDate>Mon, 01 Nov 2021 21:59:40 +0800</lastBuildDate>
+    <image>
+      <url>https://cg.cs.tsinghua.edu.cn/people/~huangjh/images/icon_hu203b42f3cc3d45b329fe7ad5d52ac786_38688_512x512_fill_lanczos_center_3.png</url>
+      <title>Hongbo Fu</title>
+      <link>https://cg.cs.tsinghua.edu.cn/people/~huangjh/author/hongbo-fu/</link>
+    </image>
+    
+    <item>
+      <title>Real-Time Globally Consistent 3D Reconstruction with Semantic Priors</title>
+      <link>https://cg.cs.tsinghua.edu.cn/people/~huangjh/publication/semanticfusion/</link>
+      <pubDate>Mon, 01 Nov 2021 21:59:40 +0800</pubDate>
+      <guid>https://cg.cs.tsinghua.edu.cn/people/~huangjh/publication/semanticfusion/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

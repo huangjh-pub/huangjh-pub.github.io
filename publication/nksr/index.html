@@ -1,0 +1,2245 @@
+<!DOCTYPE html><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.4.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Jiahui Huang" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Computer Vision and Pattern Recognition (CVPR) 2023 - **Highlight**" />
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://huangjh-pub.github.io/publication/nksr/" />
+
+  
+  
+  
+    <meta name="theme-color" content="#1565c0" />
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha512-W0xM4mr6dEP9nREo7Z9z+9X70wytKvMGeDsj7ps2+xg5QPrEBXC8tAW1IFnzjR6eoJ90JmCnFzerQJTLzIEHjA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.4bcbc2330700a53eb7f390a1b72b8333.css" />
+
+  
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-162631457-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-162631457-1', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/manifest.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hu203b42f3cc3d45b329fe7ad5d52ac786_38688_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu203b42f3cc3d45b329fe7ad5d52ac786_38688_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="https://huangjh-pub.github.io/publication/nksr/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary_large_image" />
+  
+    <meta property="twitter:site" content="@huangjh_hjh" />
+    <meta property="twitter:creator" content="@huangjh_hjh" />
+  
+  <meta property="og:site_name" content="Jiahui Huang" />
+  <meta property="og:url" content="https://huangjh-pub.github.io/publication/nksr/" />
+  <meta property="og:title" content="Neural Kernel Surface Reconstruction | Jiahui Huang" />
+  <meta property="og:description" content="Computer Vision and Pattern Recognition (CVPR) 2023 - **Highlight**" /><meta property="og:image" content="https://huangjh-pub.github.io/publication/nksr/featured.gif" />
+    <meta property="twitter:image" content="https://huangjh-pub.github.io/publication/nksr/featured.gif" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2023-04-01T21:59:40&#43;08:00"
+      />
+    
+    <meta property="article:modified_time" content="2023-04-01T21:59:40&#43;08:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://huangjh-pub.github.io/publication/nksr/"
+  },
+  "headline": "Neural Kernel Surface Reconstruction",
+  
+  "image": [
+    "https://huangjh-pub.github.io/publication/nksr/featured.gif"
+  ],
+  
+  "datePublished": "2023-04-01T21:59:40+08:00",
+  "dateModified": "2023-04-01T21:59:40+08:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Jiahui Huang"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Jiahui Huang",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://huangjh-pub.github.io/media/icon_hu203b42f3cc3d45b329fe7ad5d52ac786_38688_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "Computer Vision and Pattern Recognition (CVPR) 2023 - **Highlight**"
+}
+</script>
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>Neural Kernel Surface Reconstruction | Jiahui Huang</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="efbb716f09a48a0ae21c4ef62bd6e58f" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.7e5427316d1b14a30f257ae3467b3e21.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="header--fixed">
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">Jiahui Huang</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">Jiahui Huang</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#about"><span>Home</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#publications"><span>Publications</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#projects"><span>Projects</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#contact"><span>Contact</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+        
+
+        
+        
+
+        
+        
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    
+
+
+
+
+
+
+
+
+<div class="pub">
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="article-container pt-3">
+  <h1>Neural Kernel Surface Reconstruction</h1>
+
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span class="author-highlighted">
+      Jiahui Huang</span>, <span >
+      <a href="https://zgojcic.github.io/" target="_blank" rel="noopener">Zan Gojcic</a></span>, <span >
+      <a href="https://matanatz.github.io/" target="_blank" rel="noopener">Matan Atzmon</a></span>, <span >
+      <a href="https://orlitany.github.io/" target="_blank" rel="noopener">Or Litany</a></span>, <span >
+      <a href="https://www.cs.utoronto.ca/~fidler/" target="_blank" rel="noopener">Sanja Fidler</a></span>, <span >
+      <a href="https://www.fwilliams.info/" target="_blank" rel="noopener">Francis Williams</a></span>
+  </div>
+  
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      CVPR 2023 Highlight
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+  
+  
+  <div class="btn-links mb-3">
+    
+    
+
+
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+<a class="btn btn-outline-primary btn-page-header" href="/publication/nksr/paper.pdf" target="_blank" rel="noopener">
+
+  Paper
+
+</a>
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header" href="https://github.com/nv-tlabs/nksr" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header" href="https://www.youtube.com/watch?v=J1V5F2z-dWY" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+
+
+
+
+
+  </div>
+  
+</div>
+
+  <div class="article-container">
+
+    
+
+    <div class="article-style">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-kernel-surface-reconstruction-nksr-recovers-a-3d-surface-from-an-input-point-cloudtrained-directly-from-dense-points-our-method-reaches-state-of-the-art-reconstruction-quality-and-scalability-all-the-meshes-in-this-figure-are-reconstructed-using-a-single-trained-model">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="Kernel Surface Reconstruction (**NKSR**) recovers a 3D surface from an input point cloud.Trained directly from dense points, our method reaches state-of-the-art reconstruction quality and scalability. All the meshes in this figure are reconstructed using a single trained model." srcset="
+               /publication/nksr/teaser_huf3058dac50675fa90fef5c2c99c7d3c4_1259514_8f53711e610ee91ac437bf233623036d.webp 400w,
+               /publication/nksr/teaser_huf3058dac50675fa90fef5c2c99c7d3c4_1259514_4752d1aab5173035e785d11e7426ef7e.webp 760w,
+               /publication/nksr/teaser_huf3058dac50675fa90fef5c2c99c7d3c4_1259514_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/publication/nksr/teaser_huf3058dac50675fa90fef5c2c99c7d3c4_1259514_8f53711e610ee91ac437bf233623036d.webp"
+               width="1024"
+               height="303"
+               loading="lazy" /></div>
+  </div><figcaption>
+      Kernel Surface Reconstruction (<strong>NKSR</strong>) recovers a 3D surface from an input point cloud.Trained directly from dense points, our method reaches state-of-the-art reconstruction quality and scalability. All the meshes in this figure are reconstructed using a single trained model.
+    </figcaption></figure>
+<p>We present a novel method for reconstructing a 3D implicit surface from a large-scale, sparse, and noisy point cloud.
+Our approach builds upon the recently introduced <a href="https://nv-tlabs.github.io/nkf/" target="_blank" rel="noopener">Neural Kernel Fields (NKF)</a> representation.
+It enjoys similar generalization capabilities to NKF, while simultaneously addressing its main limitations:
+(a) We can scale to large scenes through compactly supported kernel functions, which enable the use of memory-efficient sparse linear solvers.
+(b) We are robust to noise, through a gradient fitting solve.
+(c) We minimize training requirements, enabling us to learn from any dataset of dense oriented points, and even mix training data consisting of objects and scenes at different scales.
+Our method is capable of reconstructing millions of points in a few seconds, and handling very large scenes in an out-of-core fashion.
+We achieve state-of-the-art results on reconstruction benchmarks consisting of <a href="#single-objects">single objects</a>, <a href="#indoor-scenes">indoor scenes</a>, and <a href="#driving-scenes">outdoor scenes</a>.</p>
+<h3 id="method">Method</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /publication/nksr/pipeline_hud54e532bcd4bb5188cec3f66f1e7c49c_189739_85b2ea96db92fe0c2ab4728aeaa7c59b.webp 400w,
+               /publication/nksr/pipeline_hud54e532bcd4bb5188cec3f66f1e7c49c_189739_f98adcac56c829b1965c27067f8d605e.webp 760w,
+               /publication/nksr/pipeline_hud54e532bcd4bb5188cec3f66f1e7c49c_189739_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/publication/nksr/pipeline_hud54e532bcd4bb5188cec3f66f1e7c49c_189739_85b2ea96db92fe0c2ab4728aeaa7c59b.webp"
+               width="1024"
+               height="286"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+<p>Our method accepts an oriented point cloud and predicts a sparse hierarchy of voxel grids containing features as well as normals in each voxel.
+We then construct a sparse linear system and solve for a set of per-voxel coefficients $\alpha$.
+The linear system corresponds to the gram matrix arising from a kernel which depends on the predicted features, illustrated as $\mathbf{L}$ and $v$ above (described in the paper).
+To extract the predicted surface, we evaluate the function values at the voxel corners using a linear combination of the learned kernel basis functions, followed by dual marching cubes.
+Watch the explanatory <a href="#explanatory-video">video</a> to gain more intuition of our method design.</p>
+<h3 id="qualitative-resutls">Qualitative Resutls</h3>
+<p>NKSR is accurate, generalizable and scalable.
+These three main properties are demonstrated using the following three types of datasets.</p>
+<h4 id="single-objects">Single Objects</h4>
+<table style="table-layout: fixed ; width: 100%;"><thead><tr><th>Input</th><th>POCO</th><th>Neural Kernel Field</th><th>Neural Galerkin</th><th>Ours (NKSR)</th></tr></thead></table>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<video autoplay loop  >
+  <source src="/publication/nksr/videos/p2s-1.mp4" type="video/mp4">
+</video>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<video autoplay loop  >
+  <source src="/publication/nksr/videos/p2s-2.mp4" type="video/mp4">
+</video>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<video autoplay loop  >
+  <source src="/publication/nksr/videos/snet-1.mp4" type="video/mp4">
+</video>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<video autoplay loop  >
+  <source src="/publication/nksr/videos/snet-2.mp4" type="video/mp4">
+</video>
+<h4 id="indoor-scenes">Indoor Scenes</h4>
+<p>All the methods below are trained only on ShapeNet dataset and are directly tested on ScanNet and Matterport3D datasets.
+<span style="color:Tomato">Hover over</span> each individual image to visualize the normal map.</p>
+<table>
+<thead>
+<tr>
+<th>Local Implicit Grid</th>
+<th>Neural Kernel Field</th>
+<th>POCO</th>
+<th><strong>Ours</strong> (NKSR)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><div class="hover-change">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /publication/nksr/room/1-lig_hu92c39430addf7c3aa031e45e113f9357_727189_1aec8006850c42deaab646cfa567fcd2.webp 400w,
+               /publication/nksr/room/1-lig_hu92c39430addf7c3aa031e45e113f9357_727189_1dc0543df16d30239957ea175ab3658a.webp 760w,
+               /publication/nksr/room/1-lig_hu92c39430addf7c3aa031e45e113f9357_727189_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/publication/nksr/room/1-lig_hu92c39430addf7c3aa031e45e113f9357_727189_1aec8006850c42deaab646cfa567fcd2.webp"
+               width="760"
+               height="608"
+               loading="lazy" data-zoomable /></div>
+  </div></figure><div class="hover-change-cover">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /publication/nksr/room/1-lig-n_hua2de73e6459738c2c7ee8965aeaaf6f2_569962_3c358113a5d1405f77acf9b521d96224.webp 400w,
+               /publication/nksr/room/1-lig-n_hua2de73e6459738c2c7ee8965aeaaf6f2_569962_09b7385c5bffe25bb9da4fc3a5d90ad9.webp 760w,
+               /publication/nksr/room/1-lig-n_hua2de73e6459738c2c7ee8965aeaaf6f2_569962_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/publication/nksr/room/1-lig-n_hua2de73e6459738c2c7ee8965aeaaf6f2_569962_3c358113a5d1405f77acf9b521d96224.webp"
+               width="760"
+               height="608"
+               loading="lazy" data-zoomable /></div>
+  </div></figure></div></div></td>
+<td><div class="hover-change">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /publication/nksr/room/1-nkf_hucfd979b6d7dce23d21e29f5c1f40e7f8_745727_314df86a749a8ffab252f1ba0a2f5290.webp 400w,
+               /publication/nksr/room/1-nkf_hucfd979b6d7dce23d21e29f5c1f40e7f8_745727_0c9802e42dac7bfbe0953a9a64a14fd4.webp 760w,
+               /publication/nksr/room/1-nkf_hucfd979b6d7dce23d21e29f5c1f40e7f8_745727_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/publication/nksr/room/1-nkf_hucfd979b6d7dce23d21e29f5c1f40e7f8_745727_314df86a749a8ffab252f1ba0a2f5290.webp"
+               width="760"
+               height="608"
+               loading="lazy" data-zoomable /></div>
+  </div></figure><div class="hover-change-cover">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /publication/nksr/room/1-nkf-n_hu106c149f996cd9154750a0ae5a381179_548481_07f34aef7634fdb1b66ea694785c0d52.webp 400w,
+               /publication/nksr/room/1-nkf-n_hu106c149f996cd9154750a0ae5a381179_548481_2b185b90e457c2fe5f2572b5b60a6794.webp 760w,
+               /publication/nksr/room/1-nkf-n_hu106c149f996cd9154750a0ae5a381179_548481_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/publication/nksr/room/1-nkf-n_hu106c149f996cd9154750a0ae5a381179_548481_07f34aef7634fdb1b66ea694785c0d52.webp"
+               width="760"
+               height="608"
+               loading="lazy" data-zoomable /></div>
+  </div></figure></div></div></td>
+<td><div class="hover-change">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /publication/nksr/room/1-poco_hua65fd8955f9e29122adfcf978116f390_750095_13a29aab388b16d00e128ef56f30475f.webp 400w,
+               /publication/nksr/room/1-poco_hua65fd8955f9e29122adfcf978116f390_750095_ee078c252721dd84a5e6abdebe8927dd.webp 760w,
+               /publication/nksr/room/1-poco_hua65fd8955f9e29122adfcf978116f390_750095_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/publication/nksr/room/1-poco_hua65fd8955f9e29122adfcf978116f390_750095_13a29aab388b16d00e128ef56f30475f.webp"
+               width="760"
+               height="608"
+               loading="lazy" data-zoomable /></div>
+  </div></figure><div class="hover-change-cover">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /publication/nksr/room/1-poco-n_hu4f46fa5da49420e70e3f0ab4fe8afeeb_523315_a86d9bc8fe41b1fb8f2d7e4cb2e81ff1.webp 400w,
+               /publication/nksr/room/1-poco-n_hu4f46fa5da49420e70e3f0ab4fe8afeeb_523315_d62c558c2b0edaa28725ea797879bb49.webp 760w,
+               /publication/nksr/room/1-poco-n_hu4f46fa5da49420e70e3f0ab4fe8afeeb_523315_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/publication/nksr/room/1-poco-n_hu4f46fa5da49420e70e3f0ab4fe8afeeb_523315_a86d9bc8fe41b1fb8f2d7e4cb2e81ff1.webp"
+               width="760"
+               height="608"
+               loading="lazy" data-zoomable /></div>
+  </div></figure></div></div></td>
+<td><div class="hover-change">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /publication/nksr/room/1-ours_hu4ec192e4974de3a61935430efd7eb462_749211_6bd61d5c8532974f5f42921d1154d8ff.webp 400w,
+               /publication/nksr/room/1-ours_hu4ec192e4974de3a61935430efd7eb462_749211_c62f7f3a12ba4ae45b8457d33e643c55.webp 760w,
+               /publication/nksr/room/1-ours_hu4ec192e4974de3a61935430efd7eb462_749211_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/publication/nksr/room/1-ours_hu4ec192e4974de3a61935430efd7eb462_749211_6bd61d5c8532974f5f42921d1154d8ff.webp"
+               width="760"
+               height="608"
+               loading="lazy" data-zoomable /></div>
+  </div></figure><div class="hover-change-cover">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /publication/nksr/room/1-ours-n_hu85d7278be7198f4b5470bc2939c4d2e8_625020_e0cb6273322e9d5dc4809204d6b192ca.webp 400w,
+               /publication/nksr/room/1-ours-n_hu85d7278be7198f4b5470bc2939c4d2e8_625020_91bae176eaa3e4e133a04791c5a0657f.webp 760w,
+               /publication/nksr/room/1-ours-n_hu85d7278be7198f4b5470bc2939c4d2e8_625020_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/publication/nksr/room/1-ours-n_hu85d7278be7198f4b5470bc2939c4d2e8_625020_e0cb6273322e9d5dc4809204d6b192ca.webp"
+               width="760"
+               height="608"
+               loading="lazy" data-zoomable /></div>
+  </div></figure></div></div></td>
+</tr>
+<tr>
+<td><div class="hover-change">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /publication/nksr/room/2-lig_hu3c0ddd05a94bda4cd17aaa370d7c5322_657407_8716d3f541ccbbe7e7a19834af7db3c1.webp 400w,
+               /publication/nksr/room/2-lig_hu3c0ddd05a94bda4cd17aaa370d7c5322_657407_912c356b875772e3a1d31b60a304ce21.webp 760w,
+               /publication/nksr/room/2-lig_hu3c0ddd05a94bda4cd17aaa370d7c5322_657407_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/publication/nksr/room/2-lig_hu3c0ddd05a94bda4cd17aaa370d7c5322_657407_8716d3f541ccbbe7e7a19834af7db3c1.webp"
+               width="760"
+               height="608"
+               loading="lazy" data-zoomable /></div>
+  </div></figure><div class="hover-change-cover">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /publication/nksr/room/2-lig-n_huc45f151eb64047d97bb2def3768a67a4_542172_d32e996f7b89fff696e7e8a198114ad6.webp 400w,
+               /publication/nksr/room/2-lig-n_huc45f151eb64047d97bb2def3768a67a4_542172_1d58c0b0f90ff393454fb6264c2edd10.webp 760w,
+               /publication/nksr/room/2-lig-n_huc45f151eb64047d97bb2def3768a67a4_542172_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/publication/nksr/room/2-lig-n_huc45f151eb64047d97bb2def3768a67a4_542172_d32e996f7b89fff696e7e8a198114ad6.webp"
+               width="760"
+               height="608"
+               loading="lazy" data-zoomable /></div>
+  </div></figure></div></div></td>
+<td><div class="hover-change">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /publication/nksr/room/2-nkf_hubdae7c262fc564f802be134af2ded729_647171_f4417529a3dc561ba6213c718223351d.webp 400w,
+               /publication/nksr/room/2-nkf_hubdae7c262fc564f802be134af2ded729_647171_5510f5ff7c03a162b4ebb9a245403c7b.webp 760w,
+               /publication/nksr/room/2-nkf_hubdae7c262fc564f802be134af2ded729_647171_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/publication/nksr/room/2-nkf_hubdae7c262fc564f802be134af2ded729_647171_f4417529a3dc561ba6213c718223351d.webp"
+               width="760"
+               height="608"
+               loading="lazy" data-zoomable /></div>
+  </div></figure><div class="hover-change-cover">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /publication/nksr/room/2-nkf-n_hucb3d8fd0839e37cb305e5c610be3f06e_504695_41340ccc77a090ed1ff25af3f8f80ed7.webp 400w,
+               /publication/nksr/room/2-nkf-n_hucb3d8fd0839e37cb305e5c610be3f06e_504695_ac02bc189853b5f4d09bd29537a124a7.webp 760w,
+               /publication/nksr/room/2-nkf-n_hucb3d8fd0839e37cb305e5c610be3f06e_504695_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/publication/nksr/room/2-nkf-n_hucb3d8fd0839e37cb305e5c610be3f06e_504695_41340ccc77a090ed1ff25af3f8f80ed7.webp"
+               width="760"
+               height="608"
+               loading="lazy" data-zoomable /></div>
+  </div></figure></div></div></td>
+<td><div class="hover-change">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /publication/nksr/room/2-poco_huc69e90cb55a07694011b4f8cfd628cca_666775_16bd5576d314d7d6b7d4c843bfdcf2db.webp 400w,
+               /publication/nksr/room/2-poco_huc69e90cb55a07694011b4f8cfd628cca_666775_eff197b60cc9172133a58d885d257e2e.webp 760w,
+               /publication/nksr/room/2-poco_huc69e90cb55a07694011b4f8cfd628cca_666775_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/publication/nksr/room/2-poco_huc69e90cb55a07694011b4f8cfd628cca_666775_16bd5576d314d7d6b7d4c843bfdcf2db.webp"
+               width="760"
+               height="608"
+               loading="lazy" data-zoomable /></div>
+  </div></figure><div class="hover-change-cover">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /publication/nksr/room/2-poco-n_hu8458c46f68c5c9f9d29d062181e63a42_498827_efccaa46f9a7a787ef9d9d87e437e41f.webp 400w,
+               /publication/nksr/room/2-poco-n_hu8458c46f68c5c9f9d29d062181e63a42_498827_7c54936bd3bb10a55e62029069b06cb8.webp 760w,
+               /publication/nksr/room/2-poco-n_hu8458c46f68c5c9f9d29d062181e63a42_498827_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/publication/nksr/room/2-poco-n_hu8458c46f68c5c9f9d29d062181e63a42_498827_efccaa46f9a7a787ef9d9d87e437e41f.webp"
+               width="760"
+               height="608"
+               loading="lazy" data-zoomable /></div>
+  </div></figure></div></div></td>
+<td><div class="hover-change">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /publication/nksr/room/2-ours_hueaca24851e60c85b2b892ea1a00743fc_665483_45bd1e9e3dc627cff98e020c419e3e85.webp 400w,
+               /publication/nksr/room/2-ours_hueaca24851e60c85b2b892ea1a00743fc_665483_0aced955b4a22d87b7c9e33c0796d69b.webp 760w,
+               /publication/nksr/room/2-ours_hueaca24851e60c85b2b892ea1a00743fc_665483_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/publication/nksr/room/2-ours_hueaca24851e60c85b2b892ea1a00743fc_665483_45bd1e9e3dc627cff98e020c419e3e85.webp"
+               width="760"
+               height="608"
+               loading="lazy" data-zoomable /></div>
+  </div></figure><div class="hover-change-cover">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /publication/nksr/room/2-ours-n_hu59b3f7bf3da2c9bb8efd0d16b672e2a9_543372_d83e9a743a836a529466e50ef9cdacbc.webp 400w,
+               /publication/nksr/room/2-ours-n_hu59b3f7bf3da2c9bb8efd0d16b672e2a9_543372_32f6969344d5f33c7d3f94c12e3e59f2.webp 760w,
+               /publication/nksr/room/2-ours-n_hu59b3f7bf3da2c9bb8efd0d16b672e2a9_543372_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/publication/nksr/room/2-ours-n_hu59b3f7bf3da2c9bb8efd0d16b672e2a9_543372_d83e9a743a836a529466e50ef9cdacbc.webp"
+               width="760"
+               height="608"
+               loading="lazy" data-zoomable /></div>
+  </div></figure></div></div></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Local Implicit Grid</th>
+<th>Dual Octree GNN</th>
+<th>POCO</th>
+<th><strong>Ours</strong> (NKSR)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><div class="hover-change">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /publication/nksr/room/3-lig_hu04990d98c3a427b6fa9972cf45f5cc53_740281_c6b01315d50e93bac4e04dd297a4559b.webp 400w,
+               /publication/nksr/room/3-lig_hu04990d98c3a427b6fa9972cf45f5cc53_740281_70879ddaa0cc1786a06968c7d1d35d2b.webp 760w,
+               /publication/nksr/room/3-lig_hu04990d98c3a427b6fa9972cf45f5cc53_740281_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/publication/nksr/room/3-lig_hu04990d98c3a427b6fa9972cf45f5cc53_740281_c6b01315d50e93bac4e04dd297a4559b.webp"
+               width="760"
+               height="608"
+               loading="lazy" data-zoomable /></div>
+  </div></figure><div class="hover-change-cover">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /publication/nksr/room/3-lig-n_hu9b763b9806f3a2907933e28ffc1aa854_543623_321782ccb6fcd459cc9768297d902005.webp 400w,
+               /publication/nksr/room/3-lig-n_hu9b763b9806f3a2907933e28ffc1aa854_543623_21880572cb817f7e92c5f507c9d54d9b.webp 760w,
+               /publication/nksr/room/3-lig-n_hu9b763b9806f3a2907933e28ffc1aa854_543623_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/publication/nksr/room/3-lig-n_hu9b763b9806f3a2907933e28ffc1aa854_543623_321782ccb6fcd459cc9768297d902005.webp"
+               width="760"
+               height="608"
+               loading="lazy" data-zoomable /></div>
+  </div></figure></div></div></td>
+<td><div class="hover-change">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /publication/nksr/room/3-docnn_hub37adaadbb3aee663934119c3893a0fa_763767_58ef227da042b6d91028c79fdf2d8603.webp 400w,
+               /publication/nksr/room/3-docnn_hub37adaadbb3aee663934119c3893a0fa_763767_89ef205d145be4c674c4e223b840b8fa.webp 760w,
+               /publication/nksr/room/3-docnn_hub37adaadbb3aee663934119c3893a0fa_763767_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/publication/nksr/room/3-docnn_hub37adaadbb3aee663934119c3893a0fa_763767_58ef227da042b6d91028c79fdf2d8603.webp"
+               width="760"
+               height="608"
+               loading="lazy" data-zoomable /></div>
+  </div></figure><div class="hover-change-cover">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /publication/nksr/room/3-docnn-n_hu76f0c70da95a819b92ed2ead541e862c_868052_fb3837cc6135774652905a5e74a785d3.webp 400w,
+               /publication/nksr/room/3-docnn-n_hu76f0c70da95a819b92ed2ead541e862c_868052_843d5cab75fb30fe82bc45ebc7e7007a.webp 760w,
+               /publication/nksr/room/3-docnn-n_hu76f0c70da95a819b92ed2ead541e862c_868052_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/publication/nksr/room/3-docnn-n_hu76f0c70da95a819b92ed2ead541e862c_868052_fb3837cc6135774652905a5e74a785d3.webp"
+               width="760"
+               height="608"
+               loading="lazy" data-zoomable /></div>
+  </div></figure></div></div></td>
+<td><div class="hover-change">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /publication/nksr/room/3-poco_hu175b9761ba2491c1f16b7d8e388feb72_741381_5a8d60c16bab91fea4fddb7b2c86f261.webp 400w,
+               /publication/nksr/room/3-poco_hu175b9761ba2491c1f16b7d8e388feb72_741381_071833250722c7e7ea862eef81809cb2.webp 760w,
+               /publication/nksr/room/3-poco_hu175b9761ba2491c1f16b7d8e388feb72_741381_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/publication/nksr/room/3-poco_hu175b9761ba2491c1f16b7d8e388feb72_741381_5a8d60c16bab91fea4fddb7b2c86f261.webp"
+               width="760"
+               height="608"
+               loading="lazy" data-zoomable /></div>
+  </div></figure><div class="hover-change-cover">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /publication/nksr/room/3-poco-n_hu373f00be199a05b8a66707665727497b_566595_8148ca8b75d83f2557a910788557f407.webp 400w,
+               /publication/nksr/room/3-poco-n_hu373f00be199a05b8a66707665727497b_566595_1fe85ab8ad22c662f07d93be14dfabec.webp 760w,
+               /publication/nksr/room/3-poco-n_hu373f00be199a05b8a66707665727497b_566595_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/publication/nksr/room/3-poco-n_hu373f00be199a05b8a66707665727497b_566595_8148ca8b75d83f2557a910788557f407.webp"
+               width="760"
+               height="608"
+               loading="lazy" data-zoomable /></div>
+  </div></figure></div></div></td>
+<td><div class="hover-change">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /publication/nksr/room/3-ours_hu3ad2c54ae20ebf6b90a698e9e447ccb6_720397_763bf36b96594c3171d35333f9c133bf.webp 400w,
+               /publication/nksr/room/3-ours_hu3ad2c54ae20ebf6b90a698e9e447ccb6_720397_10f8a01396fe1a7fc31db45c3f627706.webp 760w,
+               /publication/nksr/room/3-ours_hu3ad2c54ae20ebf6b90a698e9e447ccb6_720397_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/publication/nksr/room/3-ours_hu3ad2c54ae20ebf6b90a698e9e447ccb6_720397_763bf36b96594c3171d35333f9c133bf.webp"
+               width="760"
+               height="608"
+               loading="lazy" data-zoomable /></div>
+  </div></figure><div class="hover-change-cover">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /publication/nksr/room/3-ours-n_hu3e6d035fc382c24cd795f5ae975fcace_640197_543ed6c5e2dcb5fd197b44fd2ef17e9f.webp 400w,
+               /publication/nksr/room/3-ours-n_hu3e6d035fc382c24cd795f5ae975fcace_640197_f3e26ea9154e7a1ab12a8d2748018309.webp 760w,
+               /publication/nksr/room/3-ours-n_hu3e6d035fc382c24cd795f5ae975fcace_640197_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/publication/nksr/room/3-ours-n_hu3e6d035fc382c24cd795f5ae975fcace_640197_543ed6c5e2dcb5fd197b44fd2ef17e9f.webp"
+               width="760"
+               height="608"
+               loading="lazy" data-zoomable /></div>
+  </div></figure></div></div></td>
+</tr>
+<tr>
+<td><div class="hover-change">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /publication/nksr/room/4-lig_hu6f0699a57c4b2edb1976a6bfa00238c9_647683_901e8e49aff8d774856f900b7a06e00d.webp 400w,
+               /publication/nksr/room/4-lig_hu6f0699a57c4b2edb1976a6bfa00238c9_647683_ab2d5e4c3b9338b59def270e72712158.webp 760w,
+               /publication/nksr/room/4-lig_hu6f0699a57c4b2edb1976a6bfa00238c9_647683_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/publication/nksr/room/4-lig_hu6f0699a57c4b2edb1976a6bfa00238c9_647683_901e8e49aff8d774856f900b7a06e00d.webp"
+               width="760"
+               height="608"
+               loading="lazy" data-zoomable /></div>
+  </div></figure><div class="hover-change-cover">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /publication/nksr/room/4-lig-n_hu032e01c1fc03a154b2b79ce6afbe888e_641510_c3013567eaeec9fed426788f167f63bf.webp 400w,
+               /publication/nksr/room/4-lig-n_hu032e01c1fc03a154b2b79ce6afbe888e_641510_ae6bde3d1dbff14d111433f94bc795d1.webp 760w,
+               /publication/nksr/room/4-lig-n_hu032e01c1fc03a154b2b79ce6afbe888e_641510_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/publication/nksr/room/4-lig-n_hu032e01c1fc03a154b2b79ce6afbe888e_641510_c3013567eaeec9fed426788f167f63bf.webp"
+               width="760"
+               height="608"
+               loading="lazy" data-zoomable /></div>
+  </div></figure></div></div></td>
+<td><div class="hover-change">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /publication/nksr/room/4-docnn_hu7f22e13138b20ff652a734b2cd2aaa4e_645729_d361437cccbf01160c8b18d3c80b91c6.webp 400w,
+               /publication/nksr/room/4-docnn_hu7f22e13138b20ff652a734b2cd2aaa4e_645729_d900833cf8ae990af7a763d771cdccd2.webp 760w,
+               /publication/nksr/room/4-docnn_hu7f22e13138b20ff652a734b2cd2aaa4e_645729_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/publication/nksr/room/4-docnn_hu7f22e13138b20ff652a734b2cd2aaa4e_645729_d361437cccbf01160c8b18d3c80b91c6.webp"
+               width="760"
+               height="608"
+               loading="lazy" data-zoomable /></div>
+  </div></figure><div class="hover-change-cover">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /publication/nksr/room/4-docnn-n_hud833677297680f33b5046112cd00a644_772651_4cb5224232703c0db036a44fab1e7fcb.webp 400w,
+               /publication/nksr/room/4-docnn-n_hud833677297680f33b5046112cd00a644_772651_1e5c0da577f49851f8dfd60b1952f980.webp 760w,
+               /publication/nksr/room/4-docnn-n_hud833677297680f33b5046112cd00a644_772651_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/publication/nksr/room/4-docnn-n_hud833677297680f33b5046112cd00a644_772651_4cb5224232703c0db036a44fab1e7fcb.webp"
+               width="760"
+               height="608"
+               loading="lazy" data-zoomable /></div>
+  </div></figure></div></div></td>
+<td><div class="hover-change">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /publication/nksr/room/4-poco_hu9eb5ff7f0c8a5ee5b8b15d0172f5960a_662714_8ff170021108e6a9316cdd6fc7c04ec0.webp 400w,
+               /publication/nksr/room/4-poco_hu9eb5ff7f0c8a5ee5b8b15d0172f5960a_662714_a06c8de010e5028969397c61c758cd1f.webp 760w,
+               /publication/nksr/room/4-poco_hu9eb5ff7f0c8a5ee5b8b15d0172f5960a_662714_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/publication/nksr/room/4-poco_hu9eb5ff7f0c8a5ee5b8b15d0172f5960a_662714_8ff170021108e6a9316cdd6fc7c04ec0.webp"
+               width="760"
+               height="608"
+               loading="lazy" data-zoomable /></div>
+  </div></figure><div class="hover-change-cover">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /publication/nksr/room/4-poco-n_hu285d713619b68edbf5767e3fad8667c7_562555_c453abf5141472c684d6c52cc03fb9e5.webp 400w,
+               /publication/nksr/room/4-poco-n_hu285d713619b68edbf5767e3fad8667c7_562555_1b2f933c05f6d62798a7484f3e513407.webp 760w,
+               /publication/nksr/room/4-poco-n_hu285d713619b68edbf5767e3fad8667c7_562555_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/publication/nksr/room/4-poco-n_hu285d713619b68edbf5767e3fad8667c7_562555_c453abf5141472c684d6c52cc03fb9e5.webp"
+               width="760"
+               height="608"
+               loading="lazy" data-zoomable /></div>
+  </div></figure></div></div></td>
+<td><div class="hover-change">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /publication/nksr/room/4-ours_hu912b6e1a1b93455b08f639f06e98bc8e_590249_1e132495341678a959371a6150b34989.webp 400w,
+               /publication/nksr/room/4-ours_hu912b6e1a1b93455b08f639f06e98bc8e_590249_1aeca266ec103972ba939094465874ef.webp 760w,
+               /publication/nksr/room/4-ours_hu912b6e1a1b93455b08f639f06e98bc8e_590249_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/publication/nksr/room/4-ours_hu912b6e1a1b93455b08f639f06e98bc8e_590249_1e132495341678a959371a6150b34989.webp"
+               width="760"
+               height="608"
+               loading="lazy" data-zoomable /></div>
+  </div></figure><div class="hover-change-cover">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /publication/nksr/room/4-ours-n_hu4d6800228c46afabf7e32e921da8cc50_571021_a075085aa8851ef1dbe8a37a7d4718a0.webp 400w,
+               /publication/nksr/room/4-ours-n_hu4d6800228c46afabf7e32e921da8cc50_571021_09686aef8ca047495524237aa017d25e.webp 760w,
+               /publication/nksr/room/4-ours-n_hu4d6800228c46afabf7e32e921da8cc50_571021_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/publication/nksr/room/4-ours-n_hu4d6800228c46afabf7e32e921da8cc50_571021_a075085aa8851ef1dbe8a37a7d4718a0.webp"
+               width="760"
+               height="608"
+               loading="lazy" data-zoomable /></div>
+  </div></figure></div></div></td>
+</tr>
+</tbody>
+</table>
+<!-- This will fix the table. -->
+<script>
+document.addEventListener("DOMContentLoaded", (function() {
+    $('table').addClass('table table-hover');
+}));
+</script>
+<h4 id="driving-scenes">Driving Scenes</h4>
+<p>We synthesize the first dataset for benchmarking large-scale surface reconstruction using the CARLA simulator.​
+We accumulate the LiDAR points from the sensor and crop the geometries into 51.2m × 51.2m chunks.
+<span style="color:Tomato">Move the slider</span> to see side-by-side comparisons with the baselines (refresh your browser if the videos do not align).</p>
+<p>CARLA origin subset:</p>
+<div class="two-cols-video">
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<video autoplay loop  >
+  <source src="/publication/nksr/videos/carla1-input.mp4" type="video/mp4">
+</video>
+</div>
+<div class="video-compare-container" style="width:500px;margin:-10px auto">
+  <div class="mover"></div>
+	
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<video autoplay loop  >
+  <source src="/publication/nksr/videos/carla1-tsdf.mp4" type="video/mp4">
+</video>
+	<div id="video-clipper">
+		
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<video autoplay loop  >
+  <source src="/publication/nksr/videos/carla1-ours.mp4" type="video/mp4">
+</video>
+	</div>
+</div>
+<p>CARLA novel subset:</p>
+<div class="two-cols-video">
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<video autoplay loop  >
+  <source src="/publication/nksr/videos/carla2-input.mp4" type="video/mp4">
+</video>
+</div>
+<div class="video-compare-container" style="width:500px;margin:-10px auto">
+  <div class="mover"></div>
+	
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<video autoplay loop  >
+  <source src="/publication/nksr/videos/carla2-psr.mp4" type="video/mp4">
+</video>
+	<div id="video-clipper">
+		
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<video autoplay loop  >
+  <source src="/publication/nksr/videos/carla2-ours.mp4" type="video/mp4">
+</video>
+	</div>
+</div>
+<script>
+document.addEventListener("DOMContentLoaded", (function() {
+  $(".video-compare-container").each(function (index, videoContainer) {
+    function trackLocation(e) {
+      var rect = videoContainer.getBoundingClientRect(),
+      position = ((e.pageX - rect.left) / videoContainer.offsetWidth) * 100;
+      var videoClipper = videoContainer.querySelector("#video-clipper"),
+      mover = videoContainer.querySelector(".mover"),
+      clippedVideo = videoClipper.getElementsByTagName("video")[0];
+      if (position <= 100) {
+        videoClipper.style.width = position + "%";
+        clippedVideo.style.width = ((100/position)*100) + "%";
+        clippedVideo.style.zIndex = 3;
+        mover.style.left = position + "%";
+      }
+    }
+    videoContainer.addEventListener("mousemove", trackLocation, false);
+    videoContainer.addEventListener("touchstart", trackLocation, false);
+    videoContainer.addEventListener("touchmove", trackLocation, false);
+
+    // Sync two videos...
+    var video1 = videoContainer.getElementsByTagName("video")[0];
+    var video2 = videoContainer.getElementsByTagName("video")[1];
+    video1.addEventListener('loadeddata', function() {
+      video2.addEventListener('loadeddata', function() {
+        video1.currentTime = 0; video2.currentTime = 0;
+        video1.play(); video2.play();
+      }, false);
+    }, false);
+
+  });
+
+  // Auto-play all videos
+  $('video').each(function(i, obj) {
+    obj.muted = true;
+    obj.play();
+  });
+}));
+</script>
+<p>The following shows direct generalization results to Waymo Open Dataset.
+During training time the model has <em>never</em> seen real outdoor AV data.​
+<span style="color:Tomato">Click</span> to zoom in.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /publication/nksr/waymo_hu3d3d48df7b0a962de606a45af8ce32d8_1237910_d5273e4fdb7eaabec0452e6b59794ddf.webp 400w,
+               /publication/nksr/waymo_hu3d3d48df7b0a962de606a45af8ce32d8_1237910_e433b1fd68c0a1baba27aa2161694ede.webp 760w,
+               /publication/nksr/waymo_hu3d3d48df7b0a962de606a45af8ce32d8_1237910_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/publication/nksr/waymo_hu3d3d48df7b0a962de606a45af8ce32d8_1237910_d5273e4fdb7eaabec0452e6b59794ddf.webp"
+               width="1024"
+               height="226"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+<h3 id="explanatory-video">Explanatory Video</h3>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/J1V5F2z-dWY" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<h3 id="citation">Citation</h3>
+<p>If you find our work interesting, please consider citing us:</p>
+<pre><code class="language-java">@inproceedings{huang2023nksr,
+  title={Neural Kernel Surface Reconstruction},
+  author={Huang, Jiahui and Gojcic, Zan and Atzmon, Matan and Litany, Or and Fidler, Sanja and Williams, Francis},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={4369--4379},
+  year={2023}
+}
+</code></pre>
+</div>
+
+  </div>
+</div>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+
+
+
+
+
+  
+  <p class="powered-by copyright-license-text">
+    © 2020-2023 Jiahui Huang All Rights Reserved.
+  </p>
+  
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+      
+
+    
+    <script src="/js/vendor-bundle.min.3d946de2e8784a477845261d87025092.js"></script>
+
+    
+    
+    
+      
+      
+        <script src="https://cdn.jsdelivr.net/gh/desandro/imagesloaded@v4.1.4/imagesloaded.pkgd.min.js" integrity="sha512-S5PZ9GxJZO16tT9r3WJp/Safn31eu8uWrzglMahDT4dsmgqWonRY9grk3j+3tfuPr9WJNsfooOR7Gi7HL5W2jw==" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/metafizzy/isotope@v3.0.6/dist/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous"></script>
+      
+
+      
+      
+
+      
+
+      
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/highlight.min.js" integrity="sha512-Ypjm0o7jOxAd4hpdoppSEN0TQOC19UtPAqD+4s5AlXmUvbmmS/YMxYqAqarQYyxTnB6/rqip9qcxlNB/3U9Wdg==" crossorigin="anonymous"></script>
+        
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/r.min.js" crossorigin="anonymous"></script>
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/latex.min.js" crossorigin="anonymous"></script>
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/bibtex.min.js" crossorigin="anonymous"></script>
+        
+      
+
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+
+    
+    
+    
+    <script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+    
+    
+      <script src="/js/wowchemy-headroom.e8fd2d733eef6a8bbbe0539398fc0547.js" type="module"></script>
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/en/js/wowchemy.min.a2ed145159dd33ad55ff402163350b5d.js"></script>
+
+    
+    
+    
+    
+    
+    
+      
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <script src="/js/wowchemy-publication.b0d291ed6d27eacec233e6cf5204f99a.js" type="module"></script>
+
+
+
+
+
+
+</body>
+</html>

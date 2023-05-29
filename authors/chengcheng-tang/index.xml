@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chengcheng Tang | Jiahui Huang</title>
+    <link>https://huangjh-pub.github.io/authors/chengcheng-tang/</link>
+      <atom:link href="https://huangjh-pub.github.io/authors/chengcheng-tang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Chengcheng Tang</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 10 Jan 2019 22:01:07 +0800</lastBuildDate>
+    <image>
+      <url>https://huangjh-pub.github.io/media/icon_hu203b42f3cc3d45b329fe7ad5d52ac786_38688_512x512_fill_lanczos_center_3.png</url>
+      <title>Chengcheng Tang</title>
+      <link>https://huangjh-pub.github.io/authors/chengcheng-tang/</link>
+    </image>
+    
+    <item>
+      <title>DeepSpline: Data-Driven Reconstruction of Parametric Curves and Surfaces</title>
+      <link>https://huangjh-pub.github.io/publication/deepspline/</link>
+      <pubDate>Thu, 10 Jan 2019 22:01:07 +0800</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/deepspline/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DeepPrimitive: Image decomposition by layered primitive detection</title>
+      <link>https://huangjh-pub.github.io/publication/deepprimitive/</link>
+      <pubDate>Sun, 23 Dec 2018 23:15:32 -0700</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/deepprimitive/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

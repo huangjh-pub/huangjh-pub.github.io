@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sheng Yang | Jiahui Huang</title>
+    <link>https://huangjh-pub.github.io/authors/sheng-yang/</link>
+      <atom:link href="https://huangjh-pub.github.io/authors/sheng-yang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Sheng Yang</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Mar 2020 23:15:32 -0700</lastBuildDate>
+    <image>
+      <url>https://huangjh-pub.github.io/media/icon_hu203b42f3cc3d45b329fe7ad5d52ac786_38688_512x512_fill_lanczos_center_3.png</url>
+      <title>Sheng Yang</title>
+      <link>https://huangjh-pub.github.io/authors/sheng-yang/</link>
+    </image>
+    
+    <item>
+      <title>ClusterVO: Clustering Moving Instances and Estimating Visual Odometry for Self and Surroundings</title>
+      <link>https://huangjh-pub.github.io/publication/clustervo/</link>
+      <pubDate>Sun, 01 Mar 2020 23:15:32 -0700</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/clustervo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ClusterSLAM: A SLAM Backend for Simultaneous Rigid Body Clustering and Motion Estimation</title>
+      <link>https://huangjh-pub.github.io/publication/clusterslam/</link>
+      <pubDate>Tue, 01 Oct 2019 23:15:32 -0700</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/clusterslam/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
