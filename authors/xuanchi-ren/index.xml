@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xuanchi Ren | Jiahui Huang</title>
+    <link>https://huangjh-pub.github.io/authors/xuanchi-ren/</link>
+      <atom:link href="https://huangjh-pub.github.io/authors/xuanchi-ren/index.xml" rel="self" type="application/rss+xml" />
+    <description>Xuanchi Ren</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Feb 2024 23:15:32 -0700</lastBuildDate>
+    <image>
+      <url>https://huangjh-pub.github.io/media/icon_hu203b42f3cc3d45b329fe7ad5d52ac786_38688_512x512_fill_lanczos_center_3.png</url>
+      <title>Xuanchi Ren</title>
+      <link>https://huangjh-pub.github.io/authors/xuanchi-ren/</link>
+    </image>
+    
+    <item>
+      <title>XCube: Large-Scale 3D Generative Modeling using Sparse Voxel Hierarchies</title>
+      <link>https://huangjh-pub.github.io/publication/xcube/</link>
+      <pubDate>Thu, 01 Feb 2024 23:15:32 -0700</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/xcube/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
