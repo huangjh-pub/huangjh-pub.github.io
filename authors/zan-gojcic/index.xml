@@ -5,12 +5,20 @@
     <link>https://huangjh-pub.github.io/authors/zan-gojcic/</link>
       <atom:link href="https://huangjh-pub.github.io/authors/zan-gojcic/index.xml" rel="self" type="application/rss+xml" />
     <description>Zan Gojcic</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Apr 2023 21:59:40 +0800</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Sep 2024 23:15:32 -0700</lastBuildDate>
     <image>
-      <url>https://huangjh-pub.github.io/media/icon_hu203b42f3cc3d45b329fe7ad5d52ac786_38688_512x512_fill_lanczos_center_3.png</url>
+      <url>https://huangjh-pub.github.io/media/icon_hu7092057554204590415.png</url>
       <title>Zan Gojcic</title>
       <link>https://huangjh-pub.github.io/authors/zan-gojcic/</link>
     </image>
+    
+    <item>
+      <title>OmniRe: Omni Urban Scene Reconstruction</title>
+      <link>https://huangjh-pub.github.io/publication/omnire/</link>
+      <pubDate>Sun, 01 Sep 2024 23:15:32 -0700</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/omnire/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Neural Kernel Surface Reconstruction</title>
@@ -34,10 +42,10 @@
 &lt;figure  id=&#34;figure-kernel-surface-reconstruction-nksr-recovers-a-3d-surface-from-an-input-point-cloudtrained-directly-from-dense-points-our-method-reaches-state-of-the-art-reconstruction-quality-and-scalability-all-the-meshes-in-this-figure-are-reconstructed-using-a-single-trained-model&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Kernel Surface Reconstruction (**NKSR**) recovers a 3D surface from an input point cloud.Trained directly from dense points, our method reaches state-of-the-art reconstruction quality and scalability. All the meshes in this figure are reconstructed using a single trained model.&#34; srcset=&#34;
-               /publication/nksr/teaser_huf3058dac50675fa90fef5c2c99c7d3c4_1259514_8f53711e610ee91ac437bf233623036d.webp 400w,
-               /publication/nksr/teaser_huf3058dac50675fa90fef5c2c99c7d3c4_1259514_4752d1aab5173035e785d11e7426ef7e.webp 760w,
-               /publication/nksr/teaser_huf3058dac50675fa90fef5c2c99c7d3c4_1259514_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://huangjh-pub.github.io/publication/nksr/teaser_huf3058dac50675fa90fef5c2c99c7d3c4_1259514_8f53711e610ee91ac437bf233623036d.webp&#34;
+               /publication/nksr/teaser_hu11977502561362367176.webp 400w,
+               /publication/nksr/teaser_hu15462419298449552027.webp 760w,
+               /publication/nksr/teaser_hu4375123196680593457.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/teaser_hu11977502561362367176.webp&#34;
                width=&#34;1024&#34;
                height=&#34;303&#34;
                loading=&#34;lazy&#34; /&gt;&lt;/div&gt;
@@ -70,10 +78,10 @@ We achieve state-of-the-art results on reconstruction benchmarks consisting of &
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /publication/nksr/pipeline_hud54e532bcd4bb5188cec3f66f1e7c49c_189739_85b2ea96db92fe0c2ab4728aeaa7c59b.webp 400w,
-               /publication/nksr/pipeline_hud54e532bcd4bb5188cec3f66f1e7c49c_189739_f98adcac56c829b1965c27067f8d605e.webp 760w,
-               /publication/nksr/pipeline_hud54e532bcd4bb5188cec3f66f1e7c49c_189739_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://huangjh-pub.github.io/publication/nksr/pipeline_hud54e532bcd4bb5188cec3f66f1e7c49c_189739_85b2ea96db92fe0c2ab4728aeaa7c59b.webp&#34;
+               /publication/nksr/pipeline_hu8235135243793873527.webp 400w,
+               /publication/nksr/pipeline_hu16198759112181598668.webp 760w,
+               /publication/nksr/pipeline_hu7017550605840829364.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/pipeline_hu8235135243793873527.webp&#34;
                width=&#34;1024&#34;
                height=&#34;286&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -164,17 +172,17 @@ These three main properties are demonstrated using the following three types of 
 &lt;p&gt;All the methods below are trained only on ShapeNet dataset and are directly tested on ScanNet and Matterport3D datasets.
 &lt;span style=&#34;color:Tomato&#34;&gt;Hover over&lt;/span&gt; each individual image to visualize the normal map.&lt;/p&gt;
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Local Implicit Grid&lt;/th&gt;
-&lt;th&gt;Neural Kernel Field&lt;/th&gt;
-&lt;th&gt;POCO&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;Ours&lt;/strong&gt; (NKSR)&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;div class=&#34;hover-change&#34;&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Local Implicit Grid&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Neural Kernel Field&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;POCO&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Ours&lt;/strong&gt; (NKSR)&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;div class=&#34;hover-change&#34;&gt;
 
 
 
@@ -191,10 +199,10 @@ These three main properties are demonstrated using the following three types of 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /publication/nksr/room/1-lig_hu92c39430addf7c3aa031e45e113f9357_727189_1aec8006850c42deaab646cfa567fcd2.webp 400w,
-               /publication/nksr/room/1-lig_hu92c39430addf7c3aa031e45e113f9357_727189_1dc0543df16d30239957ea175ab3658a.webp 760w,
-               /publication/nksr/room/1-lig_hu92c39430addf7c3aa031e45e113f9357_727189_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/1-lig_hu92c39430addf7c3aa031e45e113f9357_727189_1aec8006850c42deaab646cfa567fcd2.webp&#34;
+               /publication/nksr/room/1-lig_hu7029818343058974169.webp 400w,
+               /publication/nksr/room/1-lig_hu9737851831027818658.webp 760w,
+               /publication/nksr/room/1-lig_hu16872313211186123027.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/1-lig_hu7029818343058974169.webp&#34;
                width=&#34;760&#34;
                height=&#34;608&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -215,15 +223,15 @@ These three main properties are demonstrated using the following three types of 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /publication/nksr/room/1-lig-n_hua2de73e6459738c2c7ee8965aeaaf6f2_569962_3c358113a5d1405f77acf9b521d96224.webp 400w,
-               /publication/nksr/room/1-lig-n_hua2de73e6459738c2c7ee8965aeaaf6f2_569962_09b7385c5bffe25bb9da4fc3a5d90ad9.webp 760w,
-               /publication/nksr/room/1-lig-n_hua2de73e6459738c2c7ee8965aeaaf6f2_569962_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/1-lig-n_hua2de73e6459738c2c7ee8965aeaaf6f2_569962_3c358113a5d1405f77acf9b521d96224.webp&#34;
+               /publication/nksr/room/1-lig-n_hu6682484172653526023.webp 400w,
+               /publication/nksr/room/1-lig-n_hu7863951066095299834.webp 760w,
+               /publication/nksr/room/1-lig-n_hu15400426849343535562.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/1-lig-n_hu6682484172653526023.webp&#34;
                width=&#34;760&#34;
                height=&#34;608&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
-&lt;td&gt;&lt;div class=&#34;hover-change&#34;&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;div class=&#34;hover-change&#34;&gt;
 
 
 
@@ -240,10 +248,10 @@ These three main properties are demonstrated using the following three types of 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /publication/nksr/room/1-nkf_hucfd979b6d7dce23d21e29f5c1f40e7f8_745727_314df86a749a8ffab252f1ba0a2f5290.webp 400w,
-               /publication/nksr/room/1-nkf_hucfd979b6d7dce23d21e29f5c1f40e7f8_745727_0c9802e42dac7bfbe0953a9a64a14fd4.webp 760w,
-               /publication/nksr/room/1-nkf_hucfd979b6d7dce23d21e29f5c1f40e7f8_745727_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/1-nkf_hucfd979b6d7dce23d21e29f5c1f40e7f8_745727_314df86a749a8ffab252f1ba0a2f5290.webp&#34;
+               /publication/nksr/room/1-nkf_hu10149455511063726700.webp 400w,
+               /publication/nksr/room/1-nkf_hu1052573469778882939.webp 760w,
+               /publication/nksr/room/1-nkf_hu11072507470989025230.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/1-nkf_hu10149455511063726700.webp&#34;
                width=&#34;760&#34;
                height=&#34;608&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -264,15 +272,15 @@ These three main properties are demonstrated using the following three types of 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /publication/nksr/room/1-nkf-n_hu106c149f996cd9154750a0ae5a381179_548481_07f34aef7634fdb1b66ea694785c0d52.webp 400w,
-               /publication/nksr/room/1-nkf-n_hu106c149f996cd9154750a0ae5a381179_548481_2b185b90e457c2fe5f2572b5b60a6794.webp 760w,
-               /publication/nksr/room/1-nkf-n_hu106c149f996cd9154750a0ae5a381179_548481_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/1-nkf-n_hu106c149f996cd9154750a0ae5a381179_548481_07f34aef7634fdb1b66ea694785c0d52.webp&#34;
+               /publication/nksr/room/1-nkf-n_hu1392049270643374200.webp 400w,
+               /publication/nksr/room/1-nkf-n_hu7316719276772342571.webp 760w,
+               /publication/nksr/room/1-nkf-n_hu4591394599921366092.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/1-nkf-n_hu1392049270643374200.webp&#34;
                width=&#34;760&#34;
                height=&#34;608&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
-&lt;td&gt;&lt;div class=&#34;hover-change&#34;&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;div class=&#34;hover-change&#34;&gt;
 
 
 
@@ -289,10 +297,10 @@ These three main properties are demonstrated using the following three types of 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /publication/nksr/room/1-poco_hua65fd8955f9e29122adfcf978116f390_750095_13a29aab388b16d00e128ef56f30475f.webp 400w,
-               /publication/nksr/room/1-poco_hua65fd8955f9e29122adfcf978116f390_750095_ee078c252721dd84a5e6abdebe8927dd.webp 760w,
-               /publication/nksr/room/1-poco_hua65fd8955f9e29122adfcf978116f390_750095_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/1-poco_hua65fd8955f9e29122adfcf978116f390_750095_13a29aab388b16d00e128ef56f30475f.webp&#34;
+               /publication/nksr/room/1-poco_hu11534016283964472176.webp 400w,
+               /publication/nksr/room/1-poco_hu15917074749185292800.webp 760w,
+               /publication/nksr/room/1-poco_hu7316116316915550728.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/1-poco_hu11534016283964472176.webp&#34;
                width=&#34;760&#34;
                height=&#34;608&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -313,15 +321,15 @@ These three main properties are demonstrated using the following three types of 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /publication/nksr/room/1-poco-n_hu4f46fa5da49420e70e3f0ab4fe8afeeb_523315_a86d9bc8fe41b1fb8f2d7e4cb2e81ff1.webp 400w,
-               /publication/nksr/room/1-poco-n_hu4f46fa5da49420e70e3f0ab4fe8afeeb_523315_d62c558c2b0edaa28725ea797879bb49.webp 760w,
-               /publication/nksr/room/1-poco-n_hu4f46fa5da49420e70e3f0ab4fe8afeeb_523315_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/1-poco-n_hu4f46fa5da49420e70e3f0ab4fe8afeeb_523315_a86d9bc8fe41b1fb8f2d7e4cb2e81ff1.webp&#34;
+               /publication/nksr/room/1-poco-n_hu7517021117990102343.webp 400w,
+               /publication/nksr/room/1-poco-n_hu7378828296107447543.webp 760w,
+               /publication/nksr/room/1-poco-n_hu17409156453155992226.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/1-poco-n_hu7517021117990102343.webp&#34;
                width=&#34;760&#34;
                height=&#34;608&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
-&lt;td&gt;&lt;div class=&#34;hover-change&#34;&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;div class=&#34;hover-change&#34;&gt;
 
 
 
@@ -338,10 +346,10 @@ These three main properties are demonstrated using the following three types of 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /publication/nksr/room/1-ours_hu4ec192e4974de3a61935430efd7eb462_749211_6bd61d5c8532974f5f42921d1154d8ff.webp 400w,
-               /publication/nksr/room/1-ours_hu4ec192e4974de3a61935430efd7eb462_749211_c62f7f3a12ba4ae45b8457d33e643c55.webp 760w,
-               /publication/nksr/room/1-ours_hu4ec192e4974de3a61935430efd7eb462_749211_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/1-ours_hu4ec192e4974de3a61935430efd7eb462_749211_6bd61d5c8532974f5f42921d1154d8ff.webp&#34;
+               /publication/nksr/room/1-ours_hu10640610189087540108.webp 400w,
+               /publication/nksr/room/1-ours_hu17167969353771985796.webp 760w,
+               /publication/nksr/room/1-ours_hu11892356385974439835.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/1-ours_hu10640610189087540108.webp&#34;
                width=&#34;760&#34;
                height=&#34;608&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -362,17 +370,17 @@ These three main properties are demonstrated using the following three types of 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /publication/nksr/room/1-ours-n_hu85d7278be7198f4b5470bc2939c4d2e8_625020_e0cb6273322e9d5dc4809204d6b192ca.webp 400w,
-               /publication/nksr/room/1-ours-n_hu85d7278be7198f4b5470bc2939c4d2e8_625020_91bae176eaa3e4e133a04791c5a0657f.webp 760w,
-               /publication/nksr/room/1-ours-n_hu85d7278be7198f4b5470bc2939c4d2e8_625020_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/1-ours-n_hu85d7278be7198f4b5470bc2939c4d2e8_625020_e0cb6273322e9d5dc4809204d6b192ca.webp&#34;
+               /publication/nksr/room/1-ours-n_hu17240476159172168577.webp 400w,
+               /publication/nksr/room/1-ours-n_hu2087744613549358191.webp 760w,
+               /publication/nksr/room/1-ours-n_hu6429657951568761167.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/1-ours-n_hu17240476159172168577.webp&#34;
                width=&#34;760&#34;
                height=&#34;608&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;div class=&#34;hover-change&#34;&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;div class=&#34;hover-change&#34;&gt;
 
 
 
@@ -389,10 +397,10 @@ These three main properties are demonstrated using the following three types of 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /publication/nksr/room/2-lig_hu3c0ddd05a94bda4cd17aaa370d7c5322_657407_8716d3f541ccbbe7e7a19834af7db3c1.webp 400w,
-               /publication/nksr/room/2-lig_hu3c0ddd05a94bda4cd17aaa370d7c5322_657407_912c356b875772e3a1d31b60a304ce21.webp 760w,
-               /publication/nksr/room/2-lig_hu3c0ddd05a94bda4cd17aaa370d7c5322_657407_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/2-lig_hu3c0ddd05a94bda4cd17aaa370d7c5322_657407_8716d3f541ccbbe7e7a19834af7db3c1.webp&#34;
+               /publication/nksr/room/2-lig_hu1531430307259061671.webp 400w,
+               /publication/nksr/room/2-lig_hu2080811970597600552.webp 760w,
+               /publication/nksr/room/2-lig_hu7103655618386731090.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/2-lig_hu1531430307259061671.webp&#34;
                width=&#34;760&#34;
                height=&#34;608&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -413,15 +421,15 @@ These three main properties are demonstrated using the following three types of 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /publication/nksr/room/2-lig-n_huc45f151eb64047d97bb2def3768a67a4_542172_d32e996f7b89fff696e7e8a198114ad6.webp 400w,
-               /publication/nksr/room/2-lig-n_huc45f151eb64047d97bb2def3768a67a4_542172_1d58c0b0f90ff393454fb6264c2edd10.webp 760w,
-               /publication/nksr/room/2-lig-n_huc45f151eb64047d97bb2def3768a67a4_542172_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/2-lig-n_huc45f151eb64047d97bb2def3768a67a4_542172_d32e996f7b89fff696e7e8a198114ad6.webp&#34;
+               /publication/nksr/room/2-lig-n_hu12548393057781573011.webp 400w,
+               /publication/nksr/room/2-lig-n_hu7428931170623495668.webp 760w,
+               /publication/nksr/room/2-lig-n_hu9416252640461708855.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/2-lig-n_hu12548393057781573011.webp&#34;
                width=&#34;760&#34;
                height=&#34;608&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
-&lt;td&gt;&lt;div class=&#34;hover-change&#34;&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;div class=&#34;hover-change&#34;&gt;
 
 
 
@@ -438,10 +446,10 @@ These three main properties are demonstrated using the following three types of 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /publication/nksr/room/2-nkf_hubdae7c262fc564f802be134af2ded729_647171_f4417529a3dc561ba6213c718223351d.webp 400w,
-               /publication/nksr/room/2-nkf_hubdae7c262fc564f802be134af2ded729_647171_5510f5ff7c03a162b4ebb9a245403c7b.webp 760w,
-               /publication/nksr/room/2-nkf_hubdae7c262fc564f802be134af2ded729_647171_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/2-nkf_hubdae7c262fc564f802be134af2ded729_647171_f4417529a3dc561ba6213c718223351d.webp&#34;
+               /publication/nksr/room/2-nkf_hu17505087203296843478.webp 400w,
+               /publication/nksr/room/2-nkf_hu15230121401067702528.webp 760w,
+               /publication/nksr/room/2-nkf_hu6621345287196125302.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/2-nkf_hu17505087203296843478.webp&#34;
                width=&#34;760&#34;
                height=&#34;608&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -462,15 +470,15 @@ These three main properties are demonstrated using the following three types of 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /publication/nksr/room/2-nkf-n_hucb3d8fd0839e37cb305e5c610be3f06e_504695_41340ccc77a090ed1ff25af3f8f80ed7.webp 400w,
-               /publication/nksr/room/2-nkf-n_hucb3d8fd0839e37cb305e5c610be3f06e_504695_ac02bc189853b5f4d09bd29537a124a7.webp 760w,
-               /publication/nksr/room/2-nkf-n_hucb3d8fd0839e37cb305e5c610be3f06e_504695_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/2-nkf-n_hucb3d8fd0839e37cb305e5c610be3f06e_504695_41340ccc77a090ed1ff25af3f8f80ed7.webp&#34;
+               /publication/nksr/room/2-nkf-n_hu12615167751384768152.webp 400w,
+               /publication/nksr/room/2-nkf-n_hu11670044828280465256.webp 760w,
+               /publication/nksr/room/2-nkf-n_hu8404634977398829852.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/2-nkf-n_hu12615167751384768152.webp&#34;
                width=&#34;760&#34;
                height=&#34;608&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
-&lt;td&gt;&lt;div class=&#34;hover-change&#34;&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;div class=&#34;hover-change&#34;&gt;
 
 
 
@@ -487,10 +495,10 @@ These three main properties are demonstrated using the following three types of 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /publication/nksr/room/2-poco_huc69e90cb55a07694011b4f8cfd628cca_666775_16bd5576d314d7d6b7d4c843bfdcf2db.webp 400w,
-               /publication/nksr/room/2-poco_huc69e90cb55a07694011b4f8cfd628cca_666775_eff197b60cc9172133a58d885d257e2e.webp 760w,
-               /publication/nksr/room/2-poco_huc69e90cb55a07694011b4f8cfd628cca_666775_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/2-poco_huc69e90cb55a07694011b4f8cfd628cca_666775_16bd5576d314d7d6b7d4c843bfdcf2db.webp&#34;
+               /publication/nksr/room/2-poco_hu17269592811988998868.webp 400w,
+               /publication/nksr/room/2-poco_hu15650407750086386796.webp 760w,
+               /publication/nksr/room/2-poco_hu11451668100298209256.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/2-poco_hu17269592811988998868.webp&#34;
                width=&#34;760&#34;
                height=&#34;608&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -511,15 +519,15 @@ These three main properties are demonstrated using the following three types of 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /publication/nksr/room/2-poco-n_hu8458c46f68c5c9f9d29d062181e63a42_498827_efccaa46f9a7a787ef9d9d87e437e41f.webp 400w,
-               /publication/nksr/room/2-poco-n_hu8458c46f68c5c9f9d29d062181e63a42_498827_7c54936bd3bb10a55e62029069b06cb8.webp 760w,
-               /publication/nksr/room/2-poco-n_hu8458c46f68c5c9f9d29d062181e63a42_498827_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/2-poco-n_hu8458c46f68c5c9f9d29d062181e63a42_498827_efccaa46f9a7a787ef9d9d87e437e41f.webp&#34;
+               /publication/nksr/room/2-poco-n_hu9666481299743955054.webp 400w,
+               /publication/nksr/room/2-poco-n_hu13155958172792674151.webp 760w,
+               /publication/nksr/room/2-poco-n_hu3944539344147122137.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/2-poco-n_hu9666481299743955054.webp&#34;
                width=&#34;760&#34;
                height=&#34;608&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
-&lt;td&gt;&lt;div class=&#34;hover-change&#34;&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;div class=&#34;hover-change&#34;&gt;
 
 
 
@@ -536,10 +544,10 @@ These three main properties are demonstrated using the following three types of 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /publication/nksr/room/2-ours_hueaca24851e60c85b2b892ea1a00743fc_665483_45bd1e9e3dc627cff98e020c419e3e85.webp 400w,
-               /publication/nksr/room/2-ours_hueaca24851e60c85b2b892ea1a00743fc_665483_0aced955b4a22d87b7c9e33c0796d69b.webp 760w,
-               /publication/nksr/room/2-ours_hueaca24851e60c85b2b892ea1a00743fc_665483_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/2-ours_hueaca24851e60c85b2b892ea1a00743fc_665483_45bd1e9e3dc627cff98e020c419e3e85.webp&#34;
+               /publication/nksr/room/2-ours_hu4287345800740742970.webp 400w,
+               /publication/nksr/room/2-ours_hu14324256336553158893.webp 760w,
+               /publication/nksr/room/2-ours_hu9071334763900100787.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/2-ours_hu4287345800740742970.webp&#34;
                width=&#34;760&#34;
                height=&#34;608&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -560,29 +568,29 @@ These three main properties are demonstrated using the following three types of 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /publication/nksr/room/2-ours-n_hu59b3f7bf3da2c9bb8efd0d16b672e2a9_543372_d83e9a743a836a529466e50ef9cdacbc.webp 400w,
-               /publication/nksr/room/2-ours-n_hu59b3f7bf3da2c9bb8efd0d16b672e2a9_543372_32f6969344d5f33c7d3f94c12e3e59f2.webp 760w,
-               /publication/nksr/room/2-ours-n_hu59b3f7bf3da2c9bb8efd0d16b672e2a9_543372_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/2-ours-n_hu59b3f7bf3da2c9bb8efd0d16b672e2a9_543372_d83e9a743a836a529466e50ef9cdacbc.webp&#34;
+               /publication/nksr/room/2-ours-n_hu6525777761010820702.webp 400w,
+               /publication/nksr/room/2-ours-n_hu5368505571099128367.webp 760w,
+               /publication/nksr/room/2-ours-n_hu7148880687577246171.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/2-ours-n_hu6525777761010820702.webp&#34;
                width=&#34;760&#34;
                height=&#34;608&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Local Implicit Grid&lt;/th&gt;
-&lt;th&gt;Dual Octree GNN&lt;/th&gt;
-&lt;th&gt;POCO&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;Ours&lt;/strong&gt; (NKSR)&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;div class=&#34;hover-change&#34;&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Local Implicit Grid&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Dual Octree GNN&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;POCO&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Ours&lt;/strong&gt; (NKSR)&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;div class=&#34;hover-change&#34;&gt;
 
 
 
@@ -599,10 +607,10 @@ These three main properties are demonstrated using the following three types of 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /publication/nksr/room/3-lig_hu04990d98c3a427b6fa9972cf45f5cc53_740281_c6b01315d50e93bac4e04dd297a4559b.webp 400w,
-               /publication/nksr/room/3-lig_hu04990d98c3a427b6fa9972cf45f5cc53_740281_70879ddaa0cc1786a06968c7d1d35d2b.webp 760w,
-               /publication/nksr/room/3-lig_hu04990d98c3a427b6fa9972cf45f5cc53_740281_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/3-lig_hu04990d98c3a427b6fa9972cf45f5cc53_740281_c6b01315d50e93bac4e04dd297a4559b.webp&#34;
+               /publication/nksr/room/3-lig_hu13575903220909864584.webp 400w,
+               /publication/nksr/room/3-lig_hu4742284364126006787.webp 760w,
+               /publication/nksr/room/3-lig_hu2799232587786009350.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/3-lig_hu13575903220909864584.webp&#34;
                width=&#34;760&#34;
                height=&#34;608&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -623,15 +631,15 @@ These three main properties are demonstrated using the following three types of 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /publication/nksr/room/3-lig-n_hu9b763b9806f3a2907933e28ffc1aa854_543623_321782ccb6fcd459cc9768297d902005.webp 400w,
-               /publication/nksr/room/3-lig-n_hu9b763b9806f3a2907933e28ffc1aa854_543623_21880572cb817f7e92c5f507c9d54d9b.webp 760w,
-               /publication/nksr/room/3-lig-n_hu9b763b9806f3a2907933e28ffc1aa854_543623_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/3-lig-n_hu9b763b9806f3a2907933e28ffc1aa854_543623_321782ccb6fcd459cc9768297d902005.webp&#34;
+               /publication/nksr/room/3-lig-n_hu10210861228555540973.webp 400w,
+               /publication/nksr/room/3-lig-n_hu13807050582933652011.webp 760w,
+               /publication/nksr/room/3-lig-n_hu4875405740431443865.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/3-lig-n_hu10210861228555540973.webp&#34;
                width=&#34;760&#34;
                height=&#34;608&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
-&lt;td&gt;&lt;div class=&#34;hover-change&#34;&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;div class=&#34;hover-change&#34;&gt;
 
 
 
@@ -648,10 +656,10 @@ These three main properties are demonstrated using the following three types of 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /publication/nksr/room/3-docnn_hub37adaadbb3aee663934119c3893a0fa_763767_58ef227da042b6d91028c79fdf2d8603.webp 400w,
-               /publication/nksr/room/3-docnn_hub37adaadbb3aee663934119c3893a0fa_763767_89ef205d145be4c674c4e223b840b8fa.webp 760w,
-               /publication/nksr/room/3-docnn_hub37adaadbb3aee663934119c3893a0fa_763767_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/3-docnn_hub37adaadbb3aee663934119c3893a0fa_763767_58ef227da042b6d91028c79fdf2d8603.webp&#34;
+               /publication/nksr/room/3-docnn_hu10439302889946430330.webp 400w,
+               /publication/nksr/room/3-docnn_hu10949357815222493288.webp 760w,
+               /publication/nksr/room/3-docnn_hu7137444778760145331.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/3-docnn_hu10439302889946430330.webp&#34;
                width=&#34;760&#34;
                height=&#34;608&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -672,15 +680,15 @@ These three main properties are demonstrated using the following three types of 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /publication/nksr/room/3-docnn-n_hu76f0c70da95a819b92ed2ead541e862c_868052_fb3837cc6135774652905a5e74a785d3.webp 400w,
-               /publication/nksr/room/3-docnn-n_hu76f0c70da95a819b92ed2ead541e862c_868052_843d5cab75fb30fe82bc45ebc7e7007a.webp 760w,
-               /publication/nksr/room/3-docnn-n_hu76f0c70da95a819b92ed2ead541e862c_868052_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/3-docnn-n_hu76f0c70da95a819b92ed2ead541e862c_868052_fb3837cc6135774652905a5e74a785d3.webp&#34;
+               /publication/nksr/room/3-docnn-n_hu3704706944595409128.webp 400w,
+               /publication/nksr/room/3-docnn-n_hu12427703197376166228.webp 760w,
+               /publication/nksr/room/3-docnn-n_hu2235439896891535160.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/3-docnn-n_hu3704706944595409128.webp&#34;
                width=&#34;760&#34;
                height=&#34;608&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
-&lt;td&gt;&lt;div class=&#34;hover-change&#34;&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;div class=&#34;hover-change&#34;&gt;
 
 
 
@@ -697,10 +705,10 @@ These three main properties are demonstrated using the following three types of 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /publication/nksr/room/3-poco_hu175b9761ba2491c1f16b7d8e388feb72_741381_5a8d60c16bab91fea4fddb7b2c86f261.webp 400w,
-               /publication/nksr/room/3-poco_hu175b9761ba2491c1f16b7d8e388feb72_741381_071833250722c7e7ea862eef81809cb2.webp 760w,
-               /publication/nksr/room/3-poco_hu175b9761ba2491c1f16b7d8e388feb72_741381_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/3-poco_hu175b9761ba2491c1f16b7d8e388feb72_741381_5a8d60c16bab91fea4fddb7b2c86f261.webp&#34;
+               /publication/nksr/room/3-poco_hu8069612807597352902.webp 400w,
+               /publication/nksr/room/3-poco_hu443442077730039810.webp 760w,
+               /publication/nksr/room/3-poco_hu4893680314883365143.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/3-poco_hu8069612807597352902.webp&#34;
                width=&#34;760&#34;
                height=&#34;608&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -721,15 +729,15 @@ These three main properties are demonstrated using the following three types of 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /publication/nksr/room/3-poco-n_hu373f00be199a05b8a66707665727497b_566595_8148ca8b75d83f2557a910788557f407.webp 400w,
-               /publication/nksr/room/3-poco-n_hu373f00be199a05b8a66707665727497b_566595_1fe85ab8ad22c662f07d93be14dfabec.webp 760w,
-               /publication/nksr/room/3-poco-n_hu373f00be199a05b8a66707665727497b_566595_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/3-poco-n_hu373f00be199a05b8a66707665727497b_566595_8148ca8b75d83f2557a910788557f407.webp&#34;
+               /publication/nksr/room/3-poco-n_hu741820925635582430.webp 400w,
+               /publication/nksr/room/3-poco-n_hu1594418396004109816.webp 760w,
+               /publication/nksr/room/3-poco-n_hu14883677017388913832.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/3-poco-n_hu741820925635582430.webp&#34;
                width=&#34;760&#34;
                height=&#34;608&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
-&lt;td&gt;&lt;div class=&#34;hover-change&#34;&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;div class=&#34;hover-change&#34;&gt;
 
 
 
@@ -746,10 +754,10 @@ These three main properties are demonstrated using the following three types of 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /publication/nksr/room/3-ours_hu3ad2c54ae20ebf6b90a698e9e447ccb6_720397_763bf36b96594c3171d35333f9c133bf.webp 400w,
-               /publication/nksr/room/3-ours_hu3ad2c54ae20ebf6b90a698e9e447ccb6_720397_10f8a01396fe1a7fc31db45c3f627706.webp 760w,
-               /publication/nksr/room/3-ours_hu3ad2c54ae20ebf6b90a698e9e447ccb6_720397_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/3-ours_hu3ad2c54ae20ebf6b90a698e9e447ccb6_720397_763bf36b96594c3171d35333f9c133bf.webp&#34;
+               /publication/nksr/room/3-ours_hu6067585182917822003.webp 400w,
+               /publication/nksr/room/3-ours_hu8372464542170795841.webp 760w,
+               /publication/nksr/room/3-ours_hu7696188327221754784.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/3-ours_hu6067585182917822003.webp&#34;
                width=&#34;760&#34;
                height=&#34;608&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -770,17 +778,17 @@ These three main properties are demonstrated using the following three types of 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /publication/nksr/room/3-ours-n_hu3e6d035fc382c24cd795f5ae975fcace_640197_543ed6c5e2dcb5fd197b44fd2ef17e9f.webp 400w,
-               /publication/nksr/room/3-ours-n_hu3e6d035fc382c24cd795f5ae975fcace_640197_f3e26ea9154e7a1ab12a8d2748018309.webp 760w,
-               /publication/nksr/room/3-ours-n_hu3e6d035fc382c24cd795f5ae975fcace_640197_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/3-ours-n_hu3e6d035fc382c24cd795f5ae975fcace_640197_543ed6c5e2dcb5fd197b44fd2ef17e9f.webp&#34;
+               /publication/nksr/room/3-ours-n_hu10982685234027816569.webp 400w,
+               /publication/nksr/room/3-ours-n_hu10054423688779044234.webp 760w,
+               /publication/nksr/room/3-ours-n_hu7512363103231763545.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/3-ours-n_hu10982685234027816569.webp&#34;
                width=&#34;760&#34;
                height=&#34;608&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;div class=&#34;hover-change&#34;&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;div class=&#34;hover-change&#34;&gt;
 
 
 
@@ -797,10 +805,10 @@ These three main properties are demonstrated using the following three types of 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /publication/nksr/room/4-lig_hu6f0699a57c4b2edb1976a6bfa00238c9_647683_901e8e49aff8d774856f900b7a06e00d.webp 400w,
-               /publication/nksr/room/4-lig_hu6f0699a57c4b2edb1976a6bfa00238c9_647683_ab2d5e4c3b9338b59def270e72712158.webp 760w,
-               /publication/nksr/room/4-lig_hu6f0699a57c4b2edb1976a6bfa00238c9_647683_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/4-lig_hu6f0699a57c4b2edb1976a6bfa00238c9_647683_901e8e49aff8d774856f900b7a06e00d.webp&#34;
+               /publication/nksr/room/4-lig_hu6807533085287587264.webp 400w,
+               /publication/nksr/room/4-lig_hu18214120612772660474.webp 760w,
+               /publication/nksr/room/4-lig_hu7623314112160522592.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/4-lig_hu6807533085287587264.webp&#34;
                width=&#34;760&#34;
                height=&#34;608&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -821,15 +829,15 @@ These three main properties are demonstrated using the following three types of 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /publication/nksr/room/4-lig-n_hu032e01c1fc03a154b2b79ce6afbe888e_641510_c3013567eaeec9fed426788f167f63bf.webp 400w,
-               /publication/nksr/room/4-lig-n_hu032e01c1fc03a154b2b79ce6afbe888e_641510_ae6bde3d1dbff14d111433f94bc795d1.webp 760w,
-               /publication/nksr/room/4-lig-n_hu032e01c1fc03a154b2b79ce6afbe888e_641510_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/4-lig-n_hu032e01c1fc03a154b2b79ce6afbe888e_641510_c3013567eaeec9fed426788f167f63bf.webp&#34;
+               /publication/nksr/room/4-lig-n_hu3974520807611636784.webp 400w,
+               /publication/nksr/room/4-lig-n_hu2369378327946961243.webp 760w,
+               /publication/nksr/room/4-lig-n_hu12470730765308473829.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/4-lig-n_hu3974520807611636784.webp&#34;
                width=&#34;760&#34;
                height=&#34;608&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
-&lt;td&gt;&lt;div class=&#34;hover-change&#34;&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;div class=&#34;hover-change&#34;&gt;
 
 
 
@@ -846,10 +854,10 @@ These three main properties are demonstrated using the following three types of 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /publication/nksr/room/4-docnn_hu7f22e13138b20ff652a734b2cd2aaa4e_645729_d361437cccbf01160c8b18d3c80b91c6.webp 400w,
-               /publication/nksr/room/4-docnn_hu7f22e13138b20ff652a734b2cd2aaa4e_645729_d900833cf8ae990af7a763d771cdccd2.webp 760w,
-               /publication/nksr/room/4-docnn_hu7f22e13138b20ff652a734b2cd2aaa4e_645729_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/4-docnn_hu7f22e13138b20ff652a734b2cd2aaa4e_645729_d361437cccbf01160c8b18d3c80b91c6.webp&#34;
+               /publication/nksr/room/4-docnn_hu1886568281445427076.webp 400w,
+               /publication/nksr/room/4-docnn_hu5229523762152697895.webp 760w,
+               /publication/nksr/room/4-docnn_hu13713585780290174571.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/4-docnn_hu1886568281445427076.webp&#34;
                width=&#34;760&#34;
                height=&#34;608&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -870,15 +878,15 @@ These three main properties are demonstrated using the following three types of 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /publication/nksr/room/4-docnn-n_hud833677297680f33b5046112cd00a644_772651_4cb5224232703c0db036a44fab1e7fcb.webp 400w,
-               /publication/nksr/room/4-docnn-n_hud833677297680f33b5046112cd00a644_772651_1e5c0da577f49851f8dfd60b1952f980.webp 760w,
-               /publication/nksr/room/4-docnn-n_hud833677297680f33b5046112cd00a644_772651_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/4-docnn-n_hud833677297680f33b5046112cd00a644_772651_4cb5224232703c0db036a44fab1e7fcb.webp&#34;
+               /publication/nksr/room/4-docnn-n_hu694999525460726334.webp 400w,
+               /publication/nksr/room/4-docnn-n_hu4537754771466905014.webp 760w,
+               /publication/nksr/room/4-docnn-n_hu10943373558739543420.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/4-docnn-n_hu694999525460726334.webp&#34;
                width=&#34;760&#34;
                height=&#34;608&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
-&lt;td&gt;&lt;div class=&#34;hover-change&#34;&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;div class=&#34;hover-change&#34;&gt;
 
 
 
@@ -895,10 +903,10 @@ These three main properties are demonstrated using the following three types of 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /publication/nksr/room/4-poco_hu9eb5ff7f0c8a5ee5b8b15d0172f5960a_662714_8ff170021108e6a9316cdd6fc7c04ec0.webp 400w,
-               /publication/nksr/room/4-poco_hu9eb5ff7f0c8a5ee5b8b15d0172f5960a_662714_a06c8de010e5028969397c61c758cd1f.webp 760w,
-               /publication/nksr/room/4-poco_hu9eb5ff7f0c8a5ee5b8b15d0172f5960a_662714_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/4-poco_hu9eb5ff7f0c8a5ee5b8b15d0172f5960a_662714_8ff170021108e6a9316cdd6fc7c04ec0.webp&#34;
+               /publication/nksr/room/4-poco_hu5633924454405969320.webp 400w,
+               /publication/nksr/room/4-poco_hu11575902746110160331.webp 760w,
+               /publication/nksr/room/4-poco_hu16780861823585579891.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/4-poco_hu5633924454405969320.webp&#34;
                width=&#34;760&#34;
                height=&#34;608&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -919,15 +927,15 @@ These three main properties are demonstrated using the following three types of 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /publication/nksr/room/4-poco-n_hu285d713619b68edbf5767e3fad8667c7_562555_c453abf5141472c684d6c52cc03fb9e5.webp 400w,
-               /publication/nksr/room/4-poco-n_hu285d713619b68edbf5767e3fad8667c7_562555_1b2f933c05f6d62798a7484f3e513407.webp 760w,
-               /publication/nksr/room/4-poco-n_hu285d713619b68edbf5767e3fad8667c7_562555_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/4-poco-n_hu285d713619b68edbf5767e3fad8667c7_562555_c453abf5141472c684d6c52cc03fb9e5.webp&#34;
+               /publication/nksr/room/4-poco-n_hu257164290955871063.webp 400w,
+               /publication/nksr/room/4-poco-n_hu15344270148346029500.webp 760w,
+               /publication/nksr/room/4-poco-n_hu13658377711128691097.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/4-poco-n_hu257164290955871063.webp&#34;
                width=&#34;760&#34;
                height=&#34;608&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
-&lt;td&gt;&lt;div class=&#34;hover-change&#34;&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;div class=&#34;hover-change&#34;&gt;
 
 
 
@@ -944,10 +952,10 @@ These three main properties are demonstrated using the following three types of 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /publication/nksr/room/4-ours_hu912b6e1a1b93455b08f639f06e98bc8e_590249_1e132495341678a959371a6150b34989.webp 400w,
-               /publication/nksr/room/4-ours_hu912b6e1a1b93455b08f639f06e98bc8e_590249_1aeca266ec103972ba939094465874ef.webp 760w,
-               /publication/nksr/room/4-ours_hu912b6e1a1b93455b08f639f06e98bc8e_590249_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/4-ours_hu912b6e1a1b93455b08f639f06e98bc8e_590249_1e132495341678a959371a6150b34989.webp&#34;
+               /publication/nksr/room/4-ours_hu1912459418187627642.webp 400w,
+               /publication/nksr/room/4-ours_hu10814740541754649347.webp 760w,
+               /publication/nksr/room/4-ours_hu2726578594625139481.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/4-ours_hu1912459418187627642.webp&#34;
                width=&#34;760&#34;
                height=&#34;608&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -968,16 +976,16 @@ These three main properties are demonstrated using the following three types of 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /publication/nksr/room/4-ours-n_hu4d6800228c46afabf7e32e921da8cc50_571021_a075085aa8851ef1dbe8a37a7d4718a0.webp 400w,
-               /publication/nksr/room/4-ours-n_hu4d6800228c46afabf7e32e921da8cc50_571021_09686aef8ca047495524237aa017d25e.webp 760w,
-               /publication/nksr/room/4-ours-n_hu4d6800228c46afabf7e32e921da8cc50_571021_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/4-ours-n_hu4d6800228c46afabf7e32e921da8cc50_571021_a075085aa8851ef1dbe8a37a7d4718a0.webp&#34;
+               /publication/nksr/room/4-ours-n_hu9410541730623082409.webp 400w,
+               /publication/nksr/room/4-ours-n_hu16375996591072896212.webp 760w,
+               /publication/nksr/room/4-ours-n_hu17398890393399309870.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/room/4-ours-n_hu9410541730623082409.webp&#34;
                width=&#34;760&#34;
                height=&#34;608&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;!-- This will fix the table. --&gt;
 &lt;script&gt;
@@ -1172,19 +1180,22 @@ During training time the model has &lt;em&gt;never&lt;/em&gt; seen real outdoor 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /publication/nksr/waymo_hu3d3d48df7b0a962de606a45af8ce32d8_1237910_d5273e4fdb7eaabec0452e6b59794ddf.webp 400w,
-               /publication/nksr/waymo_hu3d3d48df7b0a962de606a45af8ce32d8_1237910_e433b1fd68c0a1baba27aa2161694ede.webp 760w,
-               /publication/nksr/waymo_hu3d3d48df7b0a962de606a45af8ce32d8_1237910_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://huangjh-pub.github.io/publication/nksr/waymo_hu3d3d48df7b0a962de606a45af8ce32d8_1237910_d5273e4fdb7eaabec0452e6b59794ddf.webp&#34;
+               /publication/nksr/waymo_hu15883808779713443474.webp 400w,
+               /publication/nksr/waymo_hu17404671826726601573.webp 760w,
+               /publication/nksr/waymo_hu1777161860888789587.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/nksr/waymo_hu15883808779713443474.webp&#34;
                width=&#34;1024&#34;
                height=&#34;226&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;h3 id=&#34;explanatory-video&#34;&gt;Explanatory Video&lt;/h3&gt;
 
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/J1V5F2z-dWY&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
+
+    
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/J1V5F2z-dWY?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
 
 &lt;h3 id=&#34;citation&#34;&gt;Citation&lt;/h3&gt;
 &lt;p&gt;If you find our work interesting, please consider citing us:&lt;/p&gt;
@@ -1221,10 +1232,10 @@ During training time the model has &lt;em&gt;never&lt;/em&gt; seen real outdoor 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /publication/synorim/teaser_hu97ab1e9bfbc9249a4743932c9b5a449a_756993_283c15f8a485ca3ae3e2ff3fe88da74d.webp 400w,
-               /publication/synorim/teaser_hu97ab1e9bfbc9249a4743932c9b5a449a_756993_e7e12660f94ad7116bd3cae6dc861873.webp 760w,
-               /publication/synorim/teaser_hu97ab1e9bfbc9249a4743932c9b5a449a_756993_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://huangjh-pub.github.io/publication/synorim/teaser_hu97ab1e9bfbc9249a4743932c9b5a449a_756993_283c15f8a485ca3ae3e2ff3fe88da74d.webp&#34;
+               /publication/synorim/teaser_hu6605768260645695503.webp 400w,
+               /publication/synorim/teaser_hu15416954127689638820.webp 760w,
+               /publication/synorim/teaser_hu6359287630242512699.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/synorim/teaser_hu6605768260645695503.webp&#34;
                width=&#34;1024&#34;
                height=&#34;152&#34;
                loading=&#34;lazy&#34; /&gt;&lt;/div&gt;
@@ -1505,10 +1516,10 @@ document.addEventListener(&#34;DOMContentLoaded&#34;, (function() {
 &lt;figure  id=&#34;figure-dynamic-reconstruction-result-the-rgb-images-are-just-for-references&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Dynamic reconstruction result. The RGB images are just for references.&#34; srcset=&#34;
-               /publication/synorim/recon_hufeeb494ba84d23a9b556cd9832978cce_634417_b0de8fd5e50e01f1ace7f403f2da0168.webp 400w,
-               /publication/synorim/recon_hufeeb494ba84d23a9b556cd9832978cce_634417_d8782b989bda651362271c6b37912dd7.webp 760w,
-               /publication/synorim/recon_hufeeb494ba84d23a9b556cd9832978cce_634417_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://huangjh-pub.github.io/publication/synorim/recon_hufeeb494ba84d23a9b556cd9832978cce_634417_b0de8fd5e50e01f1ace7f403f2da0168.webp&#34;
+               /publication/synorim/recon_hu377666660400572581.webp 400w,
+               /publication/synorim/recon_hu6777402551520326354.webp 760w,
+               /publication/synorim/recon_hu752709778436055995.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/synorim/recon_hu377666660400572581.webp&#34;
                width=&#34;760&#34;
                height=&#34;235&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1522,55 +1533,55 @@ Our results on FAUST online challenge can also be viewed &lt;a href=&#34;http://
 Be sure to double-check that before downloading.
 If you find any legal issues, please let us know immediately.&lt;/p&gt;
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;# Train&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;# Validation&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;# Test&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;Origin&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;Terms of Use&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;Download Link&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;MPC-CAPE&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;3015&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;798&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;209&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;a href=&#34;https://cape.is.tue.mpg.de/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CAPE&lt;/a&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;a href=&#34;https://cape.is.tue.mpg.de/license.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link&lt;/a&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;a href=&#34;https://drive.google.com/file/d/1der12IAm_1o_M92nj71r0HpfxmBCaQmc/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Data (11.2G)&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;MPC-DT4D&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;3907&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;1701&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;1299&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;a href=&#34;https://github.com/rabbityl/DeformingThings4D&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DeformingThings4D&lt;/a&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;a href=&#34;https://docs.google.com/forms/d/e/1FAIpQLSckMLPBO8HB8gJsIXFQHtYVQaTPTdd-rZQzyr9LIIkHA515Sg/viewform&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link&lt;/a&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;a href=&#34;https://drive.google.com/file/d/1r9VFHIZcatSej6guY_hGoGjrNqbgazAz/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Data (20.6G)&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;MPC-DD&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;1754&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;200&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;267&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;a href=&#34;https://github.com/AljazBozic/DeepDeform&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DeepDeform&lt;/a&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;a href=&#34;https://docs.google.com/forms/d/e/1FAIpQLSeQ1hkCmmTiib-oQM9s21y3Tz9ojiI2zB8vZSqTZjT2DiRZ0g/viewform&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link&lt;/a&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;a href=&#34;https://drive.google.com/file/d/1ykFSe9TI9kZ-RozZw874YHDiO1cLRCgc/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Data (2.4G)&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;MPC-SAPIEN&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;530&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;88&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;266&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;a href=&#34;https://sapien.ucsd.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SAPIEN&lt;/a&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;a href=&#34;https://sapien.ucsd.edu/about#term&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link&lt;/a&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;a href=&#34;https://drive.google.com/file/d/13yMOoFmUV2Ca9j0tm_CD0nd1BGx1T8Jx/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Data (1.3G)&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;# Train&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;# Validation&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;# Test&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;Origin&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;Terms of Use&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;Download Link&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;MPC-CAPE&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;3015&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;798&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;209&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a href=&#34;https://cape.is.tue.mpg.de/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CAPE&lt;/a&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a href=&#34;https://cape.is.tue.mpg.de/license.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link&lt;/a&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a href=&#34;https://drive.google.com/file/d/1der12IAm_1o_M92nj71r0HpfxmBCaQmc/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Data (11.2G)&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;MPC-DT4D&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;3907&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;1701&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;1299&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a href=&#34;https://github.com/rabbityl/DeformingThings4D&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DeformingThings4D&lt;/a&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a href=&#34;https://docs.google.com/forms/d/e/1FAIpQLSckMLPBO8HB8gJsIXFQHtYVQaTPTdd-rZQzyr9LIIkHA515Sg/viewform&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link&lt;/a&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a href=&#34;https://drive.google.com/file/d/1r9VFHIZcatSej6guY_hGoGjrNqbgazAz/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Data (20.6G)&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;MPC-DD&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;1754&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;200&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;267&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a href=&#34;https://github.com/AljazBozic/DeepDeform&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DeepDeform&lt;/a&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a href=&#34;https://docs.google.com/forms/d/e/1FAIpQLSeQ1hkCmmTiib-oQM9s21y3Tz9ojiI2zB8vZSqTZjT2DiRZ0g/viewform&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link&lt;/a&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a href=&#34;https://drive.google.com/file/d/1ykFSe9TI9kZ-RozZw874YHDiO1cLRCgc/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Data (2.4G)&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;MPC-SAPIEN&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;530&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;88&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;266&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a href=&#34;https://sapien.ucsd.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SAPIEN&lt;/a&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a href=&#34;https://sapien.ucsd.edu/about#term&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link&lt;/a&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a href=&#34;https://drive.google.com/file/d/13yMOoFmUV2Ca9j0tm_CD0nd1BGx1T8Jx/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Data (1.3G)&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;!-- This will fix the table. --&gt;
 &lt;script&gt;

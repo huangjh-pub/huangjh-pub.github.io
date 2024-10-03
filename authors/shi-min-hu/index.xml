@@ -7,7 +7,7 @@
     <description>Shi-Min Hu</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Aug 2023 23:15:32 -0700</lastBuildDate>
     <image>
-      <url>https://huangjh-pub.github.io/media/icon_hu203b42f3cc3d45b329fe7ad5d52ac786_38688_512x512_fill_lanczos_center_3.png</url>
+      <url>https://huangjh-pub.github.io/media/icon_hu7092057554204590415.png</url>
       <title>Shi-Min Hu</title>
       <link>https://huangjh-pub.github.io/authors/shi-min-hu/</link>
     </image>
@@ -23,7 +23,7 @@
     <item>
       <title>A Neural Galerkin Solver for Accurate Surface Reconstruction</title>
       <link>https://huangjh-pub.github.io/publication/neuralgalerkin/</link>
-      <pubDate>Tue, 06 Dec 2022 21:59:40 +0800</pubDate>
+      <pubDate>Fri, 10 Jun 2022 21:59:40 +0800</pubDate>
       <guid>https://huangjh-pub.github.io/publication/neuralgalerkin/</guid>
       <description></description>
     </item>
@@ -50,10 +50,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /publication/synorim/teaser_hu97ab1e9bfbc9249a4743932c9b5a449a_756993_283c15f8a485ca3ae3e2ff3fe88da74d.webp 400w,
-               /publication/synorim/teaser_hu97ab1e9bfbc9249a4743932c9b5a449a_756993_e7e12660f94ad7116bd3cae6dc861873.webp 760w,
-               /publication/synorim/teaser_hu97ab1e9bfbc9249a4743932c9b5a449a_756993_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://huangjh-pub.github.io/publication/synorim/teaser_hu97ab1e9bfbc9249a4743932c9b5a449a_756993_283c15f8a485ca3ae3e2ff3fe88da74d.webp&#34;
+               /publication/synorim/teaser_hu6605768260645695503.webp 400w,
+               /publication/synorim/teaser_hu15416954127689638820.webp 760w,
+               /publication/synorim/teaser_hu6359287630242512699.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/synorim/teaser_hu6605768260645695503.webp&#34;
                width=&#34;1024&#34;
                height=&#34;152&#34;
                loading=&#34;lazy&#34; /&gt;&lt;/div&gt;
@@ -334,10 +334,10 @@ document.addEventListener(&#34;DOMContentLoaded&#34;, (function() {
 &lt;figure  id=&#34;figure-dynamic-reconstruction-result-the-rgb-images-are-just-for-references&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Dynamic reconstruction result. The RGB images are just for references.&#34; srcset=&#34;
-               /publication/synorim/recon_hufeeb494ba84d23a9b556cd9832978cce_634417_b0de8fd5e50e01f1ace7f403f2da0168.webp 400w,
-               /publication/synorim/recon_hufeeb494ba84d23a9b556cd9832978cce_634417_d8782b989bda651362271c6b37912dd7.webp 760w,
-               /publication/synorim/recon_hufeeb494ba84d23a9b556cd9832978cce_634417_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://huangjh-pub.github.io/publication/synorim/recon_hufeeb494ba84d23a9b556cd9832978cce_634417_b0de8fd5e50e01f1ace7f403f2da0168.webp&#34;
+               /publication/synorim/recon_hu377666660400572581.webp 400w,
+               /publication/synorim/recon_hu6777402551520326354.webp 760w,
+               /publication/synorim/recon_hu752709778436055995.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/synorim/recon_hu377666660400572581.webp&#34;
                width=&#34;760&#34;
                height=&#34;235&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -351,55 +351,55 @@ Our results on FAUST online challenge can also be viewed &lt;a href=&#34;http://
 Be sure to double-check that before downloading.
 If you find any legal issues, please let us know immediately.&lt;/p&gt;
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;# Train&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;# Validation&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;# Test&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;Origin&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;Terms of Use&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;Download Link&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;MPC-CAPE&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;3015&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;798&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;209&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;a href=&#34;https://cape.is.tue.mpg.de/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CAPE&lt;/a&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;a href=&#34;https://cape.is.tue.mpg.de/license.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link&lt;/a&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;a href=&#34;https://drive.google.com/file/d/1der12IAm_1o_M92nj71r0HpfxmBCaQmc/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Data (11.2G)&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;MPC-DT4D&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;3907&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;1701&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;1299&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;a href=&#34;https://github.com/rabbityl/DeformingThings4D&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DeformingThings4D&lt;/a&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;a href=&#34;https://docs.google.com/forms/d/e/1FAIpQLSckMLPBO8HB8gJsIXFQHtYVQaTPTdd-rZQzyr9LIIkHA515Sg/viewform&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link&lt;/a&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;a href=&#34;https://drive.google.com/file/d/1r9VFHIZcatSej6guY_hGoGjrNqbgazAz/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Data (20.6G)&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;MPC-DD&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;1754&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;200&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;267&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;a href=&#34;https://github.com/AljazBozic/DeepDeform&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DeepDeform&lt;/a&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;a href=&#34;https://docs.google.com/forms/d/e/1FAIpQLSeQ1hkCmmTiib-oQM9s21y3Tz9ojiI2zB8vZSqTZjT2DiRZ0g/viewform&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link&lt;/a&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;a href=&#34;https://drive.google.com/file/d/1ykFSe9TI9kZ-RozZw874YHDiO1cLRCgc/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Data (2.4G)&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;MPC-SAPIEN&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;530&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;88&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;266&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;a href=&#34;https://sapien.ucsd.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SAPIEN&lt;/a&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;a href=&#34;https://sapien.ucsd.edu/about#term&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link&lt;/a&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;a href=&#34;https://drive.google.com/file/d/13yMOoFmUV2Ca9j0tm_CD0nd1BGx1T8Jx/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Data (1.3G)&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;# Train&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;# Validation&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;# Test&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;Origin&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;Terms of Use&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;Download Link&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;MPC-CAPE&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;3015&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;798&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;209&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a href=&#34;https://cape.is.tue.mpg.de/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CAPE&lt;/a&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a href=&#34;https://cape.is.tue.mpg.de/license.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link&lt;/a&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a href=&#34;https://drive.google.com/file/d/1der12IAm_1o_M92nj71r0HpfxmBCaQmc/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Data (11.2G)&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;MPC-DT4D&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;3907&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;1701&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;1299&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a href=&#34;https://github.com/rabbityl/DeformingThings4D&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DeformingThings4D&lt;/a&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a href=&#34;https://docs.google.com/forms/d/e/1FAIpQLSckMLPBO8HB8gJsIXFQHtYVQaTPTdd-rZQzyr9LIIkHA515Sg/viewform&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link&lt;/a&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a href=&#34;https://drive.google.com/file/d/1r9VFHIZcatSej6guY_hGoGjrNqbgazAz/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Data (20.6G)&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;MPC-DD&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;1754&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;200&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;267&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a href=&#34;https://github.com/AljazBozic/DeepDeform&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DeepDeform&lt;/a&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a href=&#34;https://docs.google.com/forms/d/e/1FAIpQLSeQ1hkCmmTiib-oQM9s21y3Tz9ojiI2zB8vZSqTZjT2DiRZ0g/viewform&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link&lt;/a&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a href=&#34;https://drive.google.com/file/d/1ykFSe9TI9kZ-RozZw874YHDiO1cLRCgc/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Data (2.4G)&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;MPC-SAPIEN&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;530&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;88&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;266&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a href=&#34;https://sapien.ucsd.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SAPIEN&lt;/a&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a href=&#34;https://sapien.ucsd.edu/about#term&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link&lt;/a&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;a href=&#34;https://drive.google.com/file/d/13yMOoFmUV2Ca9j0tm_CD0nd1BGx1T8Jx/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Data (1.3G)&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;!-- This will fix the table. --&gt;
 &lt;script&gt;
