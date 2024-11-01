@@ -5,12 +5,20 @@
     <link>https://huangjh-pub.github.io/authors/francis-williams/</link>
       <atom:link href="https://huangjh-pub.github.io/authors/francis-williams/index.xml" rel="self" type="application/rss+xml" />
     <description>Francis Williams</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 10 Jun 2024 21:59:40 +0800</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 30 Oct 2024 23:15:32 -0700</lastBuildDate>
     <image>
       <url>https://huangjh-pub.github.io/media/icon_hu7092057554204590415.png</url>
       <title>Francis Williams</title>
       <link>https://huangjh-pub.github.io/authors/francis-williams/</link>
     </image>
+    
+    <item>
+      <title>SCube: Instant Large-Scale Scene Reconstruction using VoxSplats</title>
+      <link>https://huangjh-pub.github.io/publication/scube/</link>
+      <pubDate>Wed, 30 Oct 2024 23:15:32 -0700</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/scube/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>fVDB: A Deep-Learning Framework for Sparse, Large-Scale, and High-Performance Spatial Intelligence</title>
@@ -190,15 +198,15 @@ These three main properties are demonstrated using the following three types of 
 &lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;Local Implicit Grid&lt;/th&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;Neural Kernel Field&lt;/th&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;POCO&lt;/th&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Ours&lt;/strong&gt; (NKSR)&lt;/th&gt;
+          &lt;th&gt;Local Implicit Grid&lt;/th&gt;
+          &lt;th&gt;Neural Kernel Field&lt;/th&gt;
+          &lt;th&gt;POCO&lt;/th&gt;
+          &lt;th&gt;&lt;strong&gt;Ours&lt;/strong&gt; (NKSR)&lt;/th&gt;
       &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;div class=&#34;hover-change&#34;&gt;
+          &lt;td&gt;&lt;div class=&#34;hover-change&#34;&gt;
 
 
 
@@ -247,7 +255,7 @@ These three main properties are demonstrated using the following three types of 
                height=&#34;608&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;div class=&#34;hover-change&#34;&gt;
+          &lt;td&gt;&lt;div class=&#34;hover-change&#34;&gt;
 
 
 
@@ -296,7 +304,7 @@ These three main properties are demonstrated using the following three types of 
                height=&#34;608&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;div class=&#34;hover-change&#34;&gt;
+          &lt;td&gt;&lt;div class=&#34;hover-change&#34;&gt;
 
 
 
@@ -345,7 +353,7 @@ These three main properties are demonstrated using the following three types of 
                height=&#34;608&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;div class=&#34;hover-change&#34;&gt;
+          &lt;td&gt;&lt;div class=&#34;hover-change&#34;&gt;
 
 
 
@@ -396,7 +404,7 @@ These three main properties are demonstrated using the following three types of 
   &lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;div class=&#34;hover-change&#34;&gt;
+          &lt;td&gt;&lt;div class=&#34;hover-change&#34;&gt;
 
 
 
@@ -445,7 +453,7 @@ These three main properties are demonstrated using the following three types of 
                height=&#34;608&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;div class=&#34;hover-change&#34;&gt;
+          &lt;td&gt;&lt;div class=&#34;hover-change&#34;&gt;
 
 
 
@@ -494,7 +502,7 @@ These three main properties are demonstrated using the following three types of 
                height=&#34;608&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;div class=&#34;hover-change&#34;&gt;
+          &lt;td&gt;&lt;div class=&#34;hover-change&#34;&gt;
 
 
 
@@ -543,7 +551,7 @@ These three main properties are demonstrated using the following three types of 
                height=&#34;608&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;div class=&#34;hover-change&#34;&gt;
+          &lt;td&gt;&lt;div class=&#34;hover-change&#34;&gt;
 
 
 
@@ -598,15 +606,15 @@ These three main properties are demonstrated using the following three types of 
 &lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;Local Implicit Grid&lt;/th&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;Dual Octree GNN&lt;/th&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;POCO&lt;/th&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Ours&lt;/strong&gt; (NKSR)&lt;/th&gt;
+          &lt;th&gt;Local Implicit Grid&lt;/th&gt;
+          &lt;th&gt;Dual Octree GNN&lt;/th&gt;
+          &lt;th&gt;POCO&lt;/th&gt;
+          &lt;th&gt;&lt;strong&gt;Ours&lt;/strong&gt; (NKSR)&lt;/th&gt;
       &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;div class=&#34;hover-change&#34;&gt;
+          &lt;td&gt;&lt;div class=&#34;hover-change&#34;&gt;
 
 
 
@@ -655,7 +663,7 @@ These three main properties are demonstrated using the following three types of 
                height=&#34;608&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;div class=&#34;hover-change&#34;&gt;
+          &lt;td&gt;&lt;div class=&#34;hover-change&#34;&gt;
 
 
 
@@ -704,7 +712,7 @@ These three main properties are demonstrated using the following three types of 
                height=&#34;608&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;div class=&#34;hover-change&#34;&gt;
+          &lt;td&gt;&lt;div class=&#34;hover-change&#34;&gt;
 
 
 
@@ -753,7 +761,7 @@ These three main properties are demonstrated using the following three types of 
                height=&#34;608&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;div class=&#34;hover-change&#34;&gt;
+          &lt;td&gt;&lt;div class=&#34;hover-change&#34;&gt;
 
 
 
@@ -804,7 +812,7 @@ These three main properties are demonstrated using the following three types of 
   &lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;div class=&#34;hover-change&#34;&gt;
+          &lt;td&gt;&lt;div class=&#34;hover-change&#34;&gt;
 
 
 
@@ -853,7 +861,7 @@ These three main properties are demonstrated using the following three types of 
                height=&#34;608&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;div class=&#34;hover-change&#34;&gt;
+          &lt;td&gt;&lt;div class=&#34;hover-change&#34;&gt;
 
 
 
@@ -902,7 +910,7 @@ These three main properties are demonstrated using the following three types of 
                height=&#34;608&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;div class=&#34;hover-change&#34;&gt;
+          &lt;td&gt;&lt;div class=&#34;hover-change&#34;&gt;
 
 
 
@@ -951,7 +959,7 @@ These three main properties are demonstrated using the following three types of 
                height=&#34;608&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;div class=&#34;hover-change&#34;&gt;
+          &lt;td&gt;&lt;div class=&#34;hover-change&#34;&gt;
 
 
 

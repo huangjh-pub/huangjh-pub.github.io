@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Huan Ling | Jiahui Huang</title>
+    <link>https://huangjh-pub.github.io/authors/huan-ling/</link>
+      <atom:link href="https://huangjh-pub.github.io/authors/huan-ling/index.xml" rel="self" type="application/rss+xml" />
+    <description>Huan Ling</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 30 Oct 2024 23:15:32 -0700</lastBuildDate>
+    <image>
+      <url>https://huangjh-pub.github.io/media/icon_hu7092057554204590415.png</url>
+      <title>Huan Ling</title>
+      <link>https://huangjh-pub.github.io/authors/huan-ling/</link>
+    </image>
+    
+    <item>
+      <title>SCube: Instant Large-Scale Scene Reconstruction using VoxSplats</title>
+      <link>https://huangjh-pub.github.io/publication/scube/</link>
+      <pubDate>Wed, 30 Oct 2024 23:15:32 -0700</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/scube/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

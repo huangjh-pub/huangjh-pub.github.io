@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zan Gojcic | Jiahui Huang</title>
+    <link>http://localhost:1313/authors/zan-gojcic-copy/</link>
+      <atom:link href="http://localhost:1313/authors/zan-gojcic-copy/index.xml" rel="self" type="application/rss+xml" />
+    <description>Zan Gojcic</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>http://localhost:1313/media/icon_hu7092057554204590415.png</url>
+      <title>Zan Gojcic</title>
+      <link>http://localhost:1313/authors/zan-gojcic-copy/</link>
+    </image>
+    
+  </channel>
+</rss>

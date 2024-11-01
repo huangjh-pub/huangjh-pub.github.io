@@ -5,7 +5,7 @@
     <link>https://huangjh-pub.github.io/authors/jiahui-huang/</link>
       <atom:link href="https://huangjh-pub.github.io/authors/jiahui-huang/index.xml" rel="self" type="application/rss+xml" />
     <description>Jiahui Huang</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Sep 2024 23:15:32 -0700</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 30 Oct 2024 23:15:32 -0700</lastBuildDate>
     <image>
       <url>https://huangjh-pub.github.io/authors/jiahui-huang/avatar_hu15072945850406332842.jpg</url>
       <title>Jiahui Huang</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Jiahui Huang</title>
       <link>https://huangjh-pub.github.io/authors/jiahui-huang/</link>
-      <pubDate>Sun, 01 Sep 2024 23:15:32 -0700</pubDate>
+      <pubDate>Wed, 30 Oct 2024 23:15:32 -0700</pubDate>
       <guid>https://huangjh-pub.github.io/authors/jiahui-huang/</guid>
       <description>&lt;p&gt;I am currently a research scientist at &lt;a href=&#34;https://research.nvidia.com/labs/toronto-ai/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NVIDIA Toronto AI Lab&lt;/a&gt; led by &lt;a href=&#34;https://www.cs.utoronto.ca/~fidler/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sanja Fidler&lt;/a&gt;.
 I received my Ph.D. in 2023 from the &lt;a href=&#34;https://cg.cs.tsinghua.edu.cn&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Graphics and Geometric Computing Group&lt;/a&gt; at Tsinghua University, China, advised by &lt;a href=&#34;https://cg.cs.tsinghua.edu.cn/shimin.htm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Shi-Min Hu&lt;/a&gt;.
@@ -24,9 +24,17 @@ My primary research interest lies in the joint field of 3D computer vision and g
 &lt;p&gt;⛵️ We are actively looking for interns to work with at NVIDIA Research. Please reach out to me if you are interested in the position.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;
-  &lt;i class=&#34;far fa-clock  pr-6 fa-fw&#34;&gt;&lt;/i&gt; This page was last updated in Sep 2024.&lt;/p&gt;
+  &lt;i class=&#34;far fa-clock  pr-6 fa-fw&#34;&gt;&lt;/i&gt; This page was last updated in Oct 2024.&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>SCube: Instant Large-Scale Scene Reconstruction using VoxSplats</title>
+      <link>https://huangjh-pub.github.io/publication/scube/</link>
+      <pubDate>Wed, 30 Oct 2024 23:15:32 -0700</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/scube/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -223,15 +231,15 @@ These three main properties are demonstrated using the following three types of 
 &lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;Local Implicit Grid&lt;/th&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;Neural Kernel Field&lt;/th&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;POCO&lt;/th&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Ours&lt;/strong&gt; (NKSR)&lt;/th&gt;
+          &lt;th&gt;Local Implicit Grid&lt;/th&gt;
+          &lt;th&gt;Neural Kernel Field&lt;/th&gt;
+          &lt;th&gt;POCO&lt;/th&gt;
+          &lt;th&gt;&lt;strong&gt;Ours&lt;/strong&gt; (NKSR)&lt;/th&gt;
       &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;div class=&#34;hover-change&#34;&gt;
+          &lt;td&gt;&lt;div class=&#34;hover-change&#34;&gt;
 
 
 
@@ -280,7 +288,7 @@ These three main properties are demonstrated using the following three types of 
                height=&#34;608&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;div class=&#34;hover-change&#34;&gt;
+          &lt;td&gt;&lt;div class=&#34;hover-change&#34;&gt;
 
 
 
@@ -329,7 +337,7 @@ These three main properties are demonstrated using the following three types of 
                height=&#34;608&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;div class=&#34;hover-change&#34;&gt;
+          &lt;td&gt;&lt;div class=&#34;hover-change&#34;&gt;
 
 
 
@@ -378,7 +386,7 @@ These three main properties are demonstrated using the following three types of 
                height=&#34;608&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;div class=&#34;hover-change&#34;&gt;
+          &lt;td&gt;&lt;div class=&#34;hover-change&#34;&gt;
 
 
 
@@ -429,7 +437,7 @@ These three main properties are demonstrated using the following three types of 
   &lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;div class=&#34;hover-change&#34;&gt;
+          &lt;td&gt;&lt;div class=&#34;hover-change&#34;&gt;
 
 
 
@@ -478,7 +486,7 @@ These three main properties are demonstrated using the following three types of 
                height=&#34;608&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;div class=&#34;hover-change&#34;&gt;
+          &lt;td&gt;&lt;div class=&#34;hover-change&#34;&gt;
 
 
 
@@ -527,7 +535,7 @@ These three main properties are demonstrated using the following three types of 
                height=&#34;608&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;div class=&#34;hover-change&#34;&gt;
+          &lt;td&gt;&lt;div class=&#34;hover-change&#34;&gt;
 
 
 
@@ -576,7 +584,7 @@ These three main properties are demonstrated using the following three types of 
                height=&#34;608&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;div class=&#34;hover-change&#34;&gt;
+          &lt;td&gt;&lt;div class=&#34;hover-change&#34;&gt;
 
 
 
@@ -631,15 +639,15 @@ These three main properties are demonstrated using the following three types of 
 &lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;Local Implicit Grid&lt;/th&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;Dual Octree GNN&lt;/th&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;POCO&lt;/th&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Ours&lt;/strong&gt; (NKSR)&lt;/th&gt;
+          &lt;th&gt;Local Implicit Grid&lt;/th&gt;
+          &lt;th&gt;Dual Octree GNN&lt;/th&gt;
+          &lt;th&gt;POCO&lt;/th&gt;
+          &lt;th&gt;&lt;strong&gt;Ours&lt;/strong&gt; (NKSR)&lt;/th&gt;
       &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;div class=&#34;hover-change&#34;&gt;
+          &lt;td&gt;&lt;div class=&#34;hover-change&#34;&gt;
 
 
 
@@ -688,7 +696,7 @@ These three main properties are demonstrated using the following three types of 
                height=&#34;608&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;div class=&#34;hover-change&#34;&gt;
+          &lt;td&gt;&lt;div class=&#34;hover-change&#34;&gt;
 
 
 
@@ -737,7 +745,7 @@ These three main properties are demonstrated using the following three types of 
                height=&#34;608&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;div class=&#34;hover-change&#34;&gt;
+          &lt;td&gt;&lt;div class=&#34;hover-change&#34;&gt;
 
 
 
@@ -786,7 +794,7 @@ These three main properties are demonstrated using the following three types of 
                height=&#34;608&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;div class=&#34;hover-change&#34;&gt;
+          &lt;td&gt;&lt;div class=&#34;hover-change&#34;&gt;
 
 
 
@@ -837,7 +845,7 @@ These three main properties are demonstrated using the following three types of 
   &lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;div class=&#34;hover-change&#34;&gt;
+          &lt;td&gt;&lt;div class=&#34;hover-change&#34;&gt;
 
 
 
@@ -886,7 +894,7 @@ These three main properties are demonstrated using the following three types of 
                height=&#34;608&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;div class=&#34;hover-change&#34;&gt;
+          &lt;td&gt;&lt;div class=&#34;hover-change&#34;&gt;
 
 
 
@@ -935,7 +943,7 @@ These three main properties are demonstrated using the following three types of 
                height=&#34;608&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;div class=&#34;hover-change&#34;&gt;
+          &lt;td&gt;&lt;div class=&#34;hover-change&#34;&gt;
 
 
 
@@ -984,7 +992,7 @@ These three main properties are demonstrated using the following three types of 
                height=&#34;608&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;div class=&#34;hover-change&#34;&gt;
+          &lt;td&gt;&lt;div class=&#34;hover-change&#34;&gt;
 
 
 

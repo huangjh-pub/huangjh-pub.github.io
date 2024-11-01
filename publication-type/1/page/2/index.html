@@ -1,7 +1,7 @@
 <!DOCTYPE html><html lang="en-us" >
 
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -67,7 +67,7 @@
   <meta name="description" content="Research Scientist" />
 
   
-  <link rel="alternate" hreflang="en-us" href="http://localhost:1313/publication-type/1/" />
+  <link rel="alternate" hreflang="en-us" href="https://huangjh-pub.github.io/publication-type/1/" />
 
   
   
@@ -83,7 +83,7 @@
 
   
 
-  <link rel="stylesheet" href="/css/vendor-bundle.min.css" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css" media="print" onload="this.media='all'">
 
   
   
@@ -255,10 +255,49 @@
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.css" />
+  <link rel="stylesheet" href="/css/wowchemy.4bcbc2330700a53eb7f390a1b72b8333.css" />
 
   
 
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-162631457-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-162631457-1', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
 
 
   
@@ -287,7 +326,7 @@
   <link rel="icon" type="image/png" href="/media/icon_hu6176816951213106011.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu18007185188666613945.png" />
 
-  <link rel="canonical" href="http://localhost:1313/publication-type/1/" />
+  <link rel="canonical" href="https://huangjh-pub.github.io/publication-type/1/" />
 
   
   
@@ -313,13 +352,13 @@
     <meta property="twitter:creator" content="@huangjh_hjh" />
   
   <meta property="og:site_name" content="Jiahui Huang" />
-  <meta property="og:url" content="http://localhost:1313/publication-type/1/" />
+  <meta property="og:url" content="https://huangjh-pub.github.io/publication-type/1/" />
   <meta property="og:title" content="1 | Jiahui Huang" />
-  <meta property="og:description" content="Research Scientist" /><meta property="og:image" content="http://localhost:1313/media/icon_hu7092057554204590415.png" />
-    <meta property="twitter:image" content="http://localhost:1313/media/icon_hu7092057554204590415.png" /><meta property="og:locale" content="en-us" />
+  <meta property="og:description" content="Research Scientist" /><meta property="og:image" content="https://huangjh-pub.github.io/media/icon_hu7092057554204590415.png" />
+    <meta property="twitter:image" content="https://huangjh-pub.github.io/media/icon_hu7092057554204590415.png" /><meta property="og:locale" content="en-us" />
   
     
-      <meta property="og:updated_time" content="2024-02-01T23:15:32-07:00" />
+      <meta property="og:updated_time" content="2024-10-30T23:15:32-07:00" />
     
   
 
@@ -350,7 +389,7 @@
   
   
   
-  <script src="/js/wowchemy-init.min.js"></script>
+  <script src="/js/wowchemy-init.min.9e9fa4b2ccd29f9edfae161d14d2effd.js"></script>
 
   
 
@@ -857,7 +896,7 @@
       
 
     
-    <script src="/js/vendor-bundle.min.js"></script>
+    <script src="/js/vendor-bundle.min.8e09daa601459f1768414cc0569ad616.js"></script>
 
     
     
@@ -944,7 +983,7 @@
 
     
     
-      <script src="/js/wowchemy-headroom.js" type="module"></script>
+      <script src="/js/wowchemy-headroom.c251366b4128fd5e6b046d4c97a62a51.js" type="module"></script>
     
     
     
@@ -956,7 +995,7 @@
       
     
     
-    <script src="/en/js/wowchemy.min.js"></script>
+    <script src="/en/js/wowchemy.min.5745db4f02c04a35c01d84b183b3a15c.js"></script>
 
     
     
@@ -990,7 +1029,7 @@
   </div>
 </div>
 
-      <script src="/js/wowchemy-publication.js" type="module"></script>
+      <script src="/js/wowchemy-publication.6067f855b31c86c97091c0d8b69206f5.js" type="module"></script>
 
 
 
