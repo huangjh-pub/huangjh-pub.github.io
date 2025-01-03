@@ -5,12 +5,20 @@
     <link>https://huangjh-pub.github.io/authors/boris-ivanovic/</link>
       <atom:link href="https://huangjh-pub.github.io/authors/boris-ivanovic/index.xml" rel="self" type="application/rss+xml" />
     <description>Boris Ivanovic</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Sep 2024 23:15:32 -0700</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 30 Dec 2024 23:15:32 -0700</lastBuildDate>
     <image>
       <url>https://huangjh-pub.github.io/media/icon_hu7092057554204590415.png</url>
       <title>Boris Ivanovic</title>
       <link>https://huangjh-pub.github.io/authors/boris-ivanovic/</link>
     </image>
+    
+    <item>
+      <title>STORM: Spatio-Temporal Reconstruction Model for Large-Scale Outdoor Scenes</title>
+      <link>https://huangjh-pub.github.io/publication/storm/</link>
+      <pubDate>Mon, 30 Dec 2024 23:15:32 -0700</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/storm/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>OmniRe: Omni Urban Scene Reconstruction</title>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Maximilian Igl | Jiahui Huang</title>
+    <link>https://huangjh-pub.github.io/authors/maximilian-igl/</link>
+      <atom:link href="https://huangjh-pub.github.io/authors/maximilian-igl/index.xml" rel="self" type="application/rss+xml" />
+    <description>Maximilian Igl</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 30 Dec 2024 23:15:32 -0700</lastBuildDate>
+    <image>
+      <url>https://huangjh-pub.github.io/media/icon_hu7092057554204590415.png</url>
+      <title>Maximilian Igl</title>
+      <link>https://huangjh-pub.github.io/authors/maximilian-igl/</link>
+    </image>
+    
+    <item>
+      <title>STORM: Spatio-Temporal Reconstruction Model for Large-Scale Outdoor Scenes</title>
+      <link>https://huangjh-pub.github.io/publication/storm/</link>
+      <pubDate>Mon, 30 Dec 2024 23:15:32 -0700</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/storm/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

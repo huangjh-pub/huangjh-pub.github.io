@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Siheng Chen | Jiahui Huang</title>
+    <link>https://huangjh-pub.github.io/authors/siheng-chen/</link>
+      <atom:link href="https://huangjh-pub.github.io/authors/siheng-chen/index.xml" rel="self" type="application/rss+xml" />
+    <description>Siheng Chen</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 05 Dec 2024 23:15:32 -0700</lastBuildDate>
+    <image>
+      <url>https://huangjh-pub.github.io/media/icon_hu7092057554204590415.png</url>
+      <title>Siheng Chen</title>
+      <link>https://huangjh-pub.github.io/authors/siheng-chen/</link>
+    </image>
+    
+    <item>
+      <title>InfiniCube: Unbounded and Controllable Dynamic 3D Driving Scene Generation with World-Guided Video Models</title>
+      <link>https://huangjh-pub.github.io/publication/infinicube/</link>
+      <pubDate>Thu, 05 Dec 2024 23:15:32 -0700</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/infinicube/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

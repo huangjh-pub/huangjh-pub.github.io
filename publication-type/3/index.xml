@@ -5,12 +5,20 @@
     <link>https://huangjh-pub.github.io/publication-type/3/</link>
       <atom:link href="https://huangjh-pub.github.io/publication-type/3/index.xml" rel="self" type="application/rss+xml" />
     <description>3</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Sep 2024 23:15:32 -0700</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 30 Nov 2024 23:15:32 -0700</lastBuildDate>
     <image>
       <url>https://huangjh-pub.github.io/media/icon_hu7092057554204590415.png</url>
       <title>3</title>
       <link>https://huangjh-pub.github.io/publication-type/3/</link>
     </image>
+    
+    <item>
+      <title>Feed-Forward Bullet-Time Reconstruction of Dynamic Scenes from Monocular Videos</title>
+      <link>https://huangjh-pub.github.io/publication/btimer/</link>
+      <pubDate>Sat, 30 Nov 2024 23:15:32 -0700</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/btimer/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>OmniRe: Omni Urban Scene Reconstruction</title>

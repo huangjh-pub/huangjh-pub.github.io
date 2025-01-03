@@ -5,12 +5,28 @@
     <link>https://huangjh-pub.github.io/authors/yue-wang/</link>
       <atom:link href="https://huangjh-pub.github.io/authors/yue-wang/index.xml" rel="self" type="application/rss+xml" />
     <description>Yue Wang</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Sep 2024 23:15:32 -0700</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 30 Dec 2024 23:15:32 -0700</lastBuildDate>
     <image>
       <url>https://huangjh-pub.github.io/media/icon_hu7092057554204590415.png</url>
       <title>Yue Wang</title>
       <link>https://huangjh-pub.github.io/authors/yue-wang/</link>
     </image>
+    
+    <item>
+      <title>STORM: Spatio-Temporal Reconstruction Model for Large-Scale Outdoor Scenes</title>
+      <link>https://huangjh-pub.github.io/publication/storm/</link>
+      <pubDate>Mon, 30 Dec 2024 23:15:32 -0700</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/storm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>InfiniCube: Unbounded and Controllable Dynamic 3D Driving Scene Generation with World-Guided Video Models</title>
+      <link>https://huangjh-pub.github.io/publication/infinicube/</link>
+      <pubDate>Thu, 05 Dec 2024 23:15:32 -0700</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/infinicube/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>OmniRe: Omni Urban Scene Reconstruction</title>

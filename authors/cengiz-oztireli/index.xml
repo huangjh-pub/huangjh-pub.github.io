@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cengiz Oztireli | Jiahui Huang</title>
+    <link>https://huangjh-pub.github.io/authors/cengiz-oztireli/</link>
+      <atom:link href="https://huangjh-pub.github.io/authors/cengiz-oztireli/index.xml" rel="self" type="application/rss+xml" />
+    <description>Cengiz Oztireli</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 30 Nov 2024 23:15:32 -0700</lastBuildDate>
+    <image>
+      <url>https://huangjh-pub.github.io/media/icon_hu7092057554204590415.png</url>
+      <title>Cengiz Oztireli</title>
+      <link>https://huangjh-pub.github.io/authors/cengiz-oztireli/</link>
+    </image>
+    
+    <item>
+      <title>Feed-Forward Bullet-Time Reconstruction of Dynamic Scenes from Monocular Videos</title>
+      <link>https://huangjh-pub.github.io/publication/btimer/</link>
+      <pubDate>Sat, 30 Nov 2024 23:15:32 -0700</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/btimer/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

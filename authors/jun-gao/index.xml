@@ -5,12 +5,20 @@
     <link>https://huangjh-pub.github.io/authors/jun-gao/</link>
       <atom:link href="https://huangjh-pub.github.io/authors/jun-gao/index.xml" rel="self" type="application/rss+xml" />
     <description>Jun Gao</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 10 Jan 2019 22:01:07 +0800</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 05 Dec 2024 23:15:32 -0700</lastBuildDate>
     <image>
       <url>https://huangjh-pub.github.io/media/icon_hu7092057554204590415.png</url>
       <title>Jun Gao</title>
       <link>https://huangjh-pub.github.io/authors/jun-gao/</link>
     </image>
+    
+    <item>
+      <title>InfiniCube: Unbounded and Controllable Dynamic 3D Driving Scene Generation with World-Guided Video Models</title>
+      <link>https://huangjh-pub.github.io/publication/infinicube/</link>
+      <pubDate>Thu, 05 Dec 2024 23:15:32 -0700</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/infinicube/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>DeepSpline: Data-Driven Reconstruction of Parametric Curves and Surfaces</title>
