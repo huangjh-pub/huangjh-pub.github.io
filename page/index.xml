@@ -7,7 +7,7 @@
     <description>Pages</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
     <image>
-      <url>https://huangjh-pub.github.io/media/icon_hu7092057554204590415.png</url>
+      <url>https://huangjh-pub.github.io/media/icon_hu_36909de3352c0a1b.png</url>
       <title>Pages</title>
       <link>https://huangjh-pub.github.io/page/</link>
     </image>
@@ -34,10 +34,10 @@
 &lt;figure  id=&#34;figure-overview-of-the-synthetic-dataset&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Overview of the synthetic dataset&#34; srcset=&#34;
-               /media/clusterslam-dataset/overview_hu6399347909504547043.webp 400w,
-               /media/clusterslam-dataset/overview_hu5303696370261369393.webp 760w,
-               /media/clusterslam-dataset/overview_hu1061685624917817547.webp 1200w&#34;
-               src=&#34;https://huangjh-pub.github.io/media/clusterslam-dataset/overview_hu6399347909504547043.webp&#34;
+               /media/clusterslam-dataset/overview_hu_5da4d5bed821b868.webp 400w,
+               /media/clusterslam-dataset/overview_hu_cd75a5ebf2eb5ee7.webp 760w,
+               /media/clusterslam-dataset/overview_hu_df15784a46b79ef1.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/media/clusterslam-dataset/overview_hu_5da4d5bed821b868.webp&#34;
                width=&#34;760&#34;
                height=&#34;327&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;

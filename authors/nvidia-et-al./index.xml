@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NVIDIA Et Al. | Jiahui Huang</title>
+    <link>http://localhost:1313/authors/nvidia-et-al./</link>
+      <atom:link href="http://localhost:1313/authors/nvidia-et-al./index.xml" rel="self" type="application/rss+xml" />
+    <description>NVIDIA Et Al.</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 07 Jan 2025 00:00:00 -0700</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_36909de3352c0a1b.png</url>
+      <title>NVIDIA Et Al.</title>
+      <link>http://localhost:1313/authors/nvidia-et-al./</link>
+    </image>
+    
+    <item>
+      <title>Cosmos World Foundation Model Platform for Physical AI</title>
+      <link>http://localhost:1313/publication/cosmos/</link>
+      <pubDate>Tue, 07 Jan 2025 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/publication/cosmos/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

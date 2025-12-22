@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kevin Xie | Jiahui Huang</title>
+    <link>https://huangjh-pub.github.io/authors/kevin-xie/</link>
+      <atom:link href="https://huangjh-pub.github.io/authors/kevin-xie/index.xml" rel="self" type="application/rss+xml" />
+    <description>Kevin Xie</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 12 Aug 2025 00:00:00 -0700</lastBuildDate>
+    <image>
+      <url>https://huangjh-pub.github.io/media/icon_hu_36909de3352c0a1b.png</url>
+      <title>Kevin Xie</title>
+      <link>https://huangjh-pub.github.io/authors/kevin-xie/</link>
+    </image>
+    
+    <item>
+      <title>ViPE: Video Pose Engine for 3D Geometric Perception</title>
+      <link>https://huangjh-pub.github.io/publication/vipe/</link>
+      <pubDate>Tue, 12 Aug 2025 00:00:00 -0700</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/vipe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VideoPanda: Video Panoramic Diffusion with Multi-view Attention</title>
+      <link>https://huangjh-pub.github.io/publication/videopanda/</link>
+      <pubDate>Tue, 15 Apr 2025 00:00:00 -0700</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/videopanda/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

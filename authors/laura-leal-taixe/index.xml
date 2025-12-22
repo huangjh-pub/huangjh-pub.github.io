@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Laura Leal-Taixe | Jiahui Huang</title>
+    <link>https://huangjh-pub.github.io/authors/laura-leal-taixe/</link>
+      <atom:link href="https://huangjh-pub.github.io/authors/laura-leal-taixe/index.xml" rel="self" type="application/rss+xml" />
+    <description>Laura Leal-Taixe</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 12 Aug 2025 00:00:00 -0700</lastBuildDate>
+    <image>
+      <url>https://huangjh-pub.github.io/media/icon_hu_36909de3352c0a1b.png</url>
+      <title>Laura Leal-Taixe</title>
+      <link>https://huangjh-pub.github.io/authors/laura-leal-taixe/</link>
+    </image>
+    
+    <item>
+      <title>ViPE: Video Pose Engine for 3D Geometric Perception</title>
+      <link>https://huangjh-pub.github.io/publication/vipe/</link>
+      <pubDate>Tue, 12 Aug 2025 00:00:00 -0700</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/vipe/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

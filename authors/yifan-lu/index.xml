@@ -5,9 +5,9 @@
     <link>https://huangjh-pub.github.io/authors/yifan-lu/</link>
       <atom:link href="https://huangjh-pub.github.io/authors/yifan-lu/index.xml" rel="self" type="application/rss+xml" />
     <description>Yifan Lu</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 05 Dec 2024 23:15:32 -0700</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jun 2025 23:15:32 -0700</lastBuildDate>
     <image>
-      <url>https://huangjh-pub.github.io/media/icon_hu7092057554204590415.png</url>
+      <url>https://huangjh-pub.github.io/media/icon_hu_36909de3352c0a1b.png</url>
       <title>Yifan Lu</title>
       <link>https://huangjh-pub.github.io/authors/yifan-lu/</link>
     </image>
@@ -15,8 +15,16 @@
     <item>
       <title>InfiniCube: Unbounded and Controllable Dynamic 3D Driving Scene Generation with World-Guided Video Models</title>
       <link>https://huangjh-pub.github.io/publication/infinicube/</link>
-      <pubDate>Thu, 05 Dec 2024 23:15:32 -0700</pubDate>
+      <pubDate>Sun, 01 Jun 2025 23:15:32 -0700</pubDate>
       <guid>https://huangjh-pub.github.io/publication/infinicube/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GEN3C: 3D-Informed World-Consistent Video Generation with Precise Camera Control</title>
+      <link>https://huangjh-pub.github.io/publication/gen3c/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 -0700</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/gen3c/</guid>
       <description></description>
     </item>
     

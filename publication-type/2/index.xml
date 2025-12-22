@@ -5,12 +5,20 @@
     <link>https://huangjh-pub.github.io/publication-type/2/</link>
       <atom:link href="https://huangjh-pub.github.io/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 10 Jun 2024 21:59:40 +0800</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Sep 2025 00:00:00 -0700</lastBuildDate>
     <image>
-      <url>https://huangjh-pub.github.io/media/icon_hu7092057554204590415.png</url>
+      <url>https://huangjh-pub.github.io/media/icon_hu_36909de3352c0a1b.png</url>
       <title>2</title>
       <link>https://huangjh-pub.github.io/publication-type/2/</link>
     </image>
+    
+    <item>
+      <title>TerraCraft: City-scale Generative Procedural Modeling with Natural Language</title>
+      <link>https://huangjh-pub.github.io/publication/terracraft/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 -0700</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/terracraft/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>fVDB: A Deep-Learning Framework for Sparse, Large-Scale, and High-Performance Spatial Intelligence</title>
@@ -50,10 +58,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /publication/synorim/teaser_hu6605768260645695503.webp 400w,
-               /publication/synorim/teaser_hu15416954127689638820.webp 760w,
-               /publication/synorim/teaser_hu6359287630242512699.webp 1200w&#34;
-               src=&#34;https://huangjh-pub.github.io/publication/synorim/teaser_hu6605768260645695503.webp&#34;
+               /publication/synorim/teaser_hu_c942c1128ff0d7e0.webp 400w,
+               /publication/synorim/teaser_hu_5b57aff9b47fc5cb.webp 760w,
+               /publication/synorim/teaser_hu_493e9aa599b2692d.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/synorim/teaser_hu_c942c1128ff0d7e0.webp&#34;
                width=&#34;1024&#34;
                height=&#34;152&#34;
                loading=&#34;lazy&#34; /&gt;&lt;/div&gt;
@@ -334,10 +342,10 @@ document.addEventListener(&#34;DOMContentLoaded&#34;, (function() {
 &lt;figure  id=&#34;figure-dynamic-reconstruction-result-the-rgb-images-are-just-for-references&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Dynamic reconstruction result. The RGB images are just for references.&#34; srcset=&#34;
-               /publication/synorim/recon_hu377666660400572581.webp 400w,
-               /publication/synorim/recon_hu6777402551520326354.webp 760w,
-               /publication/synorim/recon_hu752709778436055995.webp 1200w&#34;
-               src=&#34;https://huangjh-pub.github.io/publication/synorim/recon_hu377666660400572581.webp&#34;
+               /publication/synorim/recon_hu_239e97ef34caa569.webp 400w,
+               /publication/synorim/recon_hu_38b4d1d9cd026671.webp 760w,
+               /publication/synorim/recon_hu_c7e9e9918d0396e0.webp 1200w&#34;
+               src=&#34;https://huangjh-pub.github.io/publication/synorim/recon_hu_239e97ef34caa569.webp&#34;
                width=&#34;760&#34;
                height=&#34;235&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;

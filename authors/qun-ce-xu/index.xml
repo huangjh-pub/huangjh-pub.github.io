@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Qun-Ce Xu | Jiahui Huang</title>
+    <link>https://huangjh-pub.github.io/authors/qun-ce-xu/</link>
+      <atom:link href="https://huangjh-pub.github.io/authors/qun-ce-xu/index.xml" rel="self" type="application/rss+xml" />
+    <description>Qun-Ce Xu</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 18 Nov 2025 00:00:00 -0700</lastBuildDate>
+    <image>
+      <url>https://huangjh-pub.github.io/media/icon_hu_36909de3352c0a1b.png</url>
+      <title>Qun-Ce Xu</title>
+      <link>https://huangjh-pub.github.io/authors/qun-ce-xu/</link>
+    </image>
+    
+    <item>
+      <title>NeuralSSD: A Neural Solver for Signed Distance Surface Reconstruction</title>
+      <link>https://huangjh-pub.github.io/publication/neuralssd/</link>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 -0700</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/neuralssd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TerraCraft: City-scale Generative Procedural Modeling with Natural Language</title>
+      <link>https://huangjh-pub.github.io/publication/terracraft/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 -0700</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/terracraft/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Georg Klar | Jiahui Huang</title>
+    <link>http://localhost:1313/authors/georg-klar/</link>
+      <atom:link href="http://localhost:1313/authors/georg-klar/index.xml" rel="self" type="application/rss+xml" />
+    <description>Georg Klar</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 15 Apr 2025 00:00:00 -0700</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_36909de3352c0a1b.png</url>
+      <title>Georg Klar</title>
+      <link>http://localhost:1313/authors/georg-klar/</link>
+    </image>
+    
+    <item>
+      <title>VideoPanda: Video Panoramic Diffusion with Multi-View Attention</title>
+      <link>http://localhost:1313/publication/videopanda/</link>
+      <pubDate>Tue, 15 Apr 2025 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/publication/videopanda/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

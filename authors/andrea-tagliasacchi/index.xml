@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Andrea Tagliasacchi | Jiahui Huang</title>
+    <link>https://huangjh-pub.github.io/authors/andrea-tagliasacchi/</link>
+      <atom:link href="https://huangjh-pub.github.io/authors/andrea-tagliasacchi/index.xml" rel="self" type="application/rss+xml" />
+    <description>Andrea Tagliasacchi</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 23 Sep 2025 00:00:00 -0700</lastBuildDate>
+    <image>
+      <url>https://huangjh-pub.github.io/media/icon_hu_36909de3352c0a1b.png</url>
+      <title>Andrea Tagliasacchi</title>
+      <link>https://huangjh-pub.github.io/authors/andrea-tagliasacchi/</link>
+    </image>
+    
+    <item>
+      <title>Lyra: Generative 3D Scene Reconstruction via Video Diffusion Model Self-Distillation</title>
+      <link>https://huangjh-pub.github.io/publication/lyra/</link>
+      <pubDate>Tue, 23 Sep 2025 00:00:00 -0700</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/lyra/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hong-Xing Chen | Jiahui Huang</title>
+    <link>http://localhost:1313/authors/hong-xing-chen/</link>
+      <atom:link href="http://localhost:1313/authors/hong-xing-chen/index.xml" rel="self" type="application/rss+xml" />
+    <description>Hong-Xing Chen</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 21 Nov 2025 00:00:00 -0700</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_36909de3352c0a1b.png</url>
+      <title>Hong-Xing Chen</title>
+      <link>http://localhost:1313/authors/hong-xing-chen/</link>
+    </image>
+    
+    <item>
+      <title>NeuralSSD: A Neural Solver for Signed Distance Surface Reconstruction</title>
+      <link>http://localhost:1313/publication/neuralssd/</link>
+      <pubDate>Fri, 21 Nov 2025 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/publication/neuralssd/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

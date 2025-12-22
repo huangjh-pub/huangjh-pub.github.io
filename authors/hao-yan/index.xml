@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hao Yan | Jiahui Huang</title>
+    <link>http://localhost:1313/authors/hao-yan/</link>
+      <atom:link href="http://localhost:1313/authors/hao-yan/index.xml" rel="self" type="application/rss+xml" />
+    <description>Hao Yan</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 15 Jan 2025 00:00:00 -0700</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_36909de3352c0a1b.png</url>
+      <title>Hao Yan</title>
+      <link>http://localhost:1313/authors/hao-yan/</link>
+    </image>
+    
+    <item>
+      <title>TerraCraft: City-Scale Generative Procedural Modeling with Natural Languages</title>
+      <link>http://localhost:1313/publication/terracraft/</link>
+      <pubDate>Wed, 15 Jan 2025 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/publication/terracraft/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

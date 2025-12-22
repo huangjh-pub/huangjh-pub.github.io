@@ -5,12 +5,44 @@
     <link>https://huangjh-pub.github.io/publication-type/3/</link>
       <atom:link href="https://huangjh-pub.github.io/publication-type/3/index.xml" rel="self" type="application/rss+xml" />
     <description>3</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 30 Nov 2024 23:15:32 -0700</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 18 Nov 2025 00:00:00 -0700</lastBuildDate>
     <image>
-      <url>https://huangjh-pub.github.io/media/icon_hu7092057554204590415.png</url>
+      <url>https://huangjh-pub.github.io/media/icon_hu_36909de3352c0a1b.png</url>
       <title>3</title>
       <link>https://huangjh-pub.github.io/publication-type/3/</link>
     </image>
+    
+    <item>
+      <title>NeuralSSD: A Neural Solver for Signed Distance Surface Reconstruction</title>
+      <link>https://huangjh-pub.github.io/publication/neuralssd/</link>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 -0700</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/neuralssd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lyra: Generative 3D Scene Reconstruction via Video Diffusion Model Self-Distillation</title>
+      <link>https://huangjh-pub.github.io/publication/lyra/</link>
+      <pubDate>Tue, 23 Sep 2025 00:00:00 -0700</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/lyra/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ViPE: Video Pose Engine for 3D Geometric Perception</title>
+      <link>https://huangjh-pub.github.io/publication/vipe/</link>
+      <pubDate>Tue, 12 Aug 2025 00:00:00 -0700</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/vipe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VideoPanda: Video Panoramic Diffusion with Multi-view Attention</title>
+      <link>https://huangjh-pub.github.io/publication/videopanda/</link>
+      <pubDate>Tue, 15 Apr 2025 00:00:00 -0700</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/videopanda/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Feed-Forward Bullet-Time Reconstruction of Dynamic Scenes from Monocular Videos</title>

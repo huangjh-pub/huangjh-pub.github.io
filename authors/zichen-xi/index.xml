@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zichen Xi | Jiahui Huang</title>
+    <link>https://huangjh-pub.github.io/authors/zichen-xi/</link>
+      <atom:link href="https://huangjh-pub.github.io/authors/zichen-xi/index.xml" rel="self" type="application/rss+xml" />
+    <description>Zichen Xi</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Sep 2025 00:00:00 -0700</lastBuildDate>
+    <image>
+      <url>https://huangjh-pub.github.io/media/icon_hu_36909de3352c0a1b.png</url>
+      <title>Zichen Xi</title>
+      <link>https://huangjh-pub.github.io/authors/zichen-xi/</link>
+    </image>
+    
+    <item>
+      <title>TerraCraft: City-scale Generative Procedural Modeling with Natural Language</title>
+      <link>https://huangjh-pub.github.io/publication/terracraft/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 -0700</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/terracraft/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

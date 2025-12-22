@@ -5,12 +5,20 @@
     <link>https://huangjh-pub.github.io/authors/xiaohui-zeng/</link>
       <atom:link href="https://huangjh-pub.github.io/authors/xiaohui-zeng/index.xml" rel="self" type="application/rss+xml" />
     <description>Xiaohui Zeng</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Feb 2024 23:15:32 -0700</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 15 Apr 2025 00:00:00 -0700</lastBuildDate>
     <image>
-      <url>https://huangjh-pub.github.io/media/icon_hu7092057554204590415.png</url>
+      <url>https://huangjh-pub.github.io/media/icon_hu_36909de3352c0a1b.png</url>
       <title>Xiaohui Zeng</title>
       <link>https://huangjh-pub.github.io/authors/xiaohui-zeng/</link>
     </image>
+    
+    <item>
+      <title>VideoPanda: Video Panoramic Diffusion with Multi-view Attention</title>
+      <link>https://huangjh-pub.github.io/publication/videopanda/</link>
+      <pubDate>Tue, 15 Apr 2025 00:00:00 -0700</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/videopanda/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>XCube: Large-Scale 3D Generative Modeling using Sparse Voxel Hierarchies</title>
