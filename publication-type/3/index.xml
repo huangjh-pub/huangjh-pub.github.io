@@ -5,26 +5,50 @@
     <link>https://huangjh-pub.github.io/publication-type/3/</link>
       <atom:link href="https://huangjh-pub.github.io/publication-type/3/index.xml" rel="self" type="application/rss+xml" />
     <description>3</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 18 Nov 2025 00:00:00 -0700</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 28 May 2026 00:00:00 -0700</lastBuildDate>
     <image>
-      <url>https://huangjh-pub.github.io/media/icon_hu_36909de3352c0a1b.png</url>
+      <url>https://huangjh-pub.github.io/media/icon_hu203b42f3cc3d45b329fe7ad5d52ac786_38688_512x512_fill_lanczos_center_3.png</url>
       <title>3</title>
       <link>https://huangjh-pub.github.io/publication-type/3/</link>
     </image>
+    
+    <item>
+      <title>Déjà View: Looping Transformers for Multi-View 3D Reconstruction</title>
+      <link>https://huangjh-pub.github.io/publication/dejaview/</link>
+      <pubDate>Thu, 28 May 2026 00:00:00 -0700</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/dejaview/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Asset Harvester: Extracting 3D Assets from Autonomous Driving Logs for Simulation</title>
+      <link>https://huangjh-pub.github.io/publication/asset-harvester/</link>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 -0700</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/asset-harvester/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lyra 2.0: Explorable Generative 3D Worlds</title>
+      <link>https://huangjh-pub.github.io/publication/lyra2/</link>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 -0700</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/lyra2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Depth Completion as Parameter-Efficient Test-Time Adaptation</title>
+      <link>https://huangjh-pub.github.io/publication/capa/</link>
+      <pubDate>Mon, 16 Feb 2026 00:00:00 -0700</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/capa/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>NeuralSSD: A Neural Solver for Signed Distance Surface Reconstruction</title>
       <link>https://huangjh-pub.github.io/publication/neuralssd/</link>
       <pubDate>Tue, 18 Nov 2025 00:00:00 -0700</pubDate>
       <guid>https://huangjh-pub.github.io/publication/neuralssd/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Lyra: Generative 3D Scene Reconstruction via Video Diffusion Model Self-Distillation</title>
-      <link>https://huangjh-pub.github.io/publication/lyra/</link>
-      <pubDate>Tue, 23 Sep 2025 00:00:00 -0700</pubDate>
-      <guid>https://huangjh-pub.github.io/publication/lyra/</guid>
       <description></description>
     </item>
     

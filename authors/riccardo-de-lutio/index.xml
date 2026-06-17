@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Riccardo De Lutio | Jiahui Huang</title>
+    <title>Riccardo de Lutio | Jiahui Huang</title>
     <link>https://huangjh-pub.github.io/authors/riccardo-de-lutio/</link>
       <atom:link href="https://huangjh-pub.github.io/authors/riccardo-de-lutio/index.xml" rel="self" type="application/rss+xml" />
-    <description>Riccardo De Lutio</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Sep 2024 23:15:32 -0700</lastBuildDate>
+    <description>Riccardo de Lutio</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 28 May 2026 00:00:00 -0700</lastBuildDate>
     <image>
-      <url>https://huangjh-pub.github.io/media/icon_hu_36909de3352c0a1b.png</url>
-      <title>Riccardo De Lutio</title>
+      <url>https://huangjh-pub.github.io/media/icon_hu203b42f3cc3d45b329fe7ad5d52ac786_38688_512x512_fill_lanczos_center_3.png</url>
+      <title>Riccardo de Lutio</title>
       <link>https://huangjh-pub.github.io/authors/riccardo-de-lutio/</link>
     </image>
+    
+    <item>
+      <title>Déjà View: Looping Transformers for Multi-View 3D Reconstruction</title>
+      <link>https://huangjh-pub.github.io/publication/dejaview/</link>
+      <pubDate>Thu, 28 May 2026 00:00:00 -0700</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/dejaview/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>OmniRe: Omni Urban Scene Reconstruction</title>

@@ -5,17 +5,33 @@
     <link>https://huangjh-pub.github.io/authors/xuanchi-ren/</link>
       <atom:link href="https://huangjh-pub.github.io/authors/xuanchi-ren/index.xml" rel="self" type="application/rss+xml" />
     <description>Xuanchi Ren</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 23 Sep 2025 00:00:00 -0700</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 14 Apr 2026 00:00:00 -0700</lastBuildDate>
     <image>
-      <url>https://huangjh-pub.github.io/media/icon_hu_36909de3352c0a1b.png</url>
+      <url>https://huangjh-pub.github.io/media/icon_hu203b42f3cc3d45b329fe7ad5d52ac786_38688_512x512_fill_lanczos_center_3.png</url>
       <title>Xuanchi Ren</title>
       <link>https://huangjh-pub.github.io/authors/xuanchi-ren/</link>
     </image>
     
     <item>
+      <title>Lyra 2.0: Explorable Generative 3D Worlds</title>
+      <link>https://huangjh-pub.github.io/publication/lyra2/</link>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 -0700</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/lyra2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Depth Completion as Parameter-Efficient Test-Time Adaptation</title>
+      <link>https://huangjh-pub.github.io/publication/capa/</link>
+      <pubDate>Mon, 16 Feb 2026 00:00:00 -0700</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/capa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Lyra: Generative 3D Scene Reconstruction via Video Diffusion Model Self-Distillation</title>
       <link>https://huangjh-pub.github.io/publication/lyra/</link>
-      <pubDate>Tue, 23 Sep 2025 00:00:00 -0700</pubDate>
+      <pubDate>Mon, 26 Jan 2026 00:00:00 -0700</pubDate>
       <guid>https://huangjh-pub.github.io/publication/lyra/</guid>
       <description></description>
     </item>

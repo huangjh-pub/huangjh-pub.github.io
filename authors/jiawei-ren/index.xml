@@ -5,17 +5,49 @@
     <link>https://huangjh-pub.github.io/authors/jiawei-ren/</link>
       <atom:link href="https://huangjh-pub.github.io/authors/jiawei-ren/index.xml" rel="self" type="application/rss+xml" />
     <description>Jiawei Ren</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 23 Sep 2025 00:00:00 -0700</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 28 May 2026 00:00:00 -0700</lastBuildDate>
     <image>
-      <url>https://huangjh-pub.github.io/media/icon_hu_36909de3352c0a1b.png</url>
+      <url>https://huangjh-pub.github.io/media/icon_hu203b42f3cc3d45b329fe7ad5d52ac786_38688_512x512_fill_lanczos_center_3.png</url>
       <title>Jiawei Ren</title>
       <link>https://huangjh-pub.github.io/authors/jiawei-ren/</link>
     </image>
     
     <item>
+      <title>Déjà View: Looping Transformers for Multi-View 3D Reconstruction</title>
+      <link>https://huangjh-pub.github.io/publication/dejaview/</link>
+      <pubDate>Thu, 28 May 2026 00:00:00 -0700</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/dejaview/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Asset Harvester: Extracting 3D Assets from Autonomous Driving Logs for Simulation</title>
+      <link>https://huangjh-pub.github.io/publication/asset-harvester/</link>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 -0700</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/asset-harvester/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TokenGS: Decoupling 3D Gaussian Prediction from Pixels with Learnable Tokens</title>
+      <link>https://huangjh-pub.github.io/publication/tokengs/</link>
+      <pubDate>Thu, 16 Apr 2026 00:00:00 -0700</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/tokengs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lyra 2.0: Explorable Generative 3D Worlds</title>
+      <link>https://huangjh-pub.github.io/publication/lyra2/</link>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 -0700</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/lyra2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Lyra: Generative 3D Scene Reconstruction via Video Diffusion Model Self-Distillation</title>
       <link>https://huangjh-pub.github.io/publication/lyra/</link>
-      <pubDate>Tue, 23 Sep 2025 00:00:00 -0700</pubDate>
+      <pubDate>Mon, 26 Jan 2026 00:00:00 -0700</pubDate>
       <guid>https://huangjh-pub.github.io/publication/lyra/</guid>
       <description></description>
     </item>

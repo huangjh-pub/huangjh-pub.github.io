@@ -64,7 +64,7 @@
   
     
   
-  <meta name="description" content="Research Scientist" />
+  <meta name="description" content="Senior Research Scientist" />
 
   
   <link rel="alternate" hreflang="en-us" href="https://huangjh-pub.github.io/publication-type/3/" />
@@ -83,7 +83,7 @@
 
   
 
-  <link rel="stylesheet" href="/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="/css/vendor-bundle.min.css" media="print" onload="this.media='all'">
 
   
   
@@ -255,49 +255,10 @@
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.b63ba1e38f0c8d463142066d0a513611.css" />
+  <link rel="stylesheet" href="/css/wowchemy.css" />
 
   
 
-
-
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-162631457-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-
-  function gtag() {
-      dataLayer.push(arguments);
-  }
-
-  function trackOutboundLink(url, target) {
-    gtag('event', 'click', {
-         'event_category': 'outbound',
-         'event_label': url,
-         'transport_type': 'beacon',
-         'event_callback': function () {
-           if (target !== '_blank') {
-             document.location = url;
-           }
-         }
-    });
-    console.debug("Outbound link clicked: " + url);
-  }
-
-  function onClickCallback(event) {
-    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
-      return;
-    }
-    trackOutboundLink(event.target, event.target.getAttribute('target'));  
-  }
-
-  gtag('js', new Date());
-  gtag('config', 'UA-162631457-1', {});
-  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
-
-  
-  document.addEventListener('click', onClickCallback, false);
-</script>
 
 
   
@@ -323,8 +284,8 @@
     <link rel="manifest" href="/manifest.webmanifest" />
   
 
-  <link rel="icon" type="image/png" href="/media/icon_hu_83d3087c51c2a2e4.png" />
-  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu_e79936f0629c3e38.png" />
+  <link rel="icon" type="image/png" href="/media/icon_hu203b42f3cc3d45b329fe7ad5d52ac786_38688_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu203b42f3cc3d45b329fe7ad5d52ac786_38688_180x180_fill_lanczos_center_3.png" />
 
   <link rel="canonical" href="https://huangjh-pub.github.io/publication-type/3/" />
 
@@ -354,11 +315,11 @@
   <meta property="og:site_name" content="Jiahui Huang" />
   <meta property="og:url" content="https://huangjh-pub.github.io/publication-type/3/" />
   <meta property="og:title" content="3 | Jiahui Huang" />
-  <meta property="og:description" content="Research Scientist" /><meta property="og:image" content="https://huangjh-pub.github.io/media/icon_hu_36909de3352c0a1b.png" />
-    <meta property="twitter:image" content="https://huangjh-pub.github.io/media/icon_hu_36909de3352c0a1b.png" /><meta property="og:locale" content="en-us" />
+  <meta property="og:description" content="Senior Research Scientist" /><meta property="og:image" content="https://huangjh-pub.github.io/media/icon_hu203b42f3cc3d45b329fe7ad5d52ac786_38688_512x512_fill_lanczos_center_3.png" />
+    <meta property="twitter:image" content="https://huangjh-pub.github.io/media/icon_hu203b42f3cc3d45b329fe7ad5d52ac786_38688_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
   
     
-      <meta property="og:updated_time" content="2025-11-18T00:00:00-07:00" />
+      <meta property="og:updated_time" content="2026-05-28T00:00:00-07:00" />
     
   
 
@@ -389,7 +350,7 @@
   
   
   
-  <script src="/js/wowchemy-init.min.9e9fa4b2ccd29f9edfae161d14d2effd.js"></script>
+  <script src="/js/wowchemy-init.min.js"></script>
 
   
 
@@ -722,6 +683,604 @@
 
     <div class="section-subheading article-title mb-0 mt-0">
         
+        Déjà View: Looping Transformers for Multi-View 3D Reconstruction
+        
+    </div>
+
+    
+        
+            <div class="article-style">
+              ArXiv 2026
+            </div>
+        
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      Alessandro Burzio</span>, <span >
+      Tobias Fischer</span>, <span >
+      Sven Elflein</span>, <span >
+      Qunjie Zhou</span>, <span >
+      Riccardo de Lutio</span>, <span >
+      <a href="https://jiawei-ren.github.io/" target="_blank" rel="noopener">Jiawei Ren</a></span>, <span class="author-highlighted">
+      Jiahui Huang</span>, <span >
+      Shengyu Huang</span>, <span >
+      Marc Pollefeys</span>, <span >
+      Laura Leal-Taixé</span>, <span >
+      <a href="https://zgojcic.github.io/" target="_blank" rel="noopener">Zan Gojcic</a></span>, <span >
+      Haithem Turki</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/abs/2605.30215" target="_blank" rel="noopener">
+
+  PDF
+
+</a>
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/nv-tlabs/dvlt" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+
+
+  
+    
+    
+      
+    
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://research.nvidia.com/labs/dvl/projects/dvlt/" target="_blank" rel="noopener">
+    Project
+  </a>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    
+    <a href="/publication/dejaview/" >
+      <img src="/publication/dejaview/featured.gif" height="360" width="640"
+           alt="Déjà View: Looping Transformers for Multi-View 3D Reconstruction" loading="lazy">
+    </a>
+    
+  </div>
+</div>
+  
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+        
+        Asset Harvester: Extracting 3D Assets from Autonomous Driving Logs for Simulation
+        
+    </div>
+
+    
+        
+            <div class="article-style">
+              ArXiv 2026
+            </div>
+        
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      Tianshi Cao</span>, <span >
+      <a href="https://jiawei-ren.github.io/" target="_blank" rel="noopener">Jiawei Ren</a></span>, <span >
+      Yuxuan Zhang</span>, <span >
+      Jaewoo Seo</span>, <span class="author-highlighted">
+      Jiahui Huang</span>, <span >
+      Shikhar Solanki</span>, <span >
+      Haotian Zhang</span>, <span >
+      Mingfei Guo</span>, <span >
+      Haithem Turki</span>, <span >
+      Muxingzi Li</span>, <span >
+      Yue Zhu</span>, <span >
+      Sipeng Zhang</span>, <span >
+      <a href="https://zgojcic.github.io/" target="_blank" rel="noopener">Zan Gojcic</a></span>, <span >
+      <a href="https://www.cs.utoronto.ca/~fidler/" target="_blank" rel="noopener">Sanja Fidler</a></span>, <span >
+      Kangxue Yin</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/abs/2604.18468" target="_blank" rel="noopener">
+
+  PDF
+
+</a>
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/NVIDIA/asset-harvester" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://huggingface.co/datasets/nvidia/PhysicalAI-Autonomous-Vehicles-NCore" target="_blank" rel="noopener">
+  Dataset
+</a>
+
+
+
+
+  
+    
+    
+      
+    
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://research.nvidia.com/labs/sil/projects/asset-harvester/" target="_blank" rel="noopener">
+    Project
+  </a>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    
+      
+    
+    <a href="/publication/asset-harvester/" >
+      <img src="/publication/asset-harvester/featured_hufd779ba6439d99d7562bdb7981168910_2306918_550x0_resize_q75_h2_lanczos_3.webp" height="223" width="550"
+           alt="Asset Harvester: Extracting 3D Assets from Autonomous Driving Logs for Simulation" loading="lazy">
+    </a>
+    
+  </div>
+</div>
+  
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+        
+        Lyra 2.0: Explorable Generative 3D Worlds
+        
+    </div>
+
+    
+        
+            <div class="article-style">
+              ArXiv 2026
+            </div>
+        
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      <a href="https://www.cs.toronto.edu/~shenti11/" target="_blank" rel="noopener">Tianchang Shen</a></span>, <span >
+      Sherwin Bahmani</span>, <span >
+      Kai He</span>, <span >
+      Sangeetha Grama Srinivasan</span>, <span >
+      Tianshi Cao</span>, <span >
+      <a href="https://jiawei-ren.github.io/" target="_blank" rel="noopener">Jiawei Ren</a></span>, <span >
+      Ruilong Li</span>, <span >
+      Zian Wang</span>, <span >
+      Nicholas Sharp</span>, <span >
+      <a href="https://zgojcic.github.io/" target="_blank" rel="noopener">Zan Gojcic</a></span>, <span >
+      <a href="https://www.cs.utoronto.ca/~fidler/" target="_blank" rel="noopener">Sanja Fidler</a></span>, <span class="author-highlighted">
+      Jiahui Huang</span>, <span >
+      <a href="https://www.cs.toronto.edu/~linghuan/" target="_blank" rel="noopener">Huan Ling</a></span>, <span >
+      <a href="https://www.cs.toronto.edu/~jungao/" target="_blank" rel="noopener">Jun Gao</a></span>, <span >
+      <a href="https://xuanchiren.com/" target="_blank" rel="noopener">Xuanchi Ren</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/abs/2604.13036" target="_blank" rel="noopener">
+
+  PDF
+
+</a>
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/nv-tlabs/lyra" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+
+
+  
+    
+    
+      
+    
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://research.nvidia.com/labs/sil/projects/lyra2/" target="_blank" rel="noopener">
+    Project
+  </a>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    
+    <a href="/publication/lyra2/" >
+      <img src="/publication/lyra2/featured.gif" height="370" width="640"
+           alt="Lyra 2.0: Explorable Generative 3D Worlds" loading="lazy">
+    </a>
+    
+  </div>
+</div>
+  
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+        
+        Depth Completion as Parameter-Efficient Test-Time Adaptation
+        
+    </div>
+
+    
+        
+            <div class="article-style">
+              ArXiv 2026
+            </div>
+        
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      Bingxin Ke</span>, <span >
+      Qunjie Zhou</span>, <span class="author-highlighted">
+      Jiahui Huang</span>, <span >
+      <a href="https://xuanchiren.com/" target="_blank" rel="noopener">Xuanchi Ren</a></span>, <span >
+      <a href="https://www.cs.toronto.edu/~shenti11/" target="_blank" rel="noopener">Tianchang Shen</a></span>, <span >
+      Konrad Schindler</span>, <span >
+      Laura Leal-Taixé</span>, <span >
+      Shengyu Huang</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/abs/2602.14751" target="_blank" rel="noopener">
+
+  PDF
+
+</a>
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/nv-dvl/capa" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+
+
+  
+    
+    
+      
+    
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://research.nvidia.com/labs/dvl/projects/capa/" target="_blank" rel="noopener">
+    Project
+  </a>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    
+      
+    
+    <a href="/publication/capa/" >
+      <img src="/publication/capa/featured_hu0f889f4ad84e7ddc175f7875cadc6413_393718_550x0_resize_q75_h2_lanczos_3.webp" height="345" width="550"
+           alt="Depth Completion as Parameter-Efficient Test-Time Adaptation" loading="lazy">
+    </a>
+    
+  </div>
+</div>
+  
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+        
         NeuralSSD: A Neural Solver for Signed Distance Surface Reconstruction
         
     </div>
@@ -818,155 +1377,8 @@
       
     
     <a href="/publication/neuralssd/" >
-      <img src="/publication/neuralssd/featured_hu_4f2bc10635a7d4e4.webp" height="545" width="550"
+      <img src="/publication/neuralssd/featured_hu826ed3e1609f42cceebebc62925caca5_372619_550x0_resize_q75_h2_lanczos_3.webp" height="545" width="550"
            alt="NeuralSSD: A Neural Solver for Signed Distance Surface Reconstruction" loading="lazy">
-    </a>
-    
-  </div>
-</div>
-  
-    
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-        
-        Lyra: Generative 3D Scene Reconstruction via Video Diffusion Model Self-Distillation
-        
-    </div>
-
-    
-        
-            <div class="article-style">
-              ArXiv 2025
-            </div>
-        
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-  <span >
-      Sherwin Bahmani</span>, <span >
-      <a href="https://www.cs.toronto.edu/~shenti11/" target="_blank" rel="noopener">Tianchang Shen</a></span>, <span >
-      <a href="https://jiawei-ren.github.io/" target="_blank" rel="noopener">Jiawei Ren</a></span>, <span class="author-highlighted">
-      Jiahui Huang</span>, <span >
-      Yifeng Jiang</span>, <span >
-      Haithem Turki</span>, <span >
-      Andrea Tagliasacchi</span>, <span >
-      David B. Lindell</span>, <span >
-      <a href="https://zgojcic.github.io/" target="_blank" rel="noopener">Zan Gojcic</a></span>, <span >
-      <a href="https://www.cs.utoronto.ca/~fidler/" target="_blank" rel="noopener">Sanja Fidler</a></span>, <span >
-      <a href="https://www.cs.toronto.edu/~linghuan/" target="_blank" rel="noopener">Huan Ling</a></span>, <span >
-      <a href="https://www.cs.toronto.edu/~jungao/" target="_blank" rel="noopener">Jun Gao</a></span>, <span >
-      <a href="https://xuanchiren.com/" target="_blank" rel="noopener">Xuanchi Ren</a></span>
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/abs/2509.19296" target="_blank" rel="noopener">
-
-  PDF
-
-</a>
-
-
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/nv-tlabs/lyra" target="_blank" rel="noopener">
-  Code
-</a>
-
-
-
-
-
-
-  
-    
-    
-      
-    
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://research.nvidia.com/labs/toronto-ai/lyra/" target="_blank" rel="noopener">
-    Project
-  </a>
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    
-    <a href="/publication/lyra/" >
-      <img src="/publication/lyra/featured.gif" height="264" width="480"
-           alt="Lyra: Generative 3D Scene Reconstruction via Video Diffusion Model Self-Distillation" loading="lazy">
     </a>
     
   </div>
@@ -1030,7 +1442,7 @@
       <a href="https://jiawei-ren.github.io/" target="_blank" rel="noopener">Jiawei Ren</a></span>, <span >
       Kevin Xie</span>, <span >
       Joydeep Biswas</span>, <span >
-      Laura Leal-Taixe</span>, <span >
+      Laura Leal-Taixé</span>, <span >
       <a href="https://www.cs.utoronto.ca/~fidler/" target="_blank" rel="noopener">Sanja Fidler</a></span>
       </div>
       
@@ -1250,7 +1662,7 @@
       
     
     <a href="/publication/videopanda/" >
-      <img src="/publication/videopanda/featured_hu_61e95adf5cca53c0.webp" height="551" width="550"
+      <img src="/publication/videopanda/featured_hu67b13ab7bb124119d0c07d5c7248904c_672357_550x0_resize_q75_h2_lanczos_3.webp" height="551" width="550"
            alt="VideoPanda: Video Panoramic Diffusion with Multi-view Attention" loading="lazy">
     </a>
     
@@ -1442,7 +1854,7 @@
       Ziyu Chen</span>, <span >
       <a href="https://jiawei-yang.github.io/" target="_blank" rel="noopener">Jiawei Yang</a></span>, <span class="author-highlighted">
       Jiahui Huang</span>, <span >
-      Riccardo De Lutio</span>, <span >
+      Riccardo de Lutio</span>, <span >
       Janick Martinez Esturo</span>, <span >
       <a href="https://www.borisivanovic.com/" target="_blank" rel="noopener">Boris Ivanovic</a></span>, <span >
       <a href="https://orlitany.github.io/" target="_blank" rel="noopener">Or Litany</a></span>, <span >
@@ -1657,141 +2069,24 @@
       
     
     <a href="/publication/circle/" >
-      <img src="/publication/circle/featured_hu_21e1085e09d2cfbb.webp" height="434" width="550"
+      <img src="/publication/circle/featured_huc7947233769c10067402eb3152a05f2e_459094_550x0_resize_q75_h2_lanczos_3.webp" height="434" width="550"
            alt="CIRCLE: Convolutional Implicit Reconstruction and Completion for Large-scale Indoor Scene" loading="lazy">
     </a>
     
   </div>
 </div>
   
-    
-
-
-
-
-
-
 
   
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-        
-        DeepSpline: Data-Driven Reconstruction of Parametric Curves and Surfaces
-        
-    </div>
-
-    
-        
-            <div class="article-style">
-              ArXiv 2019
-            </div>
-        
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-  <span >
-      <a href="https://www.cs.toronto.edu/~jungao/" target="_blank" rel="noopener">Jun Gao</a></span>, <span >
-      Chengcheng Tang</span>, <span >
-      Vignesh Ganapathi-Subramanian</span>, <span class="author-highlighted">
-      Jiahui Huang</span>, <span >
-      Hao Su</span>, <span >
-      <a href="https://geometry.stanford.edu/member/guibas/" target="_blank" rel="noopener">Leonidas J. Guibas</a></span>
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/pdf/1901.03781.pdf" target="_blank" rel="noopener">
-
-  PDF
-
-</a>
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
+<nav class="mt-1">
+  <ul class="pagination justify-content-center">
     
     
+    <li class="page-item"><a class="page-link" href="/publication-type/3/page/2/">&raquo;</a></li>
     
-    
-      
-    
-    <a href="/publication/deepspline/" >
-      <img src="/publication/deepspline/featured_hu_dfe7600617cfa51a.webp" height="333" width="550"
-           alt="DeepSpline: Data-Driven Reconstruction of Parametric Curves and Surfaces" loading="lazy">
-    </a>
-    
-  </div>
-</div>
-  
+  </ul>
+</nav>
 
-  
 
 </div>
   </div>
@@ -1822,7 +2117,7 @@
 
   
   <p class="powered-by copyright-license-text">
-    © 2020-2025 Jiahui Huang All Rights Reserved.
+    © 2020-2026 Jiahui Huang All Rights Reserved.
   </p>
   
 
@@ -1851,7 +2146,7 @@
       
 
     
-    <script src="/js/vendor-bundle.min.166d19bf22b37b1061bf3a64b6829054.js"></script>
+    <script src="/js/vendor-bundle.min.js"></script>
 
     
     
@@ -1938,7 +2233,7 @@
 
     
     
-      <script src="/js/wowchemy-headroom.f4712e93c641288ae5ae486483717e2c.js" type="module"></script>
+      <script src="/js/wowchemy-headroom.js" type="module"></script>
     
     
     
@@ -1950,7 +2245,7 @@
       
     
     
-    <script src="/en/js/wowchemy.min.53e213eec9e6a826065e044cb4b379db.js"></script>
+    <script src="/en/js/wowchemy.min.js"></script>
 
     
     
@@ -1984,7 +2279,7 @@
   </div>
 </div>
 
-      <script src="/js/wowchemy-publication.6067f855b31c86c97091c0d8b69206f5.js" type="module"></script>
+      <script src="/js/wowchemy-publication.js" type="module"></script>
 
 
 

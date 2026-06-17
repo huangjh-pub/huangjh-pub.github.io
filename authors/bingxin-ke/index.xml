@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bingxin Ke | Jiahui Huang</title>
+    <link>https://huangjh-pub.github.io/authors/bingxin-ke/</link>
+      <atom:link href="https://huangjh-pub.github.io/authors/bingxin-ke/index.xml" rel="self" type="application/rss+xml" />
+    <description>Bingxin Ke</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 16 Feb 2026 00:00:00 -0700</lastBuildDate>
+    <image>
+      <url>https://huangjh-pub.github.io/media/icon_hu203b42f3cc3d45b329fe7ad5d52ac786_38688_512x512_fill_lanczos_center_3.png</url>
+      <title>Bingxin Ke</title>
+      <link>https://huangjh-pub.github.io/authors/bingxin-ke/</link>
+    </image>
+    
+    <item>
+      <title>Depth Completion as Parameter-Efficient Test-Time Adaptation</title>
+      <link>https://huangjh-pub.github.io/publication/capa/</link>
+      <pubDate>Mon, 16 Feb 2026 00:00:00 -0700</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/capa/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

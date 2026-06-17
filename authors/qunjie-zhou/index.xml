@@ -5,12 +5,28 @@
     <link>https://huangjh-pub.github.io/authors/qunjie-zhou/</link>
       <atom:link href="https://huangjh-pub.github.io/authors/qunjie-zhou/index.xml" rel="self" type="application/rss+xml" />
     <description>Qunjie Zhou</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 12 Aug 2025 00:00:00 -0700</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 28 May 2026 00:00:00 -0700</lastBuildDate>
     <image>
-      <url>https://huangjh-pub.github.io/media/icon_hu_36909de3352c0a1b.png</url>
+      <url>https://huangjh-pub.github.io/media/icon_hu203b42f3cc3d45b329fe7ad5d52ac786_38688_512x512_fill_lanczos_center_3.png</url>
       <title>Qunjie Zhou</title>
       <link>https://huangjh-pub.github.io/authors/qunjie-zhou/</link>
     </image>
+    
+    <item>
+      <title>Déjà View: Looping Transformers for Multi-View 3D Reconstruction</title>
+      <link>https://huangjh-pub.github.io/publication/dejaview/</link>
+      <pubDate>Thu, 28 May 2026 00:00:00 -0700</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/dejaview/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Depth Completion as Parameter-Efficient Test-Time Adaptation</title>
+      <link>https://huangjh-pub.github.io/publication/capa/</link>
+      <pubDate>Mon, 16 Feb 2026 00:00:00 -0700</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/capa/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>ViPE: Video Pose Engine for 3D Geometric Perception</title>

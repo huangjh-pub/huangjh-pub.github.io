@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yuxuan Zhang | Jiahui Huang</title>
+    <link>https://huangjh-pub.github.io/authors/yuxuan-zhang/</link>
+      <atom:link href="https://huangjh-pub.github.io/authors/yuxuan-zhang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yuxuan Zhang</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 20 Apr 2026 00:00:00 -0700</lastBuildDate>
+    <image>
+      <url>https://huangjh-pub.github.io/media/icon_hu203b42f3cc3d45b329fe7ad5d52ac786_38688_512x512_fill_lanczos_center_3.png</url>
+      <title>Yuxuan Zhang</title>
+      <link>https://huangjh-pub.github.io/authors/yuxuan-zhang/</link>
+    </image>
+    
+    <item>
+      <title>Asset Harvester: Extracting 3D Assets from Autonomous Driving Logs for Simulation</title>
+      <link>https://huangjh-pub.github.io/publication/asset-harvester/</link>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 -0700</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/asset-harvester/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
