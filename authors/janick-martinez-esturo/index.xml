@@ -5,12 +5,20 @@
     <link>https://huangjh-pub.github.io/authors/janick-martinez-esturo/</link>
       <atom:link href="https://huangjh-pub.github.io/authors/janick-martinez-esturo/index.xml" rel="self" type="application/rss+xml" />
     <description>Janick Martinez Esturo</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Sep 2024 23:15:32 -0700</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 15 Jul 2026 00:00:00 -0700</lastBuildDate>
     <image>
       <url>https://huangjh-pub.github.io/media/icon_hu203b42f3cc3d45b329fe7ad5d52ac786_38688_512x512_fill_lanczos_center_3.png</url>
       <title>Janick Martinez Esturo</title>
       <link>https://huangjh-pub.github.io/authors/janick-martinez-esturo/</link>
     </image>
+    
+    <item>
+      <title>Instant NuRec: Feed-Forward 3D Gaussian Reconstruction for Driving Scene Simulation</title>
+      <link>https://huangjh-pub.github.io/publication/instant-nurec/</link>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 -0700</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/instant-nurec/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>OmniRe: Omni Urban Scene Reconstruction</title>

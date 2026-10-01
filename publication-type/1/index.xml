@@ -5,7 +5,7 @@
     <link>https://huangjh-pub.github.io/publication-type/1/</link>
       <atom:link href="https://huangjh-pub.github.io/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 16 Apr 2026 00:00:00 -0700</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 28 May 2026 00:00:00 -0700</lastBuildDate>
     <image>
       <url>https://huangjh-pub.github.io/media/icon_hu203b42f3cc3d45b329fe7ad5d52ac786_38688_512x512_fill_lanczos_center_3.png</url>
       <title>1</title>
@@ -13,10 +13,26 @@
     </image>
     
     <item>
+      <title>Déjà View: Looping Transformers for Multi-View 3D Reconstruction</title>
+      <link>https://huangjh-pub.github.io/publication/dejaview/</link>
+      <pubDate>Thu, 28 May 2026 00:00:00 -0700</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/dejaview/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>TokenGS: Decoupling 3D Gaussian Prediction from Pixels with Learnable Tokens</title>
       <link>https://huangjh-pub.github.io/publication/tokengs/</link>
       <pubDate>Thu, 16 Apr 2026 00:00:00 -0700</pubDate>
       <guid>https://huangjh-pub.github.io/publication/tokengs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lyra 2.0: Explorable Generative 3D Worlds</title>
+      <link>https://huangjh-pub.github.io/publication/lyra2/</link>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 -0700</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/lyra2/</guid>
       <description></description>
     </item>
     
@@ -1085,42 +1101,42 @@ We accumulate the LiDAR points from the sensor and crop the geometries into 51.2
 &lt;div class=&#34;video-compare-container&#34; style=&#34;width:500px;margin:-10px auto&#34;&gt;
   &lt;div class=&#34;mover&#34;&gt;&lt;/div&gt;
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	  
-	
-	
-	
-	
-	
-	&lt;video autoplay loop  &gt;
-	  &lt;source src=&#34;https://huangjh-pub.github.io/publication/nksr/videos/carla1-tsdf.mp4&#34; type=&#34;video/mp4&#34;&gt;
-	&lt;/video&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;video autoplay loop  &gt;
+  &lt;source src=&#34;https://huangjh-pub.github.io/publication/nksr/videos/carla1-tsdf.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
 	&lt;div id=&#34;video-clipper&#34;&gt;
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		  
-		
-		
-		
-		
-		
-		&lt;video autoplay loop  &gt;
-		  &lt;source src=&#34;https://huangjh-pub.github.io/publication/nksr/videos/carla1-ours.mp4&#34; type=&#34;video/mp4&#34;&gt;
-		&lt;/video&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;video autoplay loop  &gt;
+  &lt;source src=&#34;https://huangjh-pub.github.io/publication/nksr/videos/carla1-ours.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;CARLA novel subset:&lt;/p&gt;
@@ -1147,42 +1163,42 @@ We accumulate the LiDAR points from the sensor and crop the geometries into 51.2
 &lt;div class=&#34;video-compare-container&#34; style=&#34;width:500px;margin:-10px auto&#34;&gt;
   &lt;div class=&#34;mover&#34;&gt;&lt;/div&gt;
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	  
-	
-	
-	
-	
-	
-	&lt;video autoplay loop  &gt;
-	  &lt;source src=&#34;https://huangjh-pub.github.io/publication/nksr/videos/carla2-psr.mp4&#34; type=&#34;video/mp4&#34;&gt;
-	&lt;/video&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;video autoplay loop  &gt;
+  &lt;source src=&#34;https://huangjh-pub.github.io/publication/nksr/videos/carla2-psr.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
 	&lt;div id=&#34;video-clipper&#34;&gt;
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		  
-		
-		
-		
-		
-		
-		&lt;video autoplay loop  &gt;
-		  &lt;source src=&#34;https://huangjh-pub.github.io/publication/nksr/videos/carla2-ours.mp4&#34; type=&#34;video/mp4&#34;&gt;
-		&lt;/video&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;video autoplay loop  &gt;
+  &lt;source src=&#34;https://huangjh-pub.github.io/publication/nksr/videos/carla2-ours.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
 &lt;script&gt;

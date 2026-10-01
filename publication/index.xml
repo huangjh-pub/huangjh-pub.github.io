@@ -5,12 +5,20 @@
     <link>https://huangjh-pub.github.io/publication/</link>
       <atom:link href="https://huangjh-pub.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 28 May 2026 00:00:00 -0700</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 15 Jul 2026 00:00:00 -0700</lastBuildDate>
     <image>
       <url>https://huangjh-pub.github.io/media/icon_hu203b42f3cc3d45b329fe7ad5d52ac786_38688_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
       <link>https://huangjh-pub.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>Instant NuRec: Feed-Forward 3D Gaussian Reconstruction for Driving Scene Simulation</title>
+      <link>https://huangjh-pub.github.io/publication/instant-nurec/</link>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 -0700</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/instant-nurec/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Déjà View: Looping Transformers for Multi-View 3D Reconstruction</title>
@@ -1181,42 +1189,42 @@ We accumulate the LiDAR points from the sensor and crop the geometries into 51.2
 &lt;div class=&#34;video-compare-container&#34; style=&#34;width:500px;margin:-10px auto&#34;&gt;
   &lt;div class=&#34;mover&#34;&gt;&lt;/div&gt;
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	  
-	
-	
-	
-	
-	
-	&lt;video autoplay loop  &gt;
-	  &lt;source src=&#34;https://huangjh-pub.github.io/publication/nksr/videos/carla1-tsdf.mp4&#34; type=&#34;video/mp4&#34;&gt;
-	&lt;/video&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;video autoplay loop  &gt;
+  &lt;source src=&#34;https://huangjh-pub.github.io/publication/nksr/videos/carla1-tsdf.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
 	&lt;div id=&#34;video-clipper&#34;&gt;
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		  
-		
-		
-		
-		
-		
-		&lt;video autoplay loop  &gt;
-		  &lt;source src=&#34;https://huangjh-pub.github.io/publication/nksr/videos/carla1-ours.mp4&#34; type=&#34;video/mp4&#34;&gt;
-		&lt;/video&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;video autoplay loop  &gt;
+  &lt;source src=&#34;https://huangjh-pub.github.io/publication/nksr/videos/carla1-ours.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;CARLA novel subset:&lt;/p&gt;
@@ -1243,42 +1251,42 @@ We accumulate the LiDAR points from the sensor and crop the geometries into 51.2
 &lt;div class=&#34;video-compare-container&#34; style=&#34;width:500px;margin:-10px auto&#34;&gt;
   &lt;div class=&#34;mover&#34;&gt;&lt;/div&gt;
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	  
-	
-	
-	
-	
-	
-	&lt;video autoplay loop  &gt;
-	  &lt;source src=&#34;https://huangjh-pub.github.io/publication/nksr/videos/carla2-psr.mp4&#34; type=&#34;video/mp4&#34;&gt;
-	&lt;/video&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;video autoplay loop  &gt;
+  &lt;source src=&#34;https://huangjh-pub.github.io/publication/nksr/videos/carla2-psr.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
 	&lt;div id=&#34;video-clipper&#34;&gt;
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		  
-		
-		
-		
-		
-		
-		&lt;video autoplay loop  &gt;
-		  &lt;source src=&#34;https://huangjh-pub.github.io/publication/nksr/videos/carla2-ours.mp4&#34; type=&#34;video/mp4&#34;&gt;
-		&lt;/video&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;video autoplay loop  &gt;
+  &lt;source src=&#34;https://huangjh-pub.github.io/publication/nksr/videos/carla2-ours.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
 &lt;script&gt;
@@ -1465,91 +1473,91 @@ We use datasets from &lt;a href=&#34;https://cape.is.tue.mpg.de/&#34; target=&#3
 &lt;video autoplay loop  &gt;
   &lt;source src=&#34;https://huangjh-pub.github.io/publication/synorim/videos/a1.mp4&#34; type=&#34;video/mp4&#34;&gt;
 &lt;/video&gt; 
- 
- 
- 
- 
- 
- 
- 
- 
-   
- 
- 
- 
- 
- 
- &lt;video autoplay loop  &gt;
-   &lt;source src=&#34;https://huangjh-pub.github.io/publication/synorim/videos/h1.mp4&#34; type=&#34;video/mp4&#34;&gt;
- &lt;/video&gt; 
- 
- 
- 
- 
- 
- 
- 
- 
-   
- 
- 
- 
- 
- 
- &lt;video autoplay loop  &gt;
-   &lt;source src=&#34;https://huangjh-pub.github.io/publication/synorim/videos/a2.mp4&#34; type=&#34;video/mp4&#34;&gt;
- &lt;/video&gt; 
- 
- 
- 
- 
- 
- 
- 
- 
-   
- 
- 
- 
- 
- 
- &lt;video autoplay loop  &gt;
-   &lt;source src=&#34;https://huangjh-pub.github.io/publication/synorim/videos/h2.mp4&#34; type=&#34;video/mp4&#34;&gt;
- &lt;/video&gt; 
- 
- 
- 
- 
- 
- 
- 
- 
-   
- 
- 
- 
- 
- 
- &lt;video autoplay loop  &gt;
-   &lt;source src=&#34;https://huangjh-pub.github.io/publication/synorim/videos/a3.mp4&#34; type=&#34;video/mp4&#34;&gt;
- &lt;/video&gt; 
- 
- 
- 
- 
- 
- 
- 
- 
-   
- 
- 
- 
- 
- 
- &lt;video autoplay loop  &gt;
-   &lt;source src=&#34;https://huangjh-pub.github.io/publication/synorim/videos/h3.mp4&#34; type=&#34;video/mp4&#34;&gt;
- &lt;/video&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;video autoplay loop  &gt;
+  &lt;source src=&#34;https://huangjh-pub.github.io/publication/synorim/videos/h1.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt; 
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;video autoplay loop  &gt;
+  &lt;source src=&#34;https://huangjh-pub.github.io/publication/synorim/videos/a2.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt; 
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;video autoplay loop  &gt;
+  &lt;source src=&#34;https://huangjh-pub.github.io/publication/synorim/videos/h2.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt; 
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;video autoplay loop  &gt;
+  &lt;source src=&#34;https://huangjh-pub.github.io/publication/synorim/videos/a3.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt; 
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;video autoplay loop  &gt;
+  &lt;source src=&#34;https://huangjh-pub.github.io/publication/synorim/videos/h3.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
 
 
 
@@ -1568,40 +1576,40 @@ We use datasets from &lt;a href=&#34;https://cape.is.tue.mpg.de/&#34; target=&#3
 &lt;video autoplay loop  &gt;
   &lt;source src=&#34;https://huangjh-pub.github.io/publication/synorim/videos/s1.mp4&#34; type=&#34;video/mp4&#34;&gt;
 &lt;/video&gt; 
- 
- 
- 
- 
- 
- 
- 
- 
-   
- 
- 
- 
- 
- 
- &lt;video autoplay loop  &gt;
-   &lt;source src=&#34;https://huangjh-pub.github.io/publication/synorim/videos/s2.mp4&#34; type=&#34;video/mp4&#34;&gt;
- &lt;/video&gt; 
- 
- 
- 
- 
- 
- 
- 
- 
-   
- 
- 
- 
- 
- 
- &lt;video autoplay loop  &gt;
-   &lt;source src=&#34;https://huangjh-pub.github.io/publication/synorim/videos/s3.mp4&#34; type=&#34;video/mp4&#34;&gt;
- &lt;/video&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;video autoplay loop  &gt;
+  &lt;source src=&#34;https://huangjh-pub.github.io/publication/synorim/videos/s2.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt; 
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;video autoplay loop  &gt;
+  &lt;source src=&#34;https://huangjh-pub.github.io/publication/synorim/videos/s3.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
 
 
 
@@ -1620,40 +1628,40 @@ We use datasets from &lt;a href=&#34;https://cape.is.tue.mpg.de/&#34; target=&#3
 &lt;video autoplay loop  &gt;
   &lt;source src=&#34;https://huangjh-pub.github.io/publication/synorim/videos/hp1.mp4&#34; type=&#34;video/mp4&#34;&gt;
 &lt;/video&gt; 
- 
- 
- 
- 
- 
- 
- 
- 
-   
- 
- 
- 
- 
- 
- &lt;video autoplay loop  &gt;
-   &lt;source src=&#34;https://huangjh-pub.github.io/publication/synorim/videos/hp2.mp4&#34; type=&#34;video/mp4&#34;&gt;
- &lt;/video&gt; 
- 
- 
- 
- 
- 
- 
- 
- 
-   
- 
- 
- 
- 
- 
- &lt;video autoplay loop  &gt;
-   &lt;source src=&#34;https://huangjh-pub.github.io/publication/synorim/videos/hp3.mp4&#34; type=&#34;video/mp4&#34;&gt;
- &lt;/video&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;video autoplay loop  &gt;
+  &lt;source src=&#34;https://huangjh-pub.github.io/publication/synorim/videos/hp2.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt; 
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;video autoplay loop  &gt;
+  &lt;source src=&#34;https://huangjh-pub.github.io/publication/synorim/videos/hp3.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
 &lt;/div&gt;
 &lt;!-- Make video autoplay. --&gt;
 &lt;script&gt;

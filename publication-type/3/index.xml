@@ -5,7 +5,7 @@
     <link>https://huangjh-pub.github.io/publication-type/3/</link>
       <atom:link href="https://huangjh-pub.github.io/publication-type/3/index.xml" rel="self" type="application/rss+xml" />
     <description>3</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 28 May 2026 00:00:00 -0700</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 15 Jul 2026 00:00:00 -0700</lastBuildDate>
     <image>
       <url>https://huangjh-pub.github.io/media/icon_hu203b42f3cc3d45b329fe7ad5d52ac786_38688_512x512_fill_lanczos_center_3.png</url>
       <title>3</title>
@@ -13,10 +13,10 @@
     </image>
     
     <item>
-      <title>Déjà View: Looping Transformers for Multi-View 3D Reconstruction</title>
-      <link>https://huangjh-pub.github.io/publication/dejaview/</link>
-      <pubDate>Thu, 28 May 2026 00:00:00 -0700</pubDate>
-      <guid>https://huangjh-pub.github.io/publication/dejaview/</guid>
+      <title>Instant NuRec: Feed-Forward 3D Gaussian Reconstruction for Driving Scene Simulation</title>
+      <link>https://huangjh-pub.github.io/publication/instant-nurec/</link>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 -0700</pubDate>
+      <guid>https://huangjh-pub.github.io/publication/instant-nurec/</guid>
       <description></description>
     </item>
     
@@ -25,14 +25,6 @@
       <link>https://huangjh-pub.github.io/publication/asset-harvester/</link>
       <pubDate>Mon, 20 Apr 2026 00:00:00 -0700</pubDate>
       <guid>https://huangjh-pub.github.io/publication/asset-harvester/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Lyra 2.0: Explorable Generative 3D Worlds</title>
-      <link>https://huangjh-pub.github.io/publication/lyra2/</link>
-      <pubDate>Tue, 14 Apr 2026 00:00:00 -0700</pubDate>
-      <guid>https://huangjh-pub.github.io/publication/lyra2/</guid>
       <description></description>
     </item>
     

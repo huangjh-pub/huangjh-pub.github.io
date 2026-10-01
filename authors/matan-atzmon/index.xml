@@ -1021,42 +1021,42 @@ We accumulate the LiDAR points from the sensor and crop the geometries into 51.2
 &lt;div class=&#34;video-compare-container&#34; style=&#34;width:500px;margin:-10px auto&#34;&gt;
   &lt;div class=&#34;mover&#34;&gt;&lt;/div&gt;
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	  
-	
-	
-	
-	
-	
-	&lt;video autoplay loop  &gt;
-	  &lt;source src=&#34;https://huangjh-pub.github.io/publication/nksr/videos/carla1-tsdf.mp4&#34; type=&#34;video/mp4&#34;&gt;
-	&lt;/video&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;video autoplay loop  &gt;
+  &lt;source src=&#34;https://huangjh-pub.github.io/publication/nksr/videos/carla1-tsdf.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
 	&lt;div id=&#34;video-clipper&#34;&gt;
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		  
-		
-		
-		
-		
-		
-		&lt;video autoplay loop  &gt;
-		  &lt;source src=&#34;https://huangjh-pub.github.io/publication/nksr/videos/carla1-ours.mp4&#34; type=&#34;video/mp4&#34;&gt;
-		&lt;/video&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;video autoplay loop  &gt;
+  &lt;source src=&#34;https://huangjh-pub.github.io/publication/nksr/videos/carla1-ours.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;CARLA novel subset:&lt;/p&gt;
@@ -1083,42 +1083,42 @@ We accumulate the LiDAR points from the sensor and crop the geometries into 51.2
 &lt;div class=&#34;video-compare-container&#34; style=&#34;width:500px;margin:-10px auto&#34;&gt;
   &lt;div class=&#34;mover&#34;&gt;&lt;/div&gt;
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	  
-	
-	
-	
-	
-	
-	&lt;video autoplay loop  &gt;
-	  &lt;source src=&#34;https://huangjh-pub.github.io/publication/nksr/videos/carla2-psr.mp4&#34; type=&#34;video/mp4&#34;&gt;
-	&lt;/video&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;video autoplay loop  &gt;
+  &lt;source src=&#34;https://huangjh-pub.github.io/publication/nksr/videos/carla2-psr.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
 	&lt;div id=&#34;video-clipper&#34;&gt;
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		  
-		
-		
-		
-		
-		
-		&lt;video autoplay loop  &gt;
-		  &lt;source src=&#34;https://huangjh-pub.github.io/publication/nksr/videos/carla2-ours.mp4&#34; type=&#34;video/mp4&#34;&gt;
-		&lt;/video&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;video autoplay loop  &gt;
+  &lt;source src=&#34;https://huangjh-pub.github.io/publication/nksr/videos/carla2-ours.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
 &lt;script&gt;
